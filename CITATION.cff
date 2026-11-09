@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If You Use Smarter.Poker Quantitative Datasets Or Solvers In Your Research, Please Cite Them As Below."
+title: "Smarter.Poker Open Quantitative Poker Research & GTO Solver Benchmarks (2026)"
+type: dataset
+authors:
+  - name: "Smarter.Poker Research Division"
+    website: "https://smarter.poker/research"
+version: "2026.11"
+date-released: "2026-11-09"
+license: "CC-BY-4.0"
+url: "https://smarter.poker/research"
+repository-artifact: "https://smarter.poker/api/datasets/catalog"
