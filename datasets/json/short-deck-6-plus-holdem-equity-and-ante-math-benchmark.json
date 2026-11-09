@@ -1,0 +1,80 @@
+{
+  "@type": "Dataset",
+  "@id": "https://smarter.poker/research/short-deck-6-plus-holdem-equity-and-ante-math-benchmark#dataset",
+  "name": "2026 Short Deck (6+ Hold'em) All-In Equity & Button-Ante Mathematical Benchmark",
+  "description": "Exact Combinatorial Evaluation Of The 36-Card Short Deck (6+ Hold'em) Format Demonstrates That Removing Ranks 2 Through 5 Compresses Preflop All-In Equities By 11% To 18% Compared To 52-Card Texas Hold'em, Makes Flushes Significantly Rarer Than Full Houses (1.96% Vs. 3.26% On 7-Card Boards), And Elevates Open-Ended Straight Draws To A 48.5% Flop-To-River Completion Rate.",
+  "url": "https://smarter.poker/research/short-deck-6-plus-holdem-equity-and-ante-math-benchmark",
+  "inLanguage": "en-US",
+  "datePublished": "2026-10-01",
+  "dateModified": "2026-10-31",
+  "temporalCoverage": "2026",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "keywords": [
+    "Short Deck & Variant Mathematics",
+    "Poker Research",
+    "Smarter.Poker Dataset",
+    "Short Deck 6+ Hold'em Equity And Ante Math"
+  ],
+  "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+  "creator": {
+    "@type": "Organization",
+    "@id": "https://smarter.poker/#organization",
+    "name": "Smarter.Poker Research Division",
+    "url": "https://smarter.poker"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://smarter.poker/#organization",
+    "name": "Smarter.Poker",
+    "url": "https://smarter.poker"
+  },
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "@id": "https://smarter.poker/api/datasets/catalog#datacatalog",
+    "name": "Smarter.Poker Open Quantitative Poker & Live Cardroom Data Catalog",
+    "url": "https://smarter.poker/research"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/html",
+      "contentUrl": "https://smarter.poker/research/short-deck-6-plus-holdem-equity-and-ante-math-benchmark"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/markdown",
+      "contentUrl": "https://smarter.poker/research/short-deck-6-plus-holdem-equity-and-ante-math-benchmark.md"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://smarter.poker/api/datasets/catalog?slug=short-deck-6-plus-holdem-equity-and-ante-math-benchmark"
+    }
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Short Deck 6+ Hold'em Equity And Ante Math Finding 1",
+      "description": "Flush Over Full House Ranking Proof: In A 36-Card Deck With Only 9 Cards Per Suit, Completing A 5-Card Flush By The River Occurs On Just 1.96% Of 7-Card Deals Compared To 3.26% For A Full House Or Quads, Justifying Flush Beating Full House."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Short Deck 6+ Hold'em Equity And Ante Math Finding 2",
+      "description": "Rule Of 3 And 6 For Out Counting: Because Only 31 Unseen Cards Remain On The Flop (And 30 On The Turn), Each Clean Out Provides ~3.2% Equity On The Turn And ~6.3% Flop-To-River, Giving An 8-Out Straight Draw ~48.5% Equity Against Top Pair."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Short Deck 6+ Hold'em Equity And Ante Math Finding 3",
+      "description": "Pocket Aces Compression Versus Connected Hands: Pocket Aces Hold 85.2% Equity Against Random Hands In 52-Card NLH But Drop To 74.8% In 6+ Hold'em, And Run Only 54.4% To 45.6% Against J-T Suited."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Short Deck 6+ Hold'em Equity And Ante Math Finding 4",
+      "description": "Ace-As-Five Wheel Mechanics: Because A-6-7-8-9 Forms The Lowest Straight In Short Deck, Hands Like 9-8 Suited And T-9 Suited Realize Higher Multiway Equity Than Disconnected High Cards Like A-K Offsuit."
+    }
+  ],
+  "slug": "short-deck-6-plus-holdem-equity-and-ante-math-benchmark",
+  "exportedAt": "2026-11-09",
+  "markdownMirror": "# 2026 Short Deck (6+ Hold'em) All-In Equity & Button-Ante Mathematical Benchmark\n\n> Source: [Short Deck 6+ Hold'em Equity And Ante Math on Smarter.Poker](https://smarter.poker/research/short-deck-6-plus-holdem-equity-and-ante-math-benchmark)\n\n## Executive Summary\nExact Combinatorial Evaluation Of The 36-Card Short Deck (6+ Hold'em) Format Demonstrates That Removing Ranks 2 Through 5 Compresses Preflop All-In Equities By 11% To 18% Compared To 52-Card Texas Hold'em, Makes Flushes Significantly Rarer Than Full Houses (1.96% Vs. 3.26% On 7-Card Boards), And Elevates Open-Ended Straight Draws To A 48.5% Flop-To-River Completion Rate.\n\n- **Category**: Short Deck & Variant Mathematics\n- **Published**: 2026-10-01 | **Updated**: 2026-10-31\n- **Publisher**: Smarter.Poker Research Division (Smarter Software Inc.)\n- **Methodology**: Computed Across All 630 Two-Card Starting Hand Combinations And 376,992 Five-Card Board Runouts In A 36-Card Deck Using Smarter.Poker Equity Simulation Tools And Button-Ante Game Trees.\n\n## Key Empirical Findings\n- Flush Over Full House Ranking Proof: In A 36-Card Deck With Only 9 Cards Per Suit, Completing A 5-Card Flush By The River Occurs On Just 1.96% Of 7-Card Deals Compared To 3.26% For A Full House Or Quads, Justifying Flush Beating Full House.\n- Rule Of 3 And 6 For Out Counting: Because Only 31 Unseen Cards Remain On The Flop (And 30 On The Turn), Each Clean Out Provides ~3.2% Equity On The Turn And ~6.3% Flop-To-River, Giving An 8-Out Straight Draw ~48.5% Equity Against Top Pair.\n- Pocket Aces Compression Versus Connected Hands: Pocket Aces Hold 85.2% Equity Against Random Hands In 52-Card NLH But Drop To 74.8% In 6+ Hold'em, And Run Only 54.4% To 45.6% Against J-T Suited.\n- Ace-As-Five Wheel Mechanics: Because A-6-7-8-9 Forms The Lowest Straight In Short Deck, Hands Like 9-8 Suited And T-9 Suited Realize Higher Multiway Equity Than Disconnected High Cards Like A-K Offsuit.\n\n## 52-Card No-Limit Hold'em Vs. 36-Card Short Deck (6+) Combinatorial And Equity Benchmarks\n| Mathematical Metric / Matchup | 52-Card Texas Hold'em | 36-Card Short Deck (6+) | Equity / Probability Shift | Strategic Consequence |\n| :--- | :--- | :--- | :--- | :--- |\n| Total Starting Hand Combinations | 1,326 Combos (169 Distinct) | 630 Combos (81 Distinct) | -52.5% Fewer Combos | Pocket Pairs Dealt 2.2x More Frequently |\n| Dealt Pocket Aces (AA) Frequency | 0.45% (1 In 221 Hands) | 0.95% (1 In 105 Hands) | +111% Frequency Lift | Overpairs Face Frequent Set And Two-Pair Runouts |\n| AA Vs. JTs Preflop All-In Equity | 79.6% Vs. 20.4% | 54.4% Vs. 45.6% | -25.2% AA Edge Compression | Suited Connectors Can Profitably Stack Off Preflop |\n| 8-Out Open-Ended Straight Draw On Flop | 31.5% Flop-To-River | 48.5% Flop-To-River | +17.0% Draw Completion | OESD Is A Near Coinflip Against Made Top Pair |\n| 9-Out Flush Draw On Flop (5 Remaining) | 35.0% Flop-To-River (9 Outs) | 30.5% Flop-To-River (5 Outs) | -4.5% Lower Flush Completion | Flush Draws Have Fewer Outs But Win Superior Rank |\n| 7-Card Full House Vs. Flush Frequency | 2.60% FH Vs. 3.03% Flush | 3.26% FH Vs. 1.96% Flush | Flushes 40% Rarer Than FH | Flushes Outrank Full Houses Under Official 6+ Rules |\n\n## Frequently Asked Questions\n\n### Why Does A Flush Beat A Full House In Short Deck 6+ Hold'em?\nBecause All 2s, 3s, 4s, And 5s Are Removed From The Deck, Only 9 Cards Of Each Suit Remain Instead Of 13, Making A 5-Card Flush Harder To Make (1.96%) Than A Full House (3.26%).\n\n### How Do You Calculate Straight And Flush Draw Odds In Short Deck?\nUse The Rule Of 3 And 6 Instead Of 2 And 4: Multiply Your Clean Outs By 3 On The Turn And By 6 On The Flop. An 8-Out Open-Ended Straight Draw Has Roughly 48% Equity On The Flop.\n\n## Citation & Data Provenance\n- **Verification Methodology**: [https://smarter.poker/verification-methodology](https://smarter.poker/verification-methodology)\n- **All Research Reports**: [https://smarter.poker/research](https://smarter.poker/research)\n"
+}

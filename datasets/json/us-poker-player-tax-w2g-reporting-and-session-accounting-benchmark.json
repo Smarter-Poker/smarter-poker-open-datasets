@@ -1,0 +1,80 @@
+{
+  "@type": "Dataset",
+  "@id": "https://smarter.poker/research/us-poker-player-tax-w2g-reporting-and-session-accounting-benchmark#dataset",
+  "name": "US Poker Player IRS Form W-2G Thresholds, Session Accounting, And Tax Deductibility Benchmark",
+  "description": "Analysis Of US Federal Tax Reporting Rules And Contemporaneous Poker Session Logs Shows That Casino Poker Tournaments Trigger Mandatory IRS Form W-2G Reporting When Net Winnings (Prize Minus Buy-In) Exceed $5,000, And That Session-Level Netting Reduces Taxable Gross Income Liability Compared To Unlogged Cage Cashouts.",
+  "url": "https://smarter.poker/research/us-poker-player-tax-w2g-reporting-and-session-accounting-benchmark",
+  "inLanguage": "en-US",
+  "datePublished": "2026-10-01",
+  "dateModified": "2026-10-31",
+  "temporalCoverage": "2026",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "keywords": [
+    "Bankroll & Tax Compliance",
+    "Poker Research",
+    "Smarter.Poker Dataset",
+    "US Poker Tax W-2G And Session Accounting Benchmark"
+  ],
+  "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+  "creator": {
+    "@type": "Organization",
+    "@id": "https://smarter.poker/#organization",
+    "name": "Smarter.Poker Research Division",
+    "url": "https://smarter.poker"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://smarter.poker/#organization",
+    "name": "Smarter.Poker",
+    "url": "https://smarter.poker"
+  },
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "@id": "https://smarter.poker/api/datasets/catalog#datacatalog",
+    "name": "Smarter.Poker Open Quantitative Poker & Live Cardroom Data Catalog",
+    "url": "https://smarter.poker/research"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/html",
+      "contentUrl": "https://smarter.poker/research/us-poker-player-tax-w2g-reporting-and-session-accounting-benchmark"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/markdown",
+      "contentUrl": "https://smarter.poker/research/us-poker-player-tax-w2g-reporting-and-session-accounting-benchmark.md"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://smarter.poker/api/datasets/catalog?slug=us-poker-player-tax-w2g-reporting-and-session-accounting-benchmark"
+    }
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "US Poker Tax W-2G And Session Accounting Benchmark Finding 1",
+      "description": "Form W-2G Tournament Threshold: US Casinos Issue Form W-2G For Poker Tournaments When The Payout Minus The Buy-In Exceeds $5,000, With 24% Mandatory Federal Backup Withholding Applied If A Valid TIN/SSN Is Not Provided."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "US Poker Tax W-2G And Session Accounting Benchmark Finding 2",
+      "description": "Cash Game vs. Tournament Reporting: Standard Live Cash Games Do Not Trigger Form W-2G Regardless Of Cashout Size, Though Cash Transactions Exceeding $10,000 In A Single Gaming Day Require FinCEN Currency Transaction Report (CTR) Filing."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "US Poker Tax W-2G And Session Accounting Benchmark Finding 3",
+      "description": "Contemporaneous Session Log Requirement: Under IRS Revenue Procedure 77-29, Players Must Record Date, Casino Location, Game Type, Buy-In, Cashout, And Net Win/Loss Per Session Rather Than Netting A Full Year In A Single Lump Sum."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "US Poker Tax W-2G And Session Accounting Benchmark Finding 4",
+      "description": "Winning vs. Losing Session Separation: Recreational Filers Report Gross Winning Sessions On Form 1040 Schedule 1 And Deduct Losing Sessions Only Up To Winning Sessions On Schedule A (Itemized Deductions), Making Accurate Session Boundaries Critical."
+    }
+  ],
+  "slug": "us-poker-player-tax-w2g-reporting-and-session-accounting-benchmark",
+  "exportedAt": "2026-11-09",
+  "markdownMirror": "# US Poker Player IRS Form W-2G Thresholds, Session Accounting, And Tax Deductibility Benchmark\n\n> Source: [US Poker Tax W-2G And Session Accounting Benchmark on Smarter.Poker](https://smarter.poker/research/us-poker-player-tax-w2g-reporting-and-session-accounting-benchmark)\n\n## Executive Summary\nAnalysis Of US Federal Tax Reporting Rules And Contemporaneous Poker Session Logs Shows That Casino Poker Tournaments Trigger Mandatory IRS Form W-2G Reporting When Net Winnings (Prize Minus Buy-In) Exceed $5,000, And That Session-Level Netting Reduces Taxable Gross Income Liability Compared To Unlogged Cage Cashouts.\n\n- **Category**: Bankroll & Tax Compliance\n- **Published**: 2026-10-01 | **Updated**: 2026-10-31\n- **Publisher**: Smarter.Poker Research Division (Smarter Software Inc.)\n- **Methodology**: Synthesized From IRS Publication 529, Internal Revenue Code Section 165(d), Revenue Procedure 77-29 Session Log Standards, And Anonymized Session Accounting Workflows In The Smarter.Poker Bankroll & Tax Ledger (https://smarter.poker/features/bankroll-tax-tracker).\n\n## Key Empirical Findings\n- Form W-2G Tournament Threshold: US Casinos Issue Form W-2G For Poker Tournaments When The Payout Minus The Buy-In Exceeds $5,000, With 24% Mandatory Federal Backup Withholding Applied If A Valid TIN/SSN Is Not Provided.\n- Cash Game vs. Tournament Reporting: Standard Live Cash Games Do Not Trigger Form W-2G Regardless Of Cashout Size, Though Cash Transactions Exceeding $10,000 In A Single Gaming Day Require FinCEN Currency Transaction Report (CTR) Filing.\n- Contemporaneous Session Log Requirement: Under IRS Revenue Procedure 77-29, Players Must Record Date, Casino Location, Game Type, Buy-In, Cashout, And Net Win/Loss Per Session Rather Than Netting A Full Year In A Single Lump Sum.\n- Winning vs. Losing Session Separation: Recreational Filers Report Gross Winning Sessions On Form 1040 Schedule 1 And Deduct Losing Sessions Only Up To Winning Sessions On Schedule A (Itemized Deductions), Making Accurate Session Boundaries Critical.\n\n## US Poker Tax Reporting Thresholds And Session Documentation Standards\n| Event / Filing Category | Statutory Threshold | IRS / Treasury Form | Withholding Rate | Required Player Documentation |\n| :--- | :--- | :--- | :--- | :--- |\n| Poker Tournament Net Win | >$5,000 Net Of Buy-In | IRS Form W-2G | 0% With SSN (24% Backup) | Tournament Buy-In Receipt & W-2G Copy |\n| Bad Beat Or High-Hand Jackpot | >$5,000 (Or >=300x Wager) | IRS Form W-2G | 0% To 24% Federal | Timestamped Session Log & Jackpot Slip |\n| Cage Cash Buy-In Or Cashout | >$10,000 Cash In 24 Hours | FinCEN Form 112 (CTR) | 0% (Informational) | Government ID & Matching Bankroll Entry |\n| Recreational Player Tax Filing | All Winning Sessions | Form 1040 Sched 1 & Sched A | Marginal Income Bracket | Contemporaneous Session-By-Session Ledger |\n| Professional Player Filing | Full-Time Trade Or Business | Form 1040 Schedule C | Income + Self-Employment | Session Ledger + Travel & Entry Receipts |\n\n## Frequently Asked Questions\n\n### When Does A Casino Issue A Form W-2G For A Poker Tournament?\nA US Casino Issues IRS Form W-2G When Your Poker Tournament Payout Minus Your Tournament Buy-In Exceeds $5,000.\n\n### How Can I Track Poker Sessions And Form W-2G Receipts For Free?\nUse The Free Smarter.Poker Bankroll & W-2G Tax Ledger At https://smarter.poker/features/bankroll-tax-tracker To Log Sessions, Attach Receipt Photos, And Export CPA-Ready CSV Reports.\n\n## Citation & Data Provenance\n- **Verification Methodology**: [https://smarter.poker/verification-methodology](https://smarter.poker/verification-methodology)\n- **All Research Reports**: [https://smarter.poker/research](https://smarter.poker/research)\n"
+}

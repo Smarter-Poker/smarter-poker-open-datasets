@@ -1,0 +1,80 @@
+{
+  "@type": "Dataset",
+  "@id": "https://smarter.poker/research/tournament-icm-bubble-factor-and-risk-premium-study#dataset",
+  "name": "Tournament ICM Bubble Factor, Risk Premium, And Final Table Equity Study",
+  "description": "Malmuth-Harville Independent Chip Model (ICM) Evaluations Across Standard Top-15% MTT Payout Structures Demonstrate That Medium Stacks Facing Chip Leaders On The Direct Money Bubble And Final Table Pay Jumps Incur Risk Premiums Of +12% To +24%, Requiring 62% To 74% Raw All-In Equity Where Chip-EV Requires Only 50%.",
+  "url": "https://smarter.poker/research/tournament-icm-bubble-factor-and-risk-premium-study",
+  "inLanguage": "en-US",
+  "datePublished": "2026-10-01",
+  "dateModified": "2026-10-31",
+  "temporalCoverage": "2026",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "keywords": [
+    "Tournament Game Theory & ICM",
+    "Poker Research",
+    "Smarter.Poker Dataset",
+    "Tournament ICM Bubble Factor And Risk Premium Study"
+  ],
+  "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+  "creator": {
+    "@type": "Organization",
+    "@id": "https://smarter.poker/#organization",
+    "name": "Smarter.Poker Research Division",
+    "url": "https://smarter.poker"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://smarter.poker/#organization",
+    "name": "Smarter.Poker",
+    "url": "https://smarter.poker"
+  },
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "@id": "https://smarter.poker/api/datasets/catalog#datacatalog",
+    "name": "Smarter.Poker Open Quantitative Poker & Live Cardroom Data Catalog",
+    "url": "https://smarter.poker/research"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/html",
+      "contentUrl": "https://smarter.poker/research/tournament-icm-bubble-factor-and-risk-premium-study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/markdown",
+      "contentUrl": "https://smarter.poker/research/tournament-icm-bubble-factor-and-risk-premium-study.md"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://smarter.poker/api/datasets/catalog?slug=tournament-icm-bubble-factor-and-risk-premium-study"
+    }
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Tournament ICM Bubble Factor And Risk Premium Study Finding 1",
+      "description": "Asymmetric Chip Value: In Tournament Play, Doubling A Average Stack At A 9-Handed Final Table Increases Dollar Equity ($EV) By Only 55% To 68% Of The Original Stack Value, While Losing The Stack Costs 100% Of Remaining $EV."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Tournament ICM Bubble Factor And Risk Premium Study Finding 2",
+      "description": "Medium-Stack Paralyzation: When Two Short Stacks (<10BB) Are Present At A Final Table, A 30BB Medium Stack Calling A 60BB Chip Leader All-In Faces A Bubble Factor Between 1.65 And 2.20 (+15% To +23% Risk Premium)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Tournament ICM Bubble Factor And Risk Premium Study Finding 3",
+      "description": "Chip Leader Aggression Leverage: Big Stacks Covering The Table Experience Bubble Factors Below 1.15 Against Medium Stacks, Allowing Profitable Wide Open-Shoves And 3-Bet Jams With Suited Connectors And Blockers."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Tournament ICM Bubble Factor And Risk Premium Study Finding 4",
+      "description": "Final Table Deal Negotiations: ICM Chop Calculations Frequently Award 8% To 14% More Prize Pool Equity To Short-And-Medium Stacks Than Chip-Chop Proportions."
+    }
+  ],
+  "slug": "tournament-icm-bubble-factor-and-risk-premium-study",
+  "exportedAt": "2026-11-09",
+  "markdownMirror": "# Tournament ICM Bubble Factor, Risk Premium, And Final Table Equity Study\n\n> Source: [Tournament ICM Bubble Factor And Risk Premium Study on Smarter.Poker](https://smarter.poker/research/tournament-icm-bubble-factor-and-risk-premium-study)\n\n## Executive Summary\nMalmuth-Harville Independent Chip Model (ICM) Evaluations Across Standard Top-15% MTT Payout Structures Demonstrate That Medium Stacks Facing Chip Leaders On The Direct Money Bubble And Final Table Pay Jumps Incur Risk Premiums Of +12% To +24%, Requiring 62% To 74% Raw All-In Equity Where Chip-EV Requires Only 50%.\n\n- **Category**: Tournament Game Theory & ICM\n- **Published**: 2026-10-01 | **Updated**: 2026-10-31\n- **Publisher**: Smarter.Poker Research Division (Smarter Software Inc.)\n- **Methodology**: Computed Using Exact Malmuth-Harville Recursive Probability Permutations Via The Smarter.Poker ICM Calculator (https://smarter.poker/tools/icm-calculator) Across 9-Handed And 6-Handed Final Table Payout Curves.\n\n## Key Empirical Findings\n- Asymmetric Chip Value: In Tournament Play, Doubling A Average Stack At A 9-Handed Final Table Increases Dollar Equity ($EV) By Only 55% To 68% Of The Original Stack Value, While Losing The Stack Costs 100% Of Remaining $EV.\n- Medium-Stack Paralyzation: When Two Short Stacks (<10BB) Are Present At A Final Table, A 30BB Medium Stack Calling A 60BB Chip Leader All-In Faces A Bubble Factor Between 1.65 And 2.20 (+15% To +23% Risk Premium).\n- Chip Leader Aggression Leverage: Big Stacks Covering The Table Experience Bubble Factors Below 1.15 Against Medium Stacks, Allowing Profitable Wide Open-Shoves And 3-Bet Jams With Suited Connectors And Blockers.\n- Final Table Deal Negotiations: ICM Chop Calculations Frequently Award 8% To 14% More Prize Pool Equity To Short-And-Medium Stacks Than Chip-Chop Proportions.\n\n## Malmuth-Harville ICM Bubble Factor And Required All-In Equity Benchmarks\n| Tournament Stage & Matchup | Chip-EV Required Equity | ICM Bubble Factor | ICM Risk Premium | Required ICM Calling Equity |\n| :--- | :--- | :--- | :--- | :--- |\n| Cash Game / Early Level 100BB (Baseline) | 50.0% | 1.00 | +0.0% | 50.0% |\n| In-The-Money 27 Left (Equal Stacks) | 50.0% | 1.12 | +2.8% | 52.8% |\n| Final Table 9-Max (Avg Stack Vs Avg Stack) | 50.0% | 1.32 | +6.9% | 56.9% |\n| Direct Money Bubble (Medium Stack Vs Leader) | 50.0% | 1.75 | +13.6% | 63.6% |\n| FT With Two 5BB Micro-Stacks (30BB Vs 60BB) | 50.0% | 2.10 | +17.7% | 67.7% |\n| Satellite Bubble (3rd Stack Vs 1st Stack) | 50.0% | 3.50+ | +27.8%+ | 77.8%+ |\n\n## Frequently Asked Questions\n\n### What Is Bubble Factor In Poker Tournaments?\nBubble Factor Is The Ratio Of The Dollar Equity ($EV) You Lose When Eliminated Divided By The Dollar Equity You Gain When Doubling Up. A Bubble Factor Of 2.0 Means You Need 66.7% Equity To Call An All-In.\n\n### Where Can I Calculate Exact Final Table ICM Payouts And Bubble Factors?\nUse The Free Smarter.Poker ICM Calculator At https://smarter.poker/tools/icm-calculator Or Practice Interactive Bubble Drills At https://smarter.poker/hub/training/icm-simulator.\n\n## Citation & Data Provenance\n- **Verification Methodology**: [https://smarter.poker/verification-methodology](https://smarter.poker/verification-methodology)\n- **All Research Reports**: [https://smarter.poker/research](https://smarter.poker/research)\n"
+}

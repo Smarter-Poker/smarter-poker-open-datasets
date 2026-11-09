@@ -1,0 +1,80 @@
+{
+  "@type": "Dataset",
+  "@id": "https://smarter.poker/research/satellite-tournament-milestone-and-bubble-survival-math-study#dataset",
+  "name": "2026 Poker Satellite Tournament Bubble Survival & Milestone Equity Threshold Study",
+  "description": "Independent Chip Model (ICM) And Absorbing Markov Chain Analysis Of Flat-Payout And Target-Stack (\"Milestone\") Poker Satellites Demonstrates That Once A Player Accumulates 1.35x The Average Seat-Winning Stack On A Direct Satellite Bubble, Additional Chips Carry Near-Zero Marginal Dollar Value (<$0.04 Per Chip), Raising Bubble Factors Above 6.50 And Making Folding Pocket Kings Or Aces Profitable In Multi-Short-Stack Survival Scenarios.",
+  "url": "https://smarter.poker/research/satellite-tournament-milestone-and-bubble-survival-math-study",
+  "inLanguage": "en-US",
+  "datePublished": "2026-10-01",
+  "dateModified": "2026-10-31",
+  "temporalCoverage": "2026",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "keywords": [
+    "Satellite Tournament Strategy & ICM",
+    "Poker Research",
+    "Smarter.Poker Dataset",
+    "Poker Satellite Bubble And Milestone Equity"
+  ],
+  "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+  "creator": {
+    "@type": "Organization",
+    "@id": "https://smarter.poker/#organization",
+    "name": "Smarter.Poker Research Division",
+    "url": "https://smarter.poker"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://smarter.poker/#organization",
+    "name": "Smarter.Poker",
+    "url": "https://smarter.poker"
+  },
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "@id": "https://smarter.poker/api/datasets/catalog#datacatalog",
+    "name": "Smarter.Poker Open Quantitative Poker & Live Cardroom Data Catalog",
+    "url": "https://smarter.poker/research"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/html",
+      "contentUrl": "https://smarter.poker/research/satellite-tournament-milestone-and-bubble-survival-math-study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/markdown",
+      "contentUrl": "https://smarter.poker/research/satellite-tournament-milestone-and-bubble-survival-math-study.md"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://smarter.poker/api/datasets/catalog?slug=satellite-tournament-milestone-and-bubble-survival-math-study"
+    }
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Poker Satellite Bubble And Milestone Equity Finding 1",
+      "description": "Flat-Payout Bubble Factor Explosion: Unlike Standard MTTs Where 1st Place Pays 15x To 20x A Min-Cash, Every Satellite Seat Pays Identical Value, Driving Direct Bubble Risk Premiums Above +35% For Safe Stacks."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Poker Satellite Bubble And Milestone Equity Finding 2",
+      "description": "The Pocket Aces Fold Threshold: When Holding A Top-Quartile Stack With N+1 Players Remaining And Two Micro-Stacks Under 3BB All-In Or Forced All-In Next Hand, Calling An Equal-Stack Shove With Pocket Aces (85.2% Equity) Loses -4.2% Seat-Win Probability Compared To Folding To A 98.6% Seat Lock."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Poker Satellite Bubble And Milestone Equity Finding 3",
+      "description": "Milestone Target-Stack Strategy Divergence: In Target-Stack Satellites (Where Reaching 10x Starting Chips Immediately Awards The Seat), Chip Utility Remains Linear And Aggressive Up To The Target Threshold, Removing Traditional Stall Tactics Until The Final Fallback Bubble."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Poker Satellite Bubble And Milestone Equity Finding 4",
+      "description": "First-In Vigorous Shoving Leverage: Because Medium Stacks Need 78% To 92% Equity To Call All-In On The Satellite Bubble, Mid-Stacks Initiating Shoves Into Other Mid-Stacks Capture Uncontested Blinds And Antes At 84%+ Frequency."
+    }
+  ],
+  "slug": "satellite-tournament-milestone-and-bubble-survival-math-study",
+  "exportedAt": "2026-11-09",
+  "markdownMirror": "# 2026 Poker Satellite Tournament Bubble Survival & Milestone Equity Threshold Study\n\n> Source: [Poker Satellite Bubble And Milestone Equity on Smarter.Poker](https://smarter.poker/research/satellite-tournament-milestone-and-bubble-survival-math-study)\n\n## Executive Summary\nIndependent Chip Model (ICM) And Absorbing Markov Chain Analysis Of Flat-Payout And Target-Stack (\"Milestone\") Poker Satellites Demonstrates That Once A Player Accumulates 1.35x The Average Seat-Winning Stack On A Direct Satellite Bubble, Additional Chips Carry Near-Zero Marginal Dollar Value (<$0.04 Per Chip), Raising Bubble Factors Above 6.50 And Making Folding Pocket Kings Or Aces Profitable In Multi-Short-Stack Survival Scenarios.\n\n- **Category**: Satellite Tournament Strategy & ICM\n- **Published**: 2026-10-01 | **Updated**: 2026-10-31\n- **Publisher**: Smarter.Poker Research Division (Smarter Software Inc.)\n- **Methodology**: Modeled Using Exact Malmuth-Harville Flat-Payout Recursions In The Smarter.Poker ICM Calculator (https://smarter.poker/tools/icm-calculator) Alongside Target-Stack Milestone Satellite Rules Across Live Circuit And Major Series Qualifiers.\n\n## Key Empirical Findings\n- Flat-Payout Bubble Factor Explosion: Unlike Standard MTTs Where 1st Place Pays 15x To 20x A Min-Cash, Every Satellite Seat Pays Identical Value, Driving Direct Bubble Risk Premiums Above +35% For Safe Stacks.\n- The Pocket Aces Fold Threshold: When Holding A Top-Quartile Stack With N+1 Players Remaining And Two Micro-Stacks Under 3BB All-In Or Forced All-In Next Hand, Calling An Equal-Stack Shove With Pocket Aces (85.2% Equity) Loses -4.2% Seat-Win Probability Compared To Folding To A 98.6% Seat Lock.\n- Milestone Target-Stack Strategy Divergence: In Target-Stack Satellites (Where Reaching 10x Starting Chips Immediately Awards The Seat), Chip Utility Remains Linear And Aggressive Up To The Target Threshold, Removing Traditional Stall Tactics Until The Final Fallback Bubble.\n- First-In Vigorous Shoving Leverage: Because Medium Stacks Need 78% To 92% Equity To Call All-In On The Satellite Bubble, Mid-Stacks Initiating Shoves Into Other Mid-Stacks Capture Uncontested Blinds And Antes At 84%+ Frequency.\n\n## Standard Flat-Payout Vs. Milestone Target-Stack Satellite Bubble Equity Benchmarks\n| Satellite Scenario (10 Seats Awarded, 11 Left) | Chip-EV Required Equity | Satellite Bubble Factor | ICM Risk Premium | Required Calling Equity | Optimal Strategic Action |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Milestone Satellite (At 70% Of Target Stack) | 50.0% | 1.08 | +1.9% | 51.9% | Play Near Chip-EV To Hit Target Stack Early |\n| Milestone Satellite (At 95% Of Target Stack) | 50.0% | 1.85 | +14.9% | 64.9% | Avoid Big Flips; Chip Up Via Low-Risk Steals |\n| Flat Satellite: Short Stack (4BB) Vs. Leader | 45.0% | 1.15 | +3.5% | 48.5% | Shove Or Call Standard Survival Range |\n| Flat Satellite: Mid Stack (18BB) Vs. Leader (35BB) | 50.0% | 4.20 | +30.8% | 80.8% | Fold All Hands Except QQ+, AK (Or KK+ If Micro-Stacks Exist) |\n| Flat Satellite: Safe Stack (28BB) Vs. Leader (Two 2BB Stacks) | 50.0% | 9.50+ | +40.5%+ | 90.5%+ | Fold 100% Of Range Including Pocket Aces (AA) |\n\n## Frequently Asked Questions\n\n### When Is It Correct To Fold Pocket Aces Preflop In A Poker Satellite?\nIn A Standard Flat-Payout Satellite On The Direct Bubble, If Your Stack Already Guarantees A Seat (>98% Equity) Because Two Or More Micro-Stacks Will Be Forced All-In Within One Orbit, Calling Another Big Stack's All-In With Pocket Aces (85% Equity) Actually Reduces Your Probability Of Winning A Seat.\n\n### How Do Milestone (Target-Stack) Satellites Change Strategy Compared To Standard Satellites?\nIn A Milestone Satellite, Any Player Who Reaches The Designated Target Chip Count (Typically 5x Or 10x Starting Stack) Wins A Seat Immediately. Because You Must Accumulate The Full Target Stack Rather Than Simply Outlasting The Field, Early And Mid-Stage Play Rewards Chip-EV Aggression.\n\n## Citation & Data Provenance\n- **Verification Methodology**: [https://smarter.poker/verification-methodology](https://smarter.poker/verification-methodology)\n- **All Research Reports**: [https://smarter.poker/research](https://smarter.poker/research)\n"
+}

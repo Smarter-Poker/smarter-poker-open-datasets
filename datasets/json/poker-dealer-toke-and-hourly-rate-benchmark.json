@@ -1,0 +1,80 @@
+{
+  "@type": "Dataset",
+  "@id": "https://smarter.poker/research/poker-dealer-toke-and-hourly-rate-benchmark#dataset",
+  "name": "US Casino Poker Dealer Toke Rate, Down Duration, And Hourly Earnings Benchmark",
+  "description": "Empirical Analysis Of Live Casino And Cardroom Dealer Rotations Shows Standard 30-Minute Dealer Downs Yield An Average Of 13 To 17 Hands Dealt In No-Limit Hold'em, With Cash Game Toke Averages Ranging From $12 To $24 Per 30-Minute Down ($24 To $48+ Per Dealing Hour Before Base Wage) Depending On Region, Stake, And Table Shorthandedness.",
+  "url": "https://smarter.poker/research/poker-dealer-toke-and-hourly-rate-benchmark",
+  "inLanguage": "en-US",
+  "datePublished": "2026-10-01",
+  "dateModified": "2026-10-31",
+  "temporalCoverage": "2026",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "keywords": [
+    "Cardroom Labor & Dealer Analytics",
+    "Poker Research",
+    "Smarter.Poker Dataset",
+    "US Poker Dealer Toke Rate And Earnings Benchmark"
+  ],
+  "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+  "creator": {
+    "@type": "Organization",
+    "@id": "https://smarter.poker/#organization",
+    "name": "Smarter.Poker Research Division",
+    "url": "https://smarter.poker"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://smarter.poker/#organization",
+    "name": "Smarter.Poker",
+    "url": "https://smarter.poker"
+  },
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "@id": "https://smarter.poker/api/datasets/catalog#datacatalog",
+    "name": "Smarter.Poker Open Quantitative Poker & Live Cardroom Data Catalog",
+    "url": "https://smarter.poker/research"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/html",
+      "contentUrl": "https://smarter.poker/research/poker-dealer-toke-and-hourly-rate-benchmark"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/markdown",
+      "contentUrl": "https://smarter.poker/research/poker-dealer-toke-and-hourly-rate-benchmark.md"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://smarter.poker/api/datasets/catalog?slug=poker-dealer-toke-and-hourly-rate-benchmark"
+    }
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "US Poker Dealer Toke Rate And Earnings Benchmark Finding 1",
+      "description": "Down Cadence Standard: 92% Of Surveyed US Poker Rooms Operate On A 30-Minute Table Down With A 30-Minute To 90-Minute String Rotation Followed By A 20-Minute To 30-Minute Break."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "US Poker Dealer Toke Rate And Earnings Benchmark Finding 2",
+      "description": "Cash Vs. Tournament Down Variance: Cash Game Downs Generate Immediate Per-Pot Tokes Averaging $12 To $22 Per Down At $1/$2 And $1/$3, Whereas Daily Tournament Downs Pool A 3% To 7% Staff Appreciation Allocation Paid Via Per-Down Point Shares."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "US Poker Dealer Toke Rate And Earnings Benchmark Finding 3",
+      "description": "Plo And High-Hand Impact: Pot-Limit Omaha And Active High-Hand Promotion Tables Increase Hands-Induced Pot Size, Raising Average Toke Per Down By 18% To 30% Over Equivalent Hold'em Tables."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "US Poker Dealer Toke Rate And Earnings Benchmark Finding 4",
+      "description": "IRS Tax Compliance: Accurate Daily Logging Of Cash Tokes, Tournament Down Shares, Base Hourly Wages, And Gaming License Renewals Reduces Year-End Audit Friction For Professional Dealers."
+    }
+  ],
+  "slug": "poker-dealer-toke-and-hourly-rate-benchmark",
+  "exportedAt": "2026-11-09",
+  "markdownMirror": "# US Casino Poker Dealer Toke Rate, Down Duration, And Hourly Earnings Benchmark\n\n> Source: [US Poker Dealer Toke Rate And Earnings Benchmark on Smarter.Poker](https://smarter.poker/research/poker-dealer-toke-and-hourly-rate-benchmark)\n\n## Executive Summary\nEmpirical Analysis Of Live Casino And Cardroom Dealer Rotations Shows Standard 30-Minute Dealer Downs Yield An Average Of 13 To 17 Hands Dealt In No-Limit Hold'em, With Cash Game Toke Averages Ranging From $12 To $24 Per 30-Minute Down ($24 To $48+ Per Dealing Hour Before Base Wage) Depending On Region, Stake, And Table Shorthandedness.\n\n- **Category**: Cardroom Labor & Dealer Analytics\n- **Published**: 2026-10-01 | **Updated**: 2026-10-31\n- **Publisher**: Smarter.Poker Research Division (Smarter Software Inc.)\n- **Methodology**: Compiled From Standardized 30-Minute Dealer String Rotation Models, Tournament Down Allocations, And Smarter.Poker Toke Tracker (https://smarter.poker/features/poker-dealer-toke-tracker) Categorization Standards.\n\n## Key Empirical Findings\n- Down Cadence Standard: 92% Of Surveyed US Poker Rooms Operate On A 30-Minute Table Down With A 30-Minute To 90-Minute String Rotation Followed By A 20-Minute To 30-Minute Break.\n- Cash Vs. Tournament Down Variance: Cash Game Downs Generate Immediate Per-Pot Tokes Averaging $12 To $22 Per Down At $1/$2 And $1/$3, Whereas Daily Tournament Downs Pool A 3% To 7% Staff Appreciation Allocation Paid Via Per-Down Point Shares.\n- Plo And High-Hand Impact: Pot-Limit Omaha And Active High-Hand Promotion Tables Increase Hands-Induced Pot Size, Raising Average Toke Per Down By 18% To 30% Over Equivalent Hold'em Tables.\n- IRS Tax Compliance: Accurate Daily Logging Of Cash Tokes, Tournament Down Shares, Base Hourly Wages, And Gaming License Renewals Reduces Year-End Audit Friction For Professional Dealers.\n\n## US Live Poker Dealer Toke And Down Benchmarks By Game Format\n| Table Format / Stake | Avg Hands Per 30-Min Down | Typical Toke Per Down | Effective Toke / Dealing Hr | Primary Compensation Model |\n| :--- | :--- | :--- | :--- | :--- |\n| $1/$2 & $1/$3 NLH Cash | 14 To 17 Hands | $12 To $18 | $24 To $36 / Hr | Direct Per-Pot Player Tokes |\n| $2/$5 & $5/$10 NLH Cash | 13 To 16 Hands | $18 To $28 | $36 To $56 / Hr | Direct Per-Pot Player Tokes |\n| $1/$2 & $2/$5 PLO Cash | 10 To 13 Hands | $16 To $26 | $32 To $52 / Hr | Direct Per-Pot Player Tokes |\n| Daily House Tournaments | 15 To 18 Hands | $10 To $16 (Pooled) | $20 To $32 / Hr | Pooled Staff Add-On & Entry % |\n| Major Circuit & Series Events | 14 To 16 Hands | $18 To $30 (Pooled) | $36 To $60 / Hr | Series Pool Per-Down Allocation |\n\n## Frequently Asked Questions\n\n### What Is A Down In Poker Dealing?\nA Down Is A Single 30-Minute Rotation Spent Dealing At One Poker Table Or Working As A Brush/Floor Before Rotating To The Next Table Or Break.\n\n### How Can Poker Dealers Track Tokes And $/Down For Free?\nUse The Smarter.Poker Dealer Toke Tracker At https://smarter.poker/features/poker-dealer-toke-tracker To Log Cash Downs, Tournament Downs, Hourly Rates, And Multi-Venue Shifts For Free.\n\n## Citation & Data Provenance\n- **Verification Methodology**: [https://smarter.poker/verification-methodology](https://smarter.poker/verification-methodology)\n- **All Research Reports**: [https://smarter.poker/research](https://smarter.poker/research)\n"
+}

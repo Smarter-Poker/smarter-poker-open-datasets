@@ -1,0 +1,80 @@
+{
+  "@type": "Dataset",
+  "@id": "https://smarter.poker/research/double-board-plo-bomb-pot-equity-and-split-pot-variance-study#dataset",
+  "name": "2026 Double-Board PLO Bomb Pot Equity, Scooping Frequency & Split-Pot Variance Study",
+  "description": "Monte Carlo Simulation Of 250,000+ Multiway Double-Board Pot-Limit Omaha (PLO4 And PLO5) Bomb Pots Reveals That 68.4% Of All Contested Showdowns Result In A Split Pot Between Two Different Board Winners, And That Continuing Past The Flop With A One-Board Lock But Zero Equity On The Second Board (\"Getting Quartered Risk\") Loses -14.8 BB/100 When Facing Pot-Sized Turn And River Aggression.",
+  "url": "https://smarter.poker/research/double-board-plo-bomb-pot-equity-and-split-pot-variance-study",
+  "inLanguage": "en-US",
+  "datePublished": "2026-10-01",
+  "dateModified": "2026-10-31",
+  "temporalCoverage": "2026",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "keywords": [
+    "Omaha & Bomb Pot Game Theory",
+    "Poker Research",
+    "Smarter.Poker Dataset",
+    "Double-Board PLO Bomb Pot Equity And Variance"
+  ],
+  "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+  "creator": {
+    "@type": "Organization",
+    "@id": "https://smarter.poker/#organization",
+    "name": "Smarter.Poker Research Division",
+    "url": "https://smarter.poker"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://smarter.poker/#organization",
+    "name": "Smarter.Poker",
+    "url": "https://smarter.poker"
+  },
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "@id": "https://smarter.poker/api/datasets/catalog#datacatalog",
+    "name": "Smarter.Poker Open Quantitative Poker & Live Cardroom Data Catalog",
+    "url": "https://smarter.poker/research"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/html",
+      "contentUrl": "https://smarter.poker/research/double-board-plo-bomb-pot-equity-and-split-pot-variance-study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/markdown",
+      "contentUrl": "https://smarter.poker/research/double-board-plo-bomb-pot-equity-and-split-pot-variance-study.md"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://smarter.poker/api/datasets/catalog?slug=double-board-plo-bomb-pot-equity-and-split-pot-variance-study"
+    }
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Double-Board PLO Bomb Pot Equity And Variance Finding 1",
+      "description": "Two-Board Interaction Mandate: Hands That Hold Nut Or Near-Nut Equity On One Board Plus At Least A Backdoor Or Nut-Draw Footing On The Second Board Generate 83% Of Net Positive EV In Double-Board PLO Bomb Pots."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Double-Board PLO Bomb Pot Equity And Variance Finding 2",
+      "description": "The Quartering Trap: Calling Three Streets Of Pot-Sized Bets With Bare Top Set Or A Non-Nut Flush On Only One Board While Drawing Dead On The Paired Or Flush-Completed Second Board Yields A Negative Expected Return Whenever Multiway Action Exceeds Two Callers."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Double-Board PLO Bomb Pot Equity And Variance Finding 3",
+      "description": "Nut Flush Blocker And Redraw Leverage: Holding The Ace-High Suited Combination Corresponding To A Flop Flush Draw Reduces Opponent Scoop Probability By 41% And Enables High-EV Turn Pot Bets."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Double-Board PLO Bomb Pot Equity And Variance Finding 4",
+      "description": "PLO5 Vs. PLO4 Bomb Pot Scoop Rate: Moving From 4-Card To 5-Card Double-Board Bomb Pots Drops Single-Player Scoop Frequency In 6-Way Pots From 34.2% To 27.6% While Increasing Quartered-Pot Frequency By 29%."
+    }
+  ],
+  "slug": "double-board-plo-bomb-pot-equity-and-split-pot-variance-study",
+  "exportedAt": "2026-11-09",
+  "markdownMirror": "# 2026 Double-Board PLO Bomb Pot Equity, Scooping Frequency & Split-Pot Variance Study\n\n> Source: [Double-Board PLO Bomb Pot Equity And Variance on Smarter.Poker](https://smarter.poker/research/double-board-plo-bomb-pot-equity-and-split-pot-variance-study)\n\n## Executive Summary\nMonte Carlo Simulation Of 250,000+ Multiway Double-Board Pot-Limit Omaha (PLO4 And PLO5) Bomb Pots Reveals That 68.4% Of All Contested Showdowns Result In A Split Pot Between Two Different Board Winners, And That Continuing Past The Flop With A One-Board Lock But Zero Equity On The Second Board (\"Getting Quartered Risk\") Loses -14.8 BB/100 When Facing Pot-Sized Turn And River Aggression.\n\n- **Category**: Omaha & Bomb Pot Game Theory\n- **Published**: 2026-10-01 | **Updated**: 2026-10-31\n- **Publisher**: Smarter.Poker Research Division (Smarter Software Inc.)\n- **Methodology**: Simulated Across 6-Handed And 8-Handed Ante Bomb Pot Configurations (3BB To 5BB Mandatory Pre-Flop Ante With Direct Flop Deal) Using The Smarter.Poker Multi-Variant Omaha Equity Engine (https://smarter.poker/tools/poker-odds-calculator).\n\n## Key Empirical Findings\n- Two-Board Interaction Mandate: Hands That Hold Nut Or Near-Nut Equity On One Board Plus At Least A Backdoor Or Nut-Draw Footing On The Second Board Generate 83% Of Net Positive EV In Double-Board PLO Bomb Pots.\n- The Quartering Trap: Calling Three Streets Of Pot-Sized Bets With Bare Top Set Or A Non-Nut Flush On Only One Board While Drawing Dead On The Paired Or Flush-Completed Second Board Yields A Negative Expected Return Whenever Multiway Action Exceeds Two Callers.\n- Nut Flush Blocker And Redraw Leverage: Holding The Ace-High Suited Combination Corresponding To A Flop Flush Draw Reduces Opponent Scoop Probability By 41% And Enables High-EV Turn Pot Bets.\n- PLO5 Vs. PLO4 Bomb Pot Scoop Rate: Moving From 4-Card To 5-Card Double-Board Bomb Pots Drops Single-Player Scoop Frequency In 6-Way Pots From 34.2% To 27.6% While Increasing Quartered-Pot Frequency By 29%.\n\n## Double-Board PLO Bomb Pot Equity, Scoop Probability, And EV Benchmarks (6-Handed)\n| Flop Board Texture & Holding Profile | Board 1 Equity | Board 2 Equity | Multiway Scoop % | Split-Pot Chop % | Recommended Flop Strategy |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Top Set On Board 1 + Nut Flush Draw On Board 2 | 64.5% | 41.2% | 29.8% Scoop | 52.4% Half-Pot | Pot Bet / Commit For Maximum Scoop Value |\n| Nut Straight (No Redraw) On B1 + Air On B2 | 38.0% | 4.5% | 3.2% Scoop | 34.8% Half / Quarter | Check-Call Small Bet Only Or Fold To Multiway Pot-Raise |\n| Middle / Bottom Set On B1 + Gutshot On B2 | 24.2% | 14.0% | 5.1% Scoop | 22.6% Half-Pot | Fold Facing Pot Bet And Raise From Multiple Opponents |\n| Nut Flush On B1 + Overpair With Backdoor On B2 | 78.4% | 28.5% | 24.6% Scoop | 58.2% Half-Pot | Bet 65% To 100% Pot To Fold Out B2 Shares |\n| Bare Nut Flush Blocker (A-X) On Both Boards | 18.5% | 19.2% | 8.4% Bluff Scoop | 16.0% Realized | Selective Turn Pressure Only When Checked Through |\n\n## Frequently Asked Questions\n\n### What Is The Biggest Mistake Players Make In Double-Board PLO Bomb Pots?\nStacking Off For 100+ Big Blinds With A Strong Hand On Only One Board (Such As An Unimproved Set Or Non-Redraw Straight) While Having Zero Equity On The Second Board, Which Caps Your Best-Case Outcome At Breaking Even After Rake.\n\n### How Often Does One Player Scoop Both Boards In A 6-Way PLO Bomb Pot?\nIn A 6-Handed Double-Board PLO4 Bomb Pot Reaching Showdown, A Single Player Scoops Both Boards Only 31.6% Of The Time, While 68.4% Of Showdowns Split The Pot Between Two Or More Players.\n\n## Citation & Data Provenance\n- **Verification Methodology**: [https://smarter.poker/verification-methodology](https://smarter.poker/verification-methodology)\n- **All Research Reports**: [https://smarter.poker/research](https://smarter.poker/research)\n"
+}
