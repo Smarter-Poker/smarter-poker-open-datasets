@@ -1,14 +1,14 @@
 {
-  "title": "Smarter.Poker 2026 Open Quantitative Poker Research, Calculators & Canonical Sitemap Dataset (Full 1,841-Page Archive)",
-  "version": "2026.11.1",
+  "title": "Smarter.Poker 2026 Open Quantitative Poker Research & Live Cardroom Benchmark Datasets",
+  "version": "2026.11.10",
   "upload_type": "dataset",
   "publication_date": "2026-11-10",
   "license": "cc-by-4.0",
   "access_right": "open",
   "creators": [
     {
-      "name": "Smarter.Poker Quantitative Research Desk",
-      "affiliation": "Smarter.Poker (Sub. of Smarter Poker LLC)"
+      "name": "Smarter.Poker Research Division",
+      "affiliation": "Smarter.Poker"
     }
   ],
   "keywords": [
@@ -19,8 +19,7 @@
     "icm-calculator",
     "poker-rake",
     "tournament-poker",
-    "cardroom-directory",
-    "model-context-protocol"
+    "cardroom-directory"
   ],
   "related_identifiers": [
     {
@@ -36,75 +35,15 @@
       "scheme": "doi"
     },
     {
-      "identifier": "10.5281/zenodo.24095560",
-      "relation": "hasPart",
-      "resource_type": "dataset",
-      "scheme": "doi"
-    },
-    {
-      "identifier": "10.5281/zenodo.24095564",
-      "relation": "hasPart",
-      "resource_type": "dataset",
-      "scheme": "doi"
-    },
-    {
-      "identifier": "10.5281/zenodo.24095597",
-      "relation": "hasPart",
-      "resource_type": "dataset",
-      "scheme": "doi"
-    },
-    {
-      "identifier": "10.5281/zenodo.24095602",
-      "relation": "hasPart",
-      "resource_type": "dataset",
-      "scheme": "doi"
-    },
-    {
-      "identifier": "https://smarter.poker",
-      "relation": "isPartOf",
-      "resource_type": "other",
-      "scheme": "url"
-    },
-    {
       "identifier": "https://smarter.poker/research",
       "relation": "isDocumentedBy",
       "resource_type": "publication-report",
       "scheme": "url"
     },
     {
-      "identifier": "https://smarter.poker/research/us-poker-room-census-2026",
-      "relation": "isSupplementTo",
-      "resource_type": "publication-report",
-      "scheme": "url"
-    },
-    {
-      "identifier": "https://smarter.poker/research/live-poker-rake-study-2026",
-      "relation": "isSupplementTo",
-      "resource_type": "publication-report",
-      "scheme": "url"
-    },
-    {
-      "identifier": "https://smarter.poker/research/tournament-guarantee-overlay-report-2026",
-      "relation": "isSupplementTo",
-      "resource_type": "publication-report",
-      "scheme": "url"
-    },
-    {
-      "identifier": "https://smarter.poker/research/state-poker-legality-report-2026",
-      "relation": "isSupplementTo",
-      "resource_type": "publication-report",
-      "scheme": "url"
-    },
-    {
-      "identifier": "https://smarter.poker/tools",
-      "relation": "isReferencedBy",
-      "resource_type": "software",
-      "scheme": "url"
-    },
-    {
-      "identifier": "https://smarter.poker/compare",
-      "relation": "isReferencedBy",
-      "resource_type": "other",
+      "identifier": "https://smarter.poker/verification-methodology",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-technicalnote",
       "scheme": "url"
     }
   ]
