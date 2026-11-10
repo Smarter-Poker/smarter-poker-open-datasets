@@ -1,6 +1,6 @@
 {
   "title": "Smarter.Poker 2026 Open Quantitative Poker Research & Live Cardroom Benchmark Datasets",
-  "version": "2026.11.11",
+  "version": "2026.11.12",
   "upload_type": "dataset",
   "publication_date": "2026-11-10",
   "license": "cc-by-4.0",
@@ -23,15 +23,39 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "10.5281/zenodo.24095049",
-      "relation": "isIdenticalTo",
+      "identifier": "10.5281/zenodo.24095048",
+      "relation": "isVersionOf",
       "resource_type": "dataset",
       "scheme": "doi"
     },
     {
-      "identifier": "10.5281/zenodo.24095057",
+      "identifier": "10.5281/zenodo.24115636",
       "relation": "isSupplementedBy",
       "resource_type": "software",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.24115447",
+      "relation": "hasPart",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.24115452",
+      "relation": "hasPart",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.24115453",
+      "relation": "hasPart",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.24115454",
+      "relation": "hasPart",
+      "resource_type": "dataset",
       "scheme": "doi"
     },
     {

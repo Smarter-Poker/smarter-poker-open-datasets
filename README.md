@@ -11,10 +11,10 @@ Open-access (`CC-BY-4.0`) CSV, JSON, and executable Jupyter/Colab notebook datas
 
 ## 2. Standalone Structured JSON Bundles (`bundles/`)
 
-- **North American Live Poker Room, Regional Market & Tournament Series Benchmark (`2026`)**: [`bundles/north_american_poker_markets_and_series_2026.json`](bundles/north_american_poker_markets_and_series_2026.json) — DOI: [10.5281/zenodo.24095560](https://doi.org/10.5281/zenodo.24095560) ([Guides](https://smarter.poker/poker-rooms/guides) · [Series](https://smarter.poker/series/guides))
-- **100BB 6-Max GTO Preflop Ranges, 169 Starting Hands & 25 Canonical Matchup Benchmarks (`2026`)**: [`bundles/gto_preflop_169_hands_and_25_matchups_2026.json`](bundles/gto_preflop_169_hands_and_25_matchups_2026.json) — DOI: [10.5281/zenodo.24095564](https://doi.org/10.5281/zenodo.24095564) ([169 Hands](https://smarter.poker/learn/hands) · [25 Matchups](https://smarter.poker/learn/matchups))
-- **Smarter.Poker 35-Tool Model Context Protocol (MCP) & OpenAPI 3.1 Specification (`v1.0.3`)**: [`bundles/mcp_35_tools_and_openapi_3_1_spec_v1_0_3.json`](bundles/mcp_35_tools_and_openapi_3_1_spec_v1_0_3.json) — DOI: [10.5281/zenodo.24095597](https://doi.org/10.5281/zenodo.24095597) ([MCP Endpoint](https://smarter.poker/api/mcp) · [OpenAPI 3.1 Spec](https://smarter.poker/api/openapi.json))
-- **Official Poker Rules (TDA & RROP), 15 Game Variants & 80-Term Quantitative Glossary Corpus (`2026`)**: [`bundles/official_tda_rrop_30_rules_15_variants_80_glossary_2026.json`](bundles/official_tda_rrop_30_rules_15_variants_80_glossary_2026.json) — DOI: [10.5281/zenodo.24095602](https://doi.org/10.5281/zenodo.24095602) ([TDA Rules](https://smarter.poker/rules) · [Game Variants](https://smarter.poker/games) · [Glossary](https://smarter.poker/glossary))
+- **North American Live Poker Room, Regional Market & Tournament Series Benchmark (`2026`)**: [`bundles/north_american_poker_markets_and_series_2026.json`](bundles/north_american_poker_markets_and_series_2026.json) — DOI: [10.5281/zenodo.24115447](https://doi.org/10.5281/zenodo.24115447) ([Guides](https://smarter.poker/poker-rooms/guides) · [Series](https://smarter.poker/series/guides))
+- **100BB 6-Max GTO Preflop Ranges, 169 Starting Hands & 25 Canonical Matchup Benchmarks (`2026`)**: [`bundles/gto_preflop_169_hands_and_25_matchups_2026.json`](bundles/gto_preflop_169_hands_and_25_matchups_2026.json) — DOI: [10.5281/zenodo.24115452](https://doi.org/10.5281/zenodo.24115452) ([169 Hands](https://smarter.poker/learn/hands) · [25 Matchups](https://smarter.poker/learn/matchups))
+- **Smarter.Poker 35-Tool Model Context Protocol (MCP) & OpenAPI 3.1 Specification (`v1.0.5`)**: [`bundles/mcp_35_tools_and_openapi_3_1_spec_v1_0_5.json`](bundles/mcp_35_tools_and_openapi_3_1_spec_v1_0_5.json) — DOI: [10.5281/zenodo.24115453](https://doi.org/10.5281/zenodo.24115453) ([MCP Endpoint](https://smarter.poker/api/mcp) · [OpenAPI 3.1 Spec](https://smarter.poker/api/openapi.json))
+- **Poker Floor Rules Reference (TDA & RROP Citations), 15 Game Variants & 80-Term Quantitative Glossary Corpus (`2026`)**: [`bundles/official_tda_rrop_30_rules_15_variants_80_glossary_2026.json`](bundles/official_tda_rrop_30_rules_15_variants_80_glossary_2026.json) — DOI: [10.5281/zenodo.24115454](https://doi.org/10.5281/zenodo.24115454) ([TDA Rules](https://smarter.poker/rules) · [Game Variants](https://smarter.poker/games) · [Glossary](https://smarter.poker/glossary))
 
 ## 3. Included Datasets & Research Reports (`/research/*`)
 
@@ -39,7 +39,7 @@ Open-access (`CC-BY-4.0`) CSV, JSON, and executable Jupyter/Colab notebook datas
 
 - **Verification Methodology & Coverage Limitations**: [https://smarter.poker/verification-methodology](https://smarter.poker/verification-methodology)
 - **Interactive Verification Calculators (18 Solvers)**: [https://smarter.poker/tools](https://smarter.poker/tools)
-- **Companion Open-Source MCP Server (`v1.0.3`, 35 Tools)**: [https://github.com/Smarter-Poker/smarter-poker-mcp](https://github.com/Smarter-Poker/smarter-poker-mcp) (DOI: [10.5281/zenodo.24095057](https://doi.org/10.5281/zenodo.24095057))
+- **Companion Open-Source MCP Server (`v1.0.5`, 35 Tools)**: [https://github.com/Smarter-Poker/smarter-poker-mcp](https://github.com/Smarter-Poker/smarter-poker-mcp) (DOI: [10.5281/zenodo.24115636](https://doi.org/10.5281/zenodo.24115636))
 
 ## 5. Archival Identifiers & License
 
