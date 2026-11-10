@@ -87,5 +87,74 @@
   ],
   "slug": "gto-vs-population-preflop-and-postflop-leak-study",
   "exportedAt": "2026-11-09",
-  "markdownMirror": "# GTO Solver Equilibrium Vs. Population Leak Frequency Study\n\n> Source: [GTO Solver Vs. Population Leak Study on Smarter.Poker](https://smarter.poker/research/gto-vs-population-preflop-and-postflop-leak-study)\n\n## Executive Summary\nComparison Of 100BB 6-Max Game Theory Optimal (GTO) Equilibrium Baselines Against Recreational And Low-Stakes Population Tendencies Identifies Five Systematic EV Leaks: Under-3-Betting Suited Wheel Bluffs, Over-Calling 3-Bets Out Of Position, Over-C-Betting Multiway Flops, Under-Bluffing Turn Check-Raises, And Under-Folding To River Overbets.\n\n- **Category**: Game Theory Optimal Research\n- **Published**: 2026-10-01 | **Updated**: 2026-10-31\n- **Publisher**: Smarter.Poker Research Division (Smarter Software Inc.)\n- **Methodology**: Evaluated Across Smarter.Poker's 100+ GTO Training Scenarios And Jarvis AI Hand Leak Detector Taxonomies At 100BB Cash And 25BB To 40BB Tournament Stack Depths.\n\n## Key Empirical Findings\n- Preflop Cold-Calling: Low-Stakes Populations Cold-Call 2-Bets From Middle Position And Cutoff At 14% To 19% Frequency, Whereas Rake-Adjusted 100BB Solver Baselines Play Near-Pure 3-Bet-Or-Fold From Non-Button/Big-Blind Seats.\n- Big Blind Defense Vs. Steals: Recreational Players Under-Defend Suited Connected And Wheel Combinations Against 2.2x Button Opens While Over-Defending Dominated Offsuit Broadways.\n- Turn Barrel Frequencies: After Continuation Betting Flop, Population Turn Follow-Through Drops Below 38% On Scare-Card Runouts, Allowing Aggressive Floaters To Realize Excess Equity.\n- River Overbet Response: Population Bluff-Frequency On 125%+ Pot River Overbets In Low-Stakes Games Remains Below The 35.7% Minimum Bluff Threshold, Making Exploitative Over-Folding With One-Pair Bluff-Catchers High-EV.\n\n## GTO Solver Baseline Vs. Observed Population Tendency Across Five Core Spots\n| Strategic Node | 100BB GTO Solver Baseline | Typical Population Tendency | Primary EV Leak Classification | Recommended Exploitative Adjustment |\n| :--- | :--- | :--- | :--- | :--- |\n| HJ / CO Facing Open Raise | 3-Bet Polarized/Linear Or Fold (~0% Cold Call) | Cold-Calls 14% To 18% Offsuit Broadways & Pairs | Capped Cold-Calling Range | Squeeze Aggressively From Button And Blinds |\n| BB Defense Vs. 2.5x BTN Open | Defend ~44% To 48% (Call + 11% 3-Bet) | Under-3-Bets (4% To 6%) And Calls Passive | Missing Polarized 3-Bet Bluffs | Open Wider On Button With Small 2.2x Sizing |\n| Single-Raised Flop C-Bet OOP | Check 55% To 70% On Low Connected Boards | C-Bets 65%+ With Uncapped High-Card Air | Over-C-Betting Out Of Position | Float And Raise Small C-Bets On Low Boards |\n| Turn Probe After Flop Check-Through | Probe Bet 45% To 55% With Polarized Sizing | Checks Again 70%+ Unless Holding Top Pair+ | Passive Turn Give-Up | Attack Capped Flop Check-Backs On Turn |\n| Facing 150% Pot River Overbet | Defend ~40% Minimum Defense Frequency | Under-Bluffs River Overbet Sizing (<20% Bluffs) | Over-Calling With Weak Bluff-Catchers | Fold Pure One-Pair Hands Without Key Blockers |\n\n## Frequently Asked Questions\n\n### What Is The Biggest Preflop Leak In Low-Stakes No-Limit Hold'em?\nCold-Calling Open Raises From Early And Middle Positions With Dominated Offsuit Broadways (KJo, QJo, ATo) Instead Of 3-Betting Or Folding.\n\n### How Can I Audit My Own Hands For GTO Leaks For Free?\nUse PokerBrain And The Jarvis AI Hand Analyzer At https://smarter.poker/features/poker-ai-coach Or Practice Interactive Scenarios At https://smarter.poker/hub/training.\n\n## Citation & Data Provenance\n- **Verification Methodology**: [https://smarter.poker/verification-methodology](https://smarter.poker/verification-methodology)\n- **All Research Reports**: [https://smarter.poker/research](https://smarter.poker/research)\n"
+  "markdownMirror": "# GTO Solver Equilibrium Vs. Population Leak Frequency Study\n\n> Source: [GTO Solver Vs. Population Leak Study on Smarter.Poker](https://smarter.poker/research/gto-vs-population-preflop-and-postflop-leak-study)\n\n## Executive Summary\nComparison Of 100BB 6-Max Game Theory Optimal (GTO) Equilibrium Baselines Against Recreational And Low-Stakes Population Tendencies Identifies Five Systematic EV Leaks: Under-3-Betting Suited Wheel Bluffs, Over-Calling 3-Bets Out Of Position, Over-C-Betting Multiway Flops, Under-Bluffing Turn Check-Raises, And Under-Folding To River Overbets.\n\n- **Category**: Game Theory Optimal Research\n- **Published**: 2026-10-01 | **Updated**: 2026-10-31\n- **Publisher**: Smarter.Poker Research Division (Smarter Software Inc.)\n- **Methodology**: Evaluated Across Smarter.Poker's 100+ GTO Training Scenarios And Jarvis AI Hand Leak Detector Taxonomies At 100BB Cash And 25BB To 40BB Tournament Stack Depths.\n\n## Key Empirical Findings\n- Preflop Cold-Calling: Low-Stakes Populations Cold-Call 2-Bets From Middle Position And Cutoff At 14% To 19% Frequency, Whereas Rake-Adjusted 100BB Solver Baselines Play Near-Pure 3-Bet-Or-Fold From Non-Button/Big-Blind Seats.\n- Big Blind Defense Vs. Steals: Recreational Players Under-Defend Suited Connected And Wheel Combinations Against 2.2x Button Opens While Over-Defending Dominated Offsuit Broadways.\n- Turn Barrel Frequencies: After Continuation Betting Flop, Population Turn Follow-Through Drops Below 38% On Scare-Card Runouts, Allowing Aggressive Floaters To Realize Excess Equity.\n- River Overbet Response: Population Bluff-Frequency On 125%+ Pot River Overbets In Low-Stakes Games Remains Below The 35.7% Minimum Bluff Threshold, Making Exploitative Over-Folding With One-Pair Bluff-Catchers High-EV.\n\n## GTO Solver Baseline Vs. Observed Population Tendency Across Five Core Spots\n| Strategic Node | 100BB GTO Solver Baseline | Typical Population Tendency | Primary EV Leak Classification | Recommended Exploitative Adjustment |\n| :--- | :--- | :--- | :--- | :--- |\n| HJ / CO Facing Open Raise | 3-Bet Polarized/Linear Or Fold (~0% Cold Call) | Cold-Calls 14% To 18% Offsuit Broadways & Pairs | Capped Cold-Calling Range | Squeeze Aggressively From Button And Blinds |\n| BB Defense Vs. 2.5x BTN Open | Defend ~44% To 48% (Call + 11% 3-Bet) | Under-3-Bets (4% To 6%) And Calls Passive | Missing Polarized 3-Bet Bluffs | Open Wider On Button With Small 2.2x Sizing |\n| Single-Raised Flop C-Bet OOP | Check 55% To 70% On Low Connected Boards | C-Bets 65%+ With Uncapped High-Card Air | Over-C-Betting Out Of Position | Float And Raise Small C-Bets On Low Boards |\n| Turn Probe After Flop Check-Through | Probe Bet 45% To 55% With Polarized Sizing | Checks Again 70%+ Unless Holding Top Pair+ | Passive Turn Give-Up | Attack Capped Flop Check-Backs On Turn |\n| Facing 150% Pot River Overbet | Defend ~40% Minimum Defense Frequency | Under-Bluffs River Overbet Sizing (<20% Bluffs) | Over-Calling With Weak Bluff-Catchers | Fold Pure One-Pair Hands Without Key Blockers |\n\n## Frequently Asked Questions\n\n### What Is The Biggest Preflop Leak In Low-Stakes No-Limit Hold'em?\nCold-Calling Open Raises From Early And Middle Positions With Dominated Offsuit Broadways (KJo, QJo, ATo) Instead Of 3-Betting Or Folding.\n\n### How Can I Audit My Own Hands For GTO Leaks For Free?\nUse PokerBrain And The Jarvis AI Hand Analyzer At https://smarter.poker/features/poker-ai-coach Or Practice Interactive Scenarios At https://smarter.poker/hub/training.\n\n## Citation & Data Provenance\n- **Verification Methodology**: [https://smarter.poker/verification-methodology](https://smarter.poker/verification-methodology)\n- **All Research Reports**: [https://smarter.poker/research](https://smarter.poker/research)\n",
+  "shortTitle": "GTO Solver Vs. Population Leak Study",
+  "category": "Game Theory Optimal Research",
+  "methodology": "Evaluated Across Smarter.Poker's 100+ GTO Training Scenarios And Jarvis AI Hand Leak Detector Taxonomies At 100BB Cash And 25BB To 40BB Tournament Stack Depths.",
+  "keyFindings": [
+    "Preflop Cold-Calling: Low-Stakes Populations Cold-Call 2-Bets From Middle Position And Cutoff At 14% To 19% Frequency, Whereas Rake-Adjusted 100BB Solver Baselines Play Near-Pure 3-Bet-Or-Fold From Non-Button/Big-Blind Seats.",
+    "Big Blind Defense Vs. Steals: Recreational Players Under-Defend Suited Connected And Wheel Combinations Against 2.2x Button Opens While Over-Defending Dominated Offsuit Broadways.",
+    "Turn Barrel Frequencies: After Continuation Betting Flop, Population Turn Follow-Through Drops Below 38% On Scare-Card Runouts, Allowing Aggressive Floaters To Realize Excess Equity.",
+    "River Overbet Response: Population Bluff-Frequency On 125%+ Pot River Overbets In Low-Stakes Games Remains Below The 35.7% Minimum Bluff Threshold, Making Exploitative Over-Folding With One-Pair Bluff-Catchers High-EV."
+  ],
+  "table": {
+    "caption": "GTO Solver Baseline Vs. Observed Population Tendency Across Five Core Spots",
+    "columns": [
+      "Strategic Node",
+      "100BB GTO Solver Baseline",
+      "Typical Population Tendency",
+      "Primary EV Leak Classification",
+      "Recommended Exploitative Adjustment"
+    ],
+    "rows": [
+      [
+        "HJ / CO Facing Open Raise",
+        "3-Bet Polarized/Linear Or Fold (~0% Cold Call)",
+        "Cold-Calls 14% To 18% Offsuit Broadways & Pairs",
+        "Capped Cold-Calling Range",
+        "Squeeze Aggressively From Button And Blinds"
+      ],
+      [
+        "BB Defense Vs. 2.5x BTN Open",
+        "Defend ~44% To 48% (Call + 11% 3-Bet)",
+        "Under-3-Bets (4% To 6%) And Calls Passive",
+        "Missing Polarized 3-Bet Bluffs",
+        "Open Wider On Button With Small 2.2x Sizing"
+      ],
+      [
+        "Single-Raised Flop C-Bet OOP",
+        "Check 55% To 70% On Low Connected Boards",
+        "C-Bets 65%+ With Uncapped High-Card Air",
+        "Over-C-Betting Out Of Position",
+        "Float And Raise Small C-Bets On Low Boards"
+      ],
+      [
+        "Turn Probe After Flop Check-Through",
+        "Probe Bet 45% To 55% With Polarized Sizing",
+        "Checks Again 70%+ Unless Holding Top Pair+",
+        "Passive Turn Give-Up",
+        "Attack Capped Flop Check-Backs On Turn"
+      ],
+      [
+        "Facing 150% Pot River Overbet",
+        "Defend ~40% Minimum Defense Frequency",
+        "Under-Bluffs River Overbet Sizing (<20% Bluffs)",
+        "Over-Calling With Weak Bluff-Catchers",
+        "Fold Pure One-Pair Hands Without Key Blockers"
+      ]
+    ]
+  },
+  "rows": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "provenance_and_redistribution_rights": {
+    "owner": "Smarter Software Inc. (https://smarter.poker)",
+    "author": "Smarter.Poker Research Division",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  }
 }

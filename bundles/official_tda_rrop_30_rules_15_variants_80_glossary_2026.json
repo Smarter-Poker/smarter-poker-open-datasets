@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2026.11.11",
-  "doi": "10.5281/zenodo.24095602",
-  "zenodoRecordUrl": "https://zenodo.org/records/24095602",
-  "title": "Official Poker Rules (TDA & RROP), 15 Game Variants & 80-Term Quantitative Glossary Corpus (2026)",
+  "doi": "10.5281/zenodo.24115454",
+  "zenodoRecordUrl": "https://zenodo.org/records/24115454",
+  "title": "Poker Floor Rules Reference (TDA & RROP Citations), 15 Game Variants & 80-Term Quantitative Glossary Corpus (2026)",
   "license": "CC-BY-4.0",
   "publisher": "Smarter.Poker Research Division",
   "canonicalUrl": "https://smarter.poker/rules",
@@ -3194,5 +3194,17 @@
         "value-bet"
       ]
     }
-  ]
+  ],
+  "version": "2026.11.11",
+  "conceptDoi": "10.5281/zenodo.24095601",
+  "previousVersionDoi": "10.5281/zenodo.24095602",
+  "editorialAttributionNotice": "Smarter.Poker floor rule summaries are independent editorial explanations citing published Poker Tournament Directors Association (Poker TDA) and Roberts Rules of Poker (RROP v11) standards; they are not official rulings issued or endorsed by the Poker TDA.",
+  "provenance_and_redistribution_rights": {
+    "owner": "Smarter Software Inc. (https://smarter.poker)",
+    "author": "Smarter.Poker Research Division",
+    "license": "Creative Commons Attribution 4.0 International (CC-BY-4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "redistributionRights": "Open access under CC-BY-4.0. Free to redistribute, adapt, and cite with attribution to Smarter.Poker Research Division and Concept DOI 10.5281/zenodo.24095601.",
+    "methodology": "Structured floor rule reference corpus covering 30 common live tournament and cash-game floor scenarios with explicit cross-references to published Poker TDA and Roberts Rules of Poker (RROP) sections, 15 poker game variant rule structures, and 80 quantitative poker glossary definitions."
+  }
 }

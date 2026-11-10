@@ -87,5 +87,71 @@
   ],
   "slug": "pot-limit-omaha-plo4-plo5-plo6-equity-and-variance-study",
   "exportedAt": "2026-11-09",
-  "markdownMirror": "# Pot-Limit Omaha (PLO4, PLO5, PLO6) Multiway Equity Compression And Bankroll Variance Study\n\n> Source: [PLO4, PLO5, And PLO6 Equity And Variance Study on Smarter.Poker](https://smarter.poker/research/pot-limit-omaha-plo4-plo5-plo6-equity-and-variance-study)\n\n## Executive Summary\nMonte Carlo Evaluations Across 100,000+ Simulated Runouts Show Preflop Equity Edges Compress Dramatically From No-Limit Hold'em (AA Vs. Random: 85.2%) To 4-Card PLO (AAKK Double-Suited Vs. Random: 68.8%), 5-Card PLO (64.2%), And 6-Card PLO (60.8%), Requiring 60 To 150 Buy-In Bankrolls To Maintain Sub-5% Risk Of Ruin.\n\n- **Category**: Omaha Mathematics & Variance\n- **Published**: 2026-10-01 | **Updated**: 2026-10-31\n- **Publisher**: Smarter.Poker Research Division (Smarter Software Inc.)\n- **Methodology**: Simulated Using The Smarter.Poker Multi-Variant Equity Engine (https://smarter.poker/tools/poker-odds-calculator) And Risk Of Ruin Variance Analyzer (https://smarter.poker/hub/training/risk-analyzer) Across Heads-Up And 3-Way All-In Pots.\n\n## Key Empirical Findings\n- Preflop Equity Compression: In 4-Card PLO, Even The Absolute Best Starting Hand (A-A-K-K Double-Suited) Is Only A 53.6% To 46.4% Favorite Against A Connected Rundown Like J-T-9-8 Double-Suited.\n- 5-Card And 6-Card PLO Nut Requirement: Adding A Fifth And Sixth Hole Card Increases Postflop Flush And Full-House Frequencies By 42% And 78% Respectively, Rendering Non-Nut Flushes And Unimproved Sets Negative-EV Stack-Offs In Multiway Pots.\n- Standard Deviation Escalation: Typical 100-Hand Standard Deviation Rises From 65-85 BB/100 In Live NLH To 120-145 BB/100 In PLO4 And 160-210 BB/100 In PLO5/PLO6.\n- Bankroll Multiplier Guidelines: A Winning Player At 5 BB/100 Requires ~30 Buy-Ins For Sub-5% Risk Of Ruin In NLH, ~75 Buy-Ins In PLO4, And 120+ Buy-Ins In PLO5 And PLO6.\n\n## No-Limit Hold'em Vs. PLO4, PLO5, And PLO6 Equity And Bankroll Benchmarks\n| Game Variant | Hole Cards | Top Hand Equity Vs Random | AAxx Vs Prime Rundown | Std Dev (BB/100) | Recommended Bankroll (5% RoR) |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| No-Limit Hold'em (NLHE) | 2 Cards | 85.2% (AA) | 79.6% Vs 20.4% (AA Vs JTs) | 65 To 85 BB/100 | 30 To 40 Buy-Ins |\n| 4-Card Pot-Limit Omaha (PLO4) | 4 Cards | 68.8% (AAKKds) | 53.6% Vs 46.4% (Vs JT98ds) | 120 To 145 BB/100 | 65 To 85 Buy-Ins |\n| 5-Card Pot-Limit Omaha (PLO5) | 5 Cards | 64.2% (AAKKQds) | 51.4% Vs 48.6% (Vs QJT98ds) | 155 To 185 BB/100 | 100 To 130 Buy-Ins |\n| 6-Card Pot-Limit Omaha (PLO6) | 6 Cards | 60.8% (AAKKQJds) | 50.2% Vs 49.8% (Vs KQJT98ds) | 180 To 220 BB/100 | 130 To 160 Buy-Ins |\n\n## Frequently Asked Questions\n\n### Why Is Variance Higher In PLO5 And PLO6 Than In Texas Hold'em?\nBecause Players Hold 5 Or 6 Hole Cards And Must Use Exactly Two, Preflop Equities Run Close To 50/50 And Pot-Limit Betting Generates Frequent Multi-Street All-In Commit Spots.\n\n### Where Can I Calculate Exact PLO4, PLO5, And PLO6 Hand Equities For Free?\nUse The Free Smarter.Poker Multi-Variant Odds Calculator At https://smarter.poker/tools/poker-odds-calculator To Simulate Hold'em, PLO4, PLO5, PLO6, Stud, And Razz.\n\n## Citation & Data Provenance\n- **Verification Methodology**: [https://smarter.poker/verification-methodology](https://smarter.poker/verification-methodology)\n- **All Research Reports**: [https://smarter.poker/research](https://smarter.poker/research)\n"
+  "markdownMirror": "# Pot-Limit Omaha (PLO4, PLO5, PLO6) Multiway Equity Compression And Bankroll Variance Study\n\n> Source: [PLO4, PLO5, And PLO6 Equity And Variance Study on Smarter.Poker](https://smarter.poker/research/pot-limit-omaha-plo4-plo5-plo6-equity-and-variance-study)\n\n## Executive Summary\nMonte Carlo Evaluations Across 100,000+ Simulated Runouts Show Preflop Equity Edges Compress Dramatically From No-Limit Hold'em (AA Vs. Random: 85.2%) To 4-Card PLO (AAKK Double-Suited Vs. Random: 68.8%), 5-Card PLO (64.2%), And 6-Card PLO (60.8%), Requiring 60 To 150 Buy-In Bankrolls To Maintain Sub-5% Risk Of Ruin.\n\n- **Category**: Omaha Mathematics & Variance\n- **Published**: 2026-10-01 | **Updated**: 2026-10-31\n- **Publisher**: Smarter.Poker Research Division (Smarter Software Inc.)\n- **Methodology**: Simulated Using The Smarter.Poker Multi-Variant Equity Engine (https://smarter.poker/tools/poker-odds-calculator) And Risk Of Ruin Variance Analyzer (https://smarter.poker/hub/training/risk-analyzer) Across Heads-Up And 3-Way All-In Pots.\n\n## Key Empirical Findings\n- Preflop Equity Compression: In 4-Card PLO, Even The Absolute Best Starting Hand (A-A-K-K Double-Suited) Is Only A 53.6% To 46.4% Favorite Against A Connected Rundown Like J-T-9-8 Double-Suited.\n- 5-Card And 6-Card PLO Nut Requirement: Adding A Fifth And Sixth Hole Card Increases Postflop Flush And Full-House Frequencies By 42% And 78% Respectively, Rendering Non-Nut Flushes And Unimproved Sets Negative-EV Stack-Offs In Multiway Pots.\n- Standard Deviation Escalation: Typical 100-Hand Standard Deviation Rises From 65-85 BB/100 In Live NLH To 120-145 BB/100 In PLO4 And 160-210 BB/100 In PLO5/PLO6.\n- Bankroll Multiplier Guidelines: A Winning Player At 5 BB/100 Requires ~30 Buy-Ins For Sub-5% Risk Of Ruin In NLH, ~75 Buy-Ins In PLO4, And 120+ Buy-Ins In PLO5 And PLO6.\n\n## No-Limit Hold'em Vs. PLO4, PLO5, And PLO6 Equity And Bankroll Benchmarks\n| Game Variant | Hole Cards | Top Hand Equity Vs Random | AAxx Vs Prime Rundown | Std Dev (BB/100) | Recommended Bankroll (5% RoR) |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| No-Limit Hold'em (NLHE) | 2 Cards | 85.2% (AA) | 79.6% Vs 20.4% (AA Vs JTs) | 65 To 85 BB/100 | 30 To 40 Buy-Ins |\n| 4-Card Pot-Limit Omaha (PLO4) | 4 Cards | 68.8% (AAKKds) | 53.6% Vs 46.4% (Vs JT98ds) | 120 To 145 BB/100 | 65 To 85 Buy-Ins |\n| 5-Card Pot-Limit Omaha (PLO5) | 5 Cards | 64.2% (AAKKQds) | 51.4% Vs 48.6% (Vs QJT98ds) | 155 To 185 BB/100 | 100 To 130 Buy-Ins |\n| 6-Card Pot-Limit Omaha (PLO6) | 6 Cards | 60.8% (AAKKQJds) | 50.2% Vs 49.8% (Vs KQJT98ds) | 180 To 220 BB/100 | 130 To 160 Buy-Ins |\n\n## Frequently Asked Questions\n\n### Why Is Variance Higher In PLO5 And PLO6 Than In Texas Hold'em?\nBecause Players Hold 5 Or 6 Hole Cards And Must Use Exactly Two, Preflop Equities Run Close To 50/50 And Pot-Limit Betting Generates Frequent Multi-Street All-In Commit Spots.\n\n### Where Can I Calculate Exact PLO4, PLO5, And PLO6 Hand Equities For Free?\nUse The Free Smarter.Poker Multi-Variant Odds Calculator At https://smarter.poker/tools/poker-odds-calculator To Simulate Hold'em, PLO4, PLO5, PLO6, Stud, And Razz.\n\n## Citation & Data Provenance\n- **Verification Methodology**: [https://smarter.poker/verification-methodology](https://smarter.poker/verification-methodology)\n- **All Research Reports**: [https://smarter.poker/research](https://smarter.poker/research)\n",
+  "shortTitle": "PLO4, PLO5, And PLO6 Equity And Variance Study",
+  "category": "Omaha Mathematics & Variance",
+  "methodology": "Simulated Using The Smarter.Poker Multi-Variant Equity Engine (https://smarter.poker/tools/poker-odds-calculator) And Risk Of Ruin Variance Analyzer (https://smarter.poker/hub/training/risk-analyzer) Across Heads-Up And 3-Way All-In Pots.",
+  "keyFindings": [
+    "Preflop Equity Compression: In 4-Card PLO, Even The Absolute Best Starting Hand (A-A-K-K Double-Suited) Is Only A 53.6% To 46.4% Favorite Against A Connected Rundown Like J-T-9-8 Double-Suited.",
+    "5-Card And 6-Card PLO Nut Requirement: Adding A Fifth And Sixth Hole Card Increases Postflop Flush And Full-House Frequencies By 42% And 78% Respectively, Rendering Non-Nut Flushes And Unimproved Sets Negative-EV Stack-Offs In Multiway Pots.",
+    "Standard Deviation Escalation: Typical 100-Hand Standard Deviation Rises From 65-85 BB/100 In Live NLH To 120-145 BB/100 In PLO4 And 160-210 BB/100 In PLO5/PLO6.",
+    "Bankroll Multiplier Guidelines: A Winning Player At 5 BB/100 Requires ~30 Buy-Ins For Sub-5% Risk Of Ruin In NLH, ~75 Buy-Ins In PLO4, And 120+ Buy-Ins In PLO5 And PLO6."
+  ],
+  "table": {
+    "caption": "No-Limit Hold'em Vs. PLO4, PLO5, And PLO6 Equity And Bankroll Benchmarks",
+    "columns": [
+      "Game Variant",
+      "Hole Cards",
+      "Top Hand Equity Vs Random",
+      "AAxx Vs Prime Rundown",
+      "Std Dev (BB/100)",
+      "Recommended Bankroll (5% RoR)"
+    ],
+    "rows": [
+      [
+        "No-Limit Hold'em (NLHE)",
+        "2 Cards",
+        "85.2% (AA)",
+        "79.6% Vs 20.4% (AA Vs JTs)",
+        "65 To 85 BB/100",
+        "30 To 40 Buy-Ins"
+      ],
+      [
+        "4-Card Pot-Limit Omaha (PLO4)",
+        "4 Cards",
+        "68.8% (AAKKds)",
+        "53.6% Vs 46.4% (Vs JT98ds)",
+        "120 To 145 BB/100",
+        "65 To 85 Buy-Ins"
+      ],
+      [
+        "5-Card Pot-Limit Omaha (PLO5)",
+        "5 Cards",
+        "64.2% (AAKKQds)",
+        "51.4% Vs 48.6% (Vs QJT98ds)",
+        "155 To 185 BB/100",
+        "100 To 130 Buy-Ins"
+      ],
+      [
+        "6-Card Pot-Limit Omaha (PLO6)",
+        "6 Cards",
+        "60.8% (AAKKQJds)",
+        "50.2% Vs 49.8% (Vs KQJT98ds)",
+        "180 To 220 BB/100",
+        "130 To 160 Buy-Ins"
+      ]
+    ]
+  },
+  "rows": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "provenance_and_redistribution_rights": {
+    "owner": "Smarter Software Inc. (https://smarter.poker)",
+    "author": "Smarter.Poker Research Division",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  }
 }

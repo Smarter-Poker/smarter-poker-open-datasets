@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2026.11.11",
-  "doi": "10.5281/zenodo.24095564",
-  "zenodoRecordUrl": "https://zenodo.org/records/24095564",
+  "doi": "10.5281/zenodo.24115452",
+  "zenodoRecordUrl": "https://zenodo.org/records/24115452",
   "title": "100BB 6-Max GTO Preflop Ranges, 169 Starting Hands & 25 Canonical Matchup Benchmarks (2026)",
   "license": "CC-BY-4.0",
   "publisher": "Smarter.Poker Research Division",
@@ -8240,5 +8240,16 @@
         }
       ]
     }
-  ]
+  ],
+  "version": "2026.11.11",
+  "conceptDoi": "10.5281/zenodo.24095563",
+  "previousVersionDoi": "10.5281/zenodo.24095564",
+  "provenance_and_redistribution_rights": {
+    "owner": "Smarter Software Inc. (https://smarter.poker)",
+    "author": "Smarter.Poker Research Division",
+    "license": "Creative Commons Attribution 4.0 International (CC-BY-4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "redistributionRights": "Open access under CC-BY-4.0. Free to redistribute, adapt, and cite with attribution to Smarter.Poker Research Division and Concept DOI 10.5281/zenodo.24095563.",
+    "methodology": "Exact 52-card deck combinatorial enumeration (1,712,304 five-card boards per specific suit pairing, zero dead cards) for 25 canonical all-in matchups and 100BB 6-Max cEV Game Theory Optimal preflop solver frequency matrices across all 169 canonical starting hand equivalence classes."
+  }
 }

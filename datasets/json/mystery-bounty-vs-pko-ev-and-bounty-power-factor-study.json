@@ -87,5 +87,139 @@
   ],
   "slug": "mystery-bounty-vs-pko-ev-and-bounty-power-factor-study",
   "exportedAt": "2026-11-09",
-  "markdownMirror": "# 2026 Mystery Bounty Vs. Progressive Knockout (PKO) EV & Bounty Power Factor Study\n\n> Source: [Mystery Bounty Vs. PKO EV And Power Factor on Smarter.Poker](https://smarter.poker/research/mystery-bounty-vs-pko-ev-and-bounty-power-factor-study)\n\n## Executive Summary\nComparative Monte Carlo And Bounty Power Factor Analysis Of Progressive Knockout (PKO) Versus Mystery Bounty Tournaments Shows That While PKO Events Award 25% Of Starting Buy-In Immediately Upon Each Elimination From Hand One, Mystery Bounty Envelopes Activate Exclusively At Day 2 Or In-The-Money (ITM), Causing Chip-Stack Utility On The Mystery Activation Bubble To Surge By 38% To 64% Relative To Standard Freezeout ICM.\n\n- **Category**: Bounty Tournament Game Theory\n- **Published**: 2026-10-01 | **Updated**: 2026-10-31\n- **Publisher**: Smarter.Poker Research Division (Smarter Software Inc.)\n- **Methodology**: Evaluated Across 50,000+ Simulated Bounty Tournament Trajectories Using The Smarter.Poker ICM And Bounty Equity Engine (https://smarter.poker/tools/icm-calculator) And Live Series Mystery Envelope Schedules.\n\n## Key Empirical Findings\n- Early-Stage Chip Accumulation Imperative: Because Mystery Bounties Cannot Be Won Until Day 2 Or ITM, Early-Level Eliminations Yield Zero Immediate Bounty Cash, Making Chip Accumulation To Cover The Field At Activation The Primary Strategic Objective.\n- PKO Starting Bounty Conversion: In A 50% Bounty Pool PKO, Each Starting Bounty Equals 25% Of A Starting Stack In Immediate Cash Plus 25% Added To The Winner's Head, Reducing Required Heads-Up All-In Calling Equity By 8.3% At Equal Stacks.\n- Mystery Activation Bubble Distortion: When Mystery Envelopes Activate At 12% To 15% Of The Field Remaining, Covering Stacks Experience Negative Risk Premiums Against Short Stacks (-12% To -19% Equity Discount), Whereas Covered Stacks Face Severe Survival Penalties.\n- Top-Envelope Removal Decay: Once The Top 1% And 2% Jackpot Envelopes Are Drawn From A Mystery Drum, Remaining Average Envelope EV Drops By 28% To 44%, Requiring Immediate Tightening Of Wide Bounty-Hunting Calling Ranges.\n\n## PKO Vs. Mystery Bounty Power Factor And Required All-In Calling Equity Benchmarks\n| Tournament Format & Phase | Immediate Bounty Cash Share | Bounty Power Factor (Chips) | Chip-EV Calling Threshold | Bounty-Adjusted Calling Equity | Strategic Adjustment |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Standard Freezeout Early Stage | 0% Of Buy-In | 0.00x Starting Stack | 50.0% Equity | 50.0% Equity | Standard Chip-EV Equilibrium |\n| PKO Level 1 (1 Starting Bounty) | 25% Of Buy-In Instant | 0.33x Starting Stack | 50.0% Equity | 42.9% Equity | Call Wider When Covering Short Stacks |\n| PKO Late Stage (4x Accumulated Bounty) | 50% Of Displayed Bounty | 1.35x+ Starting Stack | 50.0% Equity | 31.5% To 36.0% Equity | Prioritize Big-Bounty Isolation Shoves |\n| Mystery Bounty Day 1 (Pre-Activation) | 0% Until Day 2 / ITM | 0.00x Immediate (Future Leverage) | 50.0% Equity | 51.5% Equity (Survival Bias) | Build Top-Quartile Stack For Day 2 |\n| Mystery Bounty ITM Activation (Full Drum) | 100% Of Drawn Envelope | 0.85x Average Stack Value | 50.0% Equity | 35.2% Equity (When Covering) | Aggressively Hunt Sub-15BB Stacks |\n| Mystery Bounty Late (Top Jackpot Drawn) | 100% Of Remaining Pool | 0.48x Average Stack Value | 50.0% Equity | 43.8% Equity (Revert Toward ICM) | Shift Back Toward Final Table Pay Jumps |\n\n## Frequently Asked Questions\n\n### How Does Bounty Power Factor Differ Between PKO And Mystery Bounty Tournaments?\nIn PKO Tournaments, Every Elimination Awards Immediate Cash From Hand One (~0.33x Starting Stack Equivalent), Whereas Mystery Bounties Award Zero Cash On Day 1 And Explode To ~0.85x Average Stack Equivalent Once Envelope Draws Begin In The Money.\n\n### How Does Drawing The Top Mystery Bounty Envelope Change Calling Ranges?\nOnce The Grand Prize Envelope Is Pulled From The Drum, The Average Value Of Remaining Envelopes Drops By 28% To 44%, Meaning Covering Stacks Must Immediately Stop Calling All-Ins With Speculative Hands And Return To Standard ICM Play.\n\n## Citation & Data Provenance\n- **Verification Methodology**: [https://smarter.poker/verification-methodology](https://smarter.poker/verification-methodology)\n- **All Research Reports**: [https://smarter.poker/research](https://smarter.poker/research)\n"
+  "markdownMirror": "# 2026 Mystery Bounty Vs. Progressive Knockout (PKO) EV & Bounty Power Factor Study\n\n> Source: [Mystery Bounty Vs. PKO EV And Power Factor on Smarter.Poker](https://smarter.poker/research/mystery-bounty-vs-pko-ev-and-bounty-power-factor-study)\n\n## Executive Summary\nComparative Monte Carlo And Bounty Power Factor Analysis Of Progressive Knockout (PKO) Versus Mystery Bounty Tournaments Shows That While PKO Events Award 25% Of Starting Buy-In Immediately Upon Each Elimination From Hand One, Mystery Bounty Envelopes Activate Exclusively At Day 2 Or In-The-Money (ITM), Causing Chip-Stack Utility On The Mystery Activation Bubble To Surge By 38% To 64% Relative To Standard Freezeout ICM.\n\n- **Category**: Bounty Tournament Game Theory\n- **Published**: 2026-10-01 | **Updated**: 2026-10-31\n- **Publisher**: Smarter.Poker Research Division (Smarter Software Inc.)\n- **Methodology**: Evaluated Across 50,000+ Simulated Bounty Tournament Trajectories Using The Smarter.Poker ICM And Bounty Equity Engine (https://smarter.poker/tools/icm-calculator) And Live Series Mystery Envelope Schedules.\n\n## Key Empirical Findings\n- Early-Stage Chip Accumulation Imperative: Because Mystery Bounties Cannot Be Won Until Day 2 Or ITM, Early-Level Eliminations Yield Zero Immediate Bounty Cash, Making Chip Accumulation To Cover The Field At Activation The Primary Strategic Objective.\n- PKO Starting Bounty Conversion: In A 50% Bounty Pool PKO, Each Starting Bounty Equals 25% Of A Starting Stack In Immediate Cash Plus 25% Added To The Winner's Head, Reducing Required Heads-Up All-In Calling Equity By 8.3% At Equal Stacks.\n- Mystery Activation Bubble Distortion: When Mystery Envelopes Activate At 12% To 15% Of The Field Remaining, Covering Stacks Experience Negative Risk Premiums Against Short Stacks (-12% To -19% Equity Discount), Whereas Covered Stacks Face Severe Survival Penalties.\n- Top-Envelope Removal Decay: Once The Top 1% And 2% Jackpot Envelopes Are Drawn From A Mystery Drum, Remaining Average Envelope EV Drops By 28% To 44%, Requiring Immediate Tightening Of Wide Bounty-Hunting Calling Ranges.\n\n## PKO Vs. Mystery Bounty Power Factor And Required All-In Calling Equity Benchmarks\n| Tournament Format & Phase | Immediate Bounty Cash Share | Bounty Power Factor (Chips) | Chip-EV Calling Threshold | Bounty-Adjusted Calling Equity | Strategic Adjustment |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Standard Freezeout Early Stage | 0% Of Buy-In | 0.00x Starting Stack | 50.0% Equity | 50.0% Equity | Standard Chip-EV Equilibrium |\n| PKO Level 1 (1 Starting Bounty) | 25% Of Buy-In Instant | 0.33x Starting Stack | 50.0% Equity | 42.9% Equity | Call Wider When Covering Short Stacks |\n| PKO Late Stage (4x Accumulated Bounty) | 50% Of Displayed Bounty | 1.35x+ Starting Stack | 50.0% Equity | 31.5% To 36.0% Equity | Prioritize Big-Bounty Isolation Shoves |\n| Mystery Bounty Day 1 (Pre-Activation) | 0% Until Day 2 / ITM | 0.00x Immediate (Future Leverage) | 50.0% Equity | 51.5% Equity (Survival Bias) | Build Top-Quartile Stack For Day 2 |\n| Mystery Bounty ITM Activation (Full Drum) | 100% Of Drawn Envelope | 0.85x Average Stack Value | 50.0% Equity | 35.2% Equity (When Covering) | Aggressively Hunt Sub-15BB Stacks |\n| Mystery Bounty Late (Top Jackpot Drawn) | 100% Of Remaining Pool | 0.48x Average Stack Value | 50.0% Equity | 43.8% Equity (Revert Toward ICM) | Shift Back Toward Final Table Pay Jumps |\n\n## Frequently Asked Questions\n\n### How Does Bounty Power Factor Differ Between PKO And Mystery Bounty Tournaments?\nIn PKO Tournaments, Every Elimination Awards Immediate Cash From Hand One (~0.33x Starting Stack Equivalent), Whereas Mystery Bounties Award Zero Cash On Day 1 And Explode To ~0.85x Average Stack Equivalent Once Envelope Draws Begin In The Money.\n\n### How Does Drawing The Top Mystery Bounty Envelope Change Calling Ranges?\nOnce The Grand Prize Envelope Is Pulled From The Drum, The Average Value Of Remaining Envelopes Drops By 28% To 44%, Meaning Covering Stacks Must Immediately Stop Calling All-Ins With Speculative Hands And Return To Standard ICM Play.\n\n## Citation & Data Provenance\n- **Verification Methodology**: [https://smarter.poker/verification-methodology](https://smarter.poker/verification-methodology)\n- **All Research Reports**: [https://smarter.poker/research](https://smarter.poker/research)\n",
+  "shortTitle": "Mystery Bounty Vs. PKO EV And Power Factor",
+  "category": "Bounty Tournament Game Theory",
+  "methodology": "Evaluated Across 50,000+ Simulated Bounty Tournament Trajectories Using The Smarter.Poker ICM And Bounty Equity Engine (https://smarter.poker/tools/icm-calculator) And Live Series Mystery Envelope Schedules.",
+  "keyFindings": [
+    "Early-Stage Chip Accumulation Imperative: Because Mystery Bounties Cannot Be Won Until Day 2 Or ITM, Early-Level Eliminations Yield Zero Immediate Bounty Cash, Making Chip Accumulation To Cover The Field At Activation The Primary Strategic Objective.",
+    "PKO Starting Bounty Conversion: In A 50% Bounty Pool PKO, Each Starting Bounty Equals 25% Of A Starting Stack In Immediate Cash Plus 25% Added To The Winner's Head, Reducing Required Heads-Up All-In Calling Equity By 8.3% At Equal Stacks.",
+    "Mystery Activation Bubble Distortion: When Mystery Envelopes Activate At 12% To 15% Of The Field Remaining, Covering Stacks Experience Negative Risk Premiums Against Short Stacks (-12% To -19% Equity Discount), Whereas Covered Stacks Face Severe Survival Penalties.",
+    "Top-Envelope Removal Decay: Once The Top 1% And 2% Jackpot Envelopes Are Drawn From A Mystery Drum, Remaining Average Envelope EV Drops By 28% To 44%, Requiring Immediate Tightening Of Wide Bounty-Hunting Calling Ranges."
+  ],
+  "table": {
+    "caption": "PKO Vs. Mystery Bounty Power Factor And Required All-In Calling Equity Benchmarks",
+    "columns": [
+      "Tournament Format & Phase",
+      "Immediate Bounty Cash Share",
+      "Bounty Power Factor (Chips)",
+      "Chip-EV Calling Threshold",
+      "Bounty-Adjusted Calling Equity",
+      "Strategic Adjustment"
+    ],
+    "headers": [
+      "Tournament Format & Phase",
+      "Immediate Bounty Cash Share",
+      "Bounty Power Factor (Chips)",
+      "Chip-EV Calling Threshold",
+      "Bounty-Adjusted Calling Equity",
+      "Strategic Adjustment"
+    ],
+    "rows": [
+      [
+        "Standard Freezeout Early Stage",
+        "0% Of Buy-In",
+        "0.00x Starting Stack",
+        "50.0% Equity",
+        "50.0% Equity",
+        "Standard Chip-EV Equilibrium"
+      ],
+      [
+        "PKO Level 1 (1 Starting Bounty)",
+        "25% Of Buy-In Instant",
+        "0.33x Starting Stack",
+        "50.0% Equity",
+        "42.9% Equity",
+        "Call Wider When Covering Short Stacks"
+      ],
+      [
+        "PKO Late Stage (4x Accumulated Bounty)",
+        "50% Of Displayed Bounty",
+        "1.35x+ Starting Stack",
+        "50.0% Equity",
+        "31.5% To 36.0% Equity",
+        "Prioritize Big-Bounty Isolation Shoves"
+      ],
+      [
+        "Mystery Bounty Day 1 (Pre-Activation)",
+        "0% Until Day 2 / ITM",
+        "0.00x Immediate (Future Leverage)",
+        "50.0% Equity",
+        "51.5% Equity (Survival Bias)",
+        "Build Top-Quartile Stack For Day 2"
+      ],
+      [
+        "Mystery Bounty ITM Activation (Full Drum)",
+        "100% Of Drawn Envelope",
+        "0.85x Average Stack Value",
+        "50.0% Equity",
+        "35.2% Equity (When Covering)",
+        "Aggressively Hunt Sub-15BB Stacks"
+      ],
+      [
+        "Mystery Bounty Late (Top Jackpot Drawn)",
+        "100% Of Remaining Pool",
+        "0.48x Average Stack Value",
+        "50.0% Equity",
+        "43.8% Equity (Revert Toward ICM)",
+        "Shift Back Toward Final Table Pay Jumps"
+      ]
+    ]
+  },
+  "rows": [
+    {
+      "Tournament Format & Phase": "Standard Freezeout Early Stage",
+      "Immediate Bounty Cash Share": "0% Of Buy-In",
+      "Bounty Power Factor (Chips)": "0.00x Starting Stack",
+      "Chip-EV Calling Threshold": "50.0% Equity",
+      "Bounty-Adjusted Calling Equity": "50.0% Equity",
+      "Strategic Adjustment": "Standard Chip-EV Equilibrium"
+    },
+    {
+      "Tournament Format & Phase": "PKO Level 1 (1 Starting Bounty)",
+      "Immediate Bounty Cash Share": "25% Of Buy-In Instant",
+      "Bounty Power Factor (Chips)": "0.33x Starting Stack",
+      "Chip-EV Calling Threshold": "50.0% Equity",
+      "Bounty-Adjusted Calling Equity": "42.9% Equity",
+      "Strategic Adjustment": "Call Wider When Covering Short Stacks"
+    },
+    {
+      "Tournament Format & Phase": "PKO Late Stage (4x Accumulated Bounty)",
+      "Immediate Bounty Cash Share": "50% Of Displayed Bounty",
+      "Bounty Power Factor (Chips)": "1.35x+ Starting Stack",
+      "Chip-EV Calling Threshold": "50.0% Equity",
+      "Bounty-Adjusted Calling Equity": "31.5% To 36.0% Equity",
+      "Strategic Adjustment": "Prioritize Big-Bounty Isolation Shoves"
+    },
+    {
+      "Tournament Format & Phase": "Mystery Bounty Day 1 (Pre-Activation)",
+      "Immediate Bounty Cash Share": "0% Until Day 2 / ITM",
+      "Bounty Power Factor (Chips)": "0.00x Immediate (Future Leverage)",
+      "Chip-EV Calling Threshold": "50.0% Equity",
+      "Bounty-Adjusted Calling Equity": "51.5% Equity (Survival Bias)",
+      "Strategic Adjustment": "Build Top-Quartile Stack For Day 2"
+    },
+    {
+      "Tournament Format & Phase": "Mystery Bounty ITM Activation (Full Drum)",
+      "Immediate Bounty Cash Share": "100% Of Drawn Envelope",
+      "Bounty Power Factor (Chips)": "0.85x Average Stack Value",
+      "Chip-EV Calling Threshold": "50.0% Equity",
+      "Bounty-Adjusted Calling Equity": "35.2% Equity (When Covering)",
+      "Strategic Adjustment": "Aggressively Hunt Sub-15BB Stacks"
+    },
+    {
+      "Tournament Format & Phase": "Mystery Bounty Late (Top Jackpot Drawn)",
+      "Immediate Bounty Cash Share": "100% Of Remaining Pool",
+      "Bounty Power Factor (Chips)": "0.48x Average Stack Value",
+      "Chip-EV Calling Threshold": "50.0% Equity",
+      "Bounty-Adjusted Calling Equity": "43.8% Equity (Revert Toward ICM)",
+      "Strategic Adjustment": "Shift Back Toward Final Table Pay Jumps"
+    }
+  ],
+  "provenance_and_redistribution_rights": {
+    "owner": "Smarter Software Inc. (https://smarter.poker)",
+    "author": "Smarter.Poker Research Division",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  }
 }

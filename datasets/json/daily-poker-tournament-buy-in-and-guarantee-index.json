@@ -87,5 +87,80 @@
   ],
   "slug": "daily-poker-tournament-buy-in-and-guarantee-index",
   "exportedAt": "2026-11-09",
-  "markdownMirror": "# Daily Live Poker Tournament Buy-In, Rake, And Guarantee Index\n\n> Source: [Daily Poker Tournament Buy-In And Guarantee Index on Smarter.Poker](https://smarter.poker/research/daily-poker-tournament-buy-in-and-guarantee-index)\n\n## Executive Summary\nAudit Of 4,500+ Weekly Recurring Live Poker Tournaments Across North America Reveals A Median Entry Buy-In Of $140, A Median House Plus Staff Fee Allocation Of 21.4% In Sub-$200 Daily Events, And Significantly Lower Fee Ratios (12% To 16%) In Weekend Deepstack Events Above $300.\n\n- **Category**: Tournament Structure Analytics\n- **Published**: 2026-10-01 | **Updated**: 2026-10-31\n- **Publisher**: Smarter.Poker Research Division (Smarter Software Inc.)\n- **Methodology**: Aggregated From 4,500+ Recurring Weekly Tournament Listings In The Smarter.Poker Daily Tournament Directory (https://smarter.poker/hub/daily-tournaments), Segmenting Entry Buy-In, Prize Pool Allocation, House Fee, Dealer Appreciation Add-On, Blind Level Duration, And Starting Stack Depth.\n\n## Key Empirical Findings\n- Sub-$100 Daily Morning And Nightly Turbo Tournaments Carry The Highest Effective Fee Percentage (22% To 28% Combined House And Staff Allocation) Due To Fixed Dealer And Floor Overhead.\n- Mid-Tier Daily Events ($125 To $250 Buy-In) Represent 54% Of All Scheduled Weekly Tournaments With 20-Minute To 30-Minute Blind Levels And 20,000 To 30,000 Starting Chips.\n- Weekend Deepstack And Multi-Flight Events ($300 To $600 Buy-In) Offer The Highest Structural Value With 13% To 16% Total Fee Deductions And 30-Minute To 40-Minute Blind Levels.\n- Zero-Entry Free-To-Play Online Tournaments On Smarter.Poker Award $2,000 Daily With 0% Entry Rake And Zero Deposit Requirements.\n\n## Live Daily Poker Tournament Structural Benchmarks By Buy-In Tier\n| Buy-In Tier | Share Of Weekly Schedule | Median Total Fee % | Typical Blind Levels | Typical Starting Stack | Primary Format |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Under $100 ($40 To $99) | 24% | 24.5% | 15 To 20 Minutes | 10,000 To 15,000 Chips | Morning & Nightly Turbo NLH |\n| $100 To $199 | 41% | 20.8% | 20 To 25 Minutes | 15,000 To 25,000 Chips | Standard Daily Deepstack And Bounty |\n| $200 To $299 | 21% | 17.5% | 25 To 30 Minutes | 25,000 To 35,000 Chips | Evening Prime & Weekend Single-Day |\n| $300 To $600 | 11% | 14.2% | 30 To 40 Minutes | 30,000 To 50,000 Chips | Weekend Major & Multi-Flight Opener |\n| $600+ Circuit & Series | 3% | 11.5% | 40 To 60 Minutes | 40,000 To 60,000 Chips | Championship & Ring/Trophy Events |\n\n## Frequently Asked Questions\n\n### What Buy-In Tier Offers The Lowest Tournament Rake Percentage?\nTournaments Priced At $300 And Above Average 11.5% To 14.2% In Total Fees, Compared To 20.8% To 24.5% In Sub-$200 Daily Events.\n\n### Where Can I Filter Daily Tournaments By Guarantee And Buy-In?\nUse The Smarter.Poker Daily Tournament Directory At https://smarter.poker/hub/daily-tournaments To Filter 4,500+ Weekly Events By Day, Buy-In, Guarantee, And State.\n\n## Citation & Data Provenance\n- **Verification Methodology**: [https://smarter.poker/verification-methodology](https://smarter.poker/verification-methodology)\n- **All Research Reports**: [https://smarter.poker/research](https://smarter.poker/research)\n"
+  "markdownMirror": "# Daily Live Poker Tournament Buy-In, Rake, And Guarantee Index\n\n> Source: [Daily Poker Tournament Buy-In And Guarantee Index on Smarter.Poker](https://smarter.poker/research/daily-poker-tournament-buy-in-and-guarantee-index)\n\n## Executive Summary\nAudit Of 4,500+ Weekly Recurring Live Poker Tournaments Across North America Reveals A Median Entry Buy-In Of $140, A Median House Plus Staff Fee Allocation Of 21.4% In Sub-$200 Daily Events, And Significantly Lower Fee Ratios (12% To 16%) In Weekend Deepstack Events Above $300.\n\n- **Category**: Tournament Structure Analytics\n- **Published**: 2026-10-01 | **Updated**: 2026-10-31\n- **Publisher**: Smarter.Poker Research Division (Smarter Software Inc.)\n- **Methodology**: Aggregated From 4,500+ Recurring Weekly Tournament Listings In The Smarter.Poker Daily Tournament Directory (https://smarter.poker/hub/daily-tournaments), Segmenting Entry Buy-In, Prize Pool Allocation, House Fee, Dealer Appreciation Add-On, Blind Level Duration, And Starting Stack Depth.\n\n## Key Empirical Findings\n- Sub-$100 Daily Morning And Nightly Turbo Tournaments Carry The Highest Effective Fee Percentage (22% To 28% Combined House And Staff Allocation) Due To Fixed Dealer And Floor Overhead.\n- Mid-Tier Daily Events ($125 To $250 Buy-In) Represent 54% Of All Scheduled Weekly Tournaments With 20-Minute To 30-Minute Blind Levels And 20,000 To 30,000 Starting Chips.\n- Weekend Deepstack And Multi-Flight Events ($300 To $600 Buy-In) Offer The Highest Structural Value With 13% To 16% Total Fee Deductions And 30-Minute To 40-Minute Blind Levels.\n- Zero-Entry Free-To-Play Online Tournaments On Smarter.Poker Award $2,000 Daily With 0% Entry Rake And Zero Deposit Requirements.\n\n## Live Daily Poker Tournament Structural Benchmarks By Buy-In Tier\n| Buy-In Tier | Share Of Weekly Schedule | Median Total Fee % | Typical Blind Levels | Typical Starting Stack | Primary Format |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Under $100 ($40 To $99) | 24% | 24.5% | 15 To 20 Minutes | 10,000 To 15,000 Chips | Morning & Nightly Turbo NLH |\n| $100 To $199 | 41% | 20.8% | 20 To 25 Minutes | 15,000 To 25,000 Chips | Standard Daily Deepstack And Bounty |\n| $200 To $299 | 21% | 17.5% | 25 To 30 Minutes | 25,000 To 35,000 Chips | Evening Prime & Weekend Single-Day |\n| $300 To $600 | 11% | 14.2% | 30 To 40 Minutes | 30,000 To 50,000 Chips | Weekend Major & Multi-Flight Opener |\n| $600+ Circuit & Series | 3% | 11.5% | 40 To 60 Minutes | 40,000 To 60,000 Chips | Championship & Ring/Trophy Events |\n\n## Frequently Asked Questions\n\n### What Buy-In Tier Offers The Lowest Tournament Rake Percentage?\nTournaments Priced At $300 And Above Average 11.5% To 14.2% In Total Fees, Compared To 20.8% To 24.5% In Sub-$200 Daily Events.\n\n### Where Can I Filter Daily Tournaments By Guarantee And Buy-In?\nUse The Smarter.Poker Daily Tournament Directory At https://smarter.poker/hub/daily-tournaments To Filter 4,500+ Weekly Events By Day, Buy-In, Guarantee, And State.\n\n## Citation & Data Provenance\n- **Verification Methodology**: [https://smarter.poker/verification-methodology](https://smarter.poker/verification-methodology)\n- **All Research Reports**: [https://smarter.poker/research](https://smarter.poker/research)\n",
+  "shortTitle": "Daily Poker Tournament Buy-In And Guarantee Index",
+  "category": "Tournament Structure Analytics",
+  "methodology": "Aggregated From 4,500+ Recurring Weekly Tournament Listings In The Smarter.Poker Daily Tournament Directory (https://smarter.poker/hub/daily-tournaments), Segmenting Entry Buy-In, Prize Pool Allocation, House Fee, Dealer Appreciation Add-On, Blind Level Duration, And Starting Stack Depth.",
+  "keyFindings": [
+    "Sub-$100 Daily Morning And Nightly Turbo Tournaments Carry The Highest Effective Fee Percentage (22% To 28% Combined House And Staff Allocation) Due To Fixed Dealer And Floor Overhead.",
+    "Mid-Tier Daily Events ($125 To $250 Buy-In) Represent 54% Of All Scheduled Weekly Tournaments With 20-Minute To 30-Minute Blind Levels And 20,000 To 30,000 Starting Chips.",
+    "Weekend Deepstack And Multi-Flight Events ($300 To $600 Buy-In) Offer The Highest Structural Value With 13% To 16% Total Fee Deductions And 30-Minute To 40-Minute Blind Levels.",
+    "Zero-Entry Free-To-Play Online Tournaments On Smarter.Poker Award 2,000 Chips Daily With 0% Entry Rake And Zero Deposit Requirements."
+  ],
+  "table": {
+    "caption": "Live Daily Poker Tournament Structural Benchmarks By Buy-In Tier",
+    "columns": [
+      "Buy-In Tier",
+      "Share Of Weekly Schedule",
+      "Median Total Fee %",
+      "Typical Blind Levels",
+      "Typical Starting Stack",
+      "Primary Format"
+    ],
+    "rows": [
+      [
+        "Under $100 ($40 To $99)",
+        "24%",
+        "24.5%",
+        "15 To 20 Minutes",
+        "10,000 To 15,000 Chips",
+        "Morning & Nightly Turbo NLH"
+      ],
+      [
+        "$100 To $199",
+        "41%",
+        "20.8%",
+        "20 To 25 Minutes",
+        "15,000 To 25,000 Chips",
+        "Standard Daily Deepstack And Bounty"
+      ],
+      [
+        "$200 To $299",
+        "21%",
+        "17.5%",
+        "25 To 30 Minutes",
+        "25,000 To 35,000 Chips",
+        "Evening Prime & Weekend Single-Day"
+      ],
+      [
+        "$300 To $600",
+        "11%",
+        "14.2%",
+        "30 To 40 Minutes",
+        "30,000 To 50,000 Chips",
+        "Weekend Major & Multi-Flight Opener"
+      ],
+      [
+        "$600+ Circuit & Series",
+        "3%",
+        "11.5%",
+        "40 To 60 Minutes",
+        "40,000 To 60,000 Chips",
+        "Championship & Ring/Trophy Events"
+      ]
+    ]
+  },
+  "rows": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "provenance_and_redistribution_rights": {
+    "owner": "Smarter Software Inc. (https://smarter.poker)",
+    "author": "Smarter.Poker Research Division",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  }
 }

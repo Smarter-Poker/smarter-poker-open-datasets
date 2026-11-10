@@ -1,10 +1,10 @@
 {
   "schemaVersion": "2026.11.11",
-  "version": "1.0.3",
-  "doi": "10.5281/zenodo.24095597",
-  "zenodoRecordUrl": "https://zenodo.org/records/24095597",
-  "title": "Smarter.Poker Model Context Protocol (MCP) Server & OpenAPI 3.1 Specification v1.0.3",
-  "license": "MIT",
+  "version": "1.0.5",
+  "doi": "10.5281/zenodo.24115453",
+  "zenodoRecordUrl": "https://zenodo.org/records/24115453",
+  "title": "Smarter.Poker 35-Tool Model Context Protocol (MCP) Server & OpenAPI 3.1 Specification (v1.0.5)",
+  "license": "CC-BY-4.0 / MIT",
   "publisher": "Smarter.Poker Research Division",
   "canonicalUrl": "https://smarter.poker/api/mcp",
   "mcpManifest": {
@@ -2162,5 +2162,15 @@
     },
     "x-ai-verification-methodology": "https://smarter.poker/verification-methodology",
     "x-ai-corpus-url": "https://smarter.poker/llms-full.txt"
+  },
+  "conceptDoi": "10.5281/zenodo.24095596",
+  "previousVersionDoi": "10.5281/zenodo.24095597",
+  "provenance_and_redistribution_rights": {
+    "owner": "Smarter Software Inc. (https://smarter.poker)",
+    "author": "Smarter.Poker Engineering & Research Division",
+    "license": "Creative Commons Attribution 4.0 International (CC-BY-4.0) / MIT",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "redistributionRights": "Open access under CC-BY-4.0 and MIT License. Free to redistribute, integrate into MCP clients, and cite with attribution to Smarter.Poker and Concept DOI 10.5281/zenodo.24095596.",
+    "methodology": "Complete JSON-RPC 2.0 Model Context Protocol (2025-03-26) tool schema definitions for all 35 deterministic poker math, ICM, GTO range, venue discovery, and citation tools, paired with the OpenAPI 3.1.0 specification."
   }
 }
