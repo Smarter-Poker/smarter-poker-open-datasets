@@ -16,7 +16,18 @@
     "Smarter.Poker Dataset",
     "Short Deck 6+ Hold'em Equity And Ante Math"
   ],
-  "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+  "sameAs": [
+    "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+    "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+  ],
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "SWHID",
+      "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+      "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+    }
+  ],
   "creator": {
     "@type": "Organization",
     "@id": "https://smarter.poker/#organization",

@@ -8,7 +8,77 @@
   "inLanguage": "en-US",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "isAccessibleForFree": true,
-  "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+  "sameAs": [
+    "https://doi.org/10.5281/zenodo.24095049",
+    "https://doi.org/10.5281/zenodo.24095057",
+    "https://doi.org/10.5281/zenodo.24095560",
+    "https://doi.org/10.5281/zenodo.24095564",
+    "https://doi.org/10.5281/zenodo.24095597",
+    "https://doi.org/10.5281/zenodo.24095602",
+    "https://zenodo.org/records/24095049",
+    "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+    "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+    "https://archive.softwareheritage.org/swh:1:snp:02b8992833424620305edcfb730b3cf8add15747",
+    "https://glama.ai/mcp/servers/Smarter-Poker/smarter-poker-mcp"
+  ],
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "name": "Core Open Quantitative Poker Research Datasets (15 CSV & JSON Datasets)",
+      "value": "10.5281/zenodo.24095049",
+      "url": "https://doi.org/10.5281/zenodo.24095049"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "name": "30-Tool Model Context Protocol (MCP) Server Archive",
+      "value": "10.5281/zenodo.24095057",
+      "url": "https://doi.org/10.5281/zenodo.24095057"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "name": "North American Live Poker Room, Regional Market & Tournament Series Benchmark Dataset",
+      "value": "10.5281/zenodo.24095560",
+      "url": "https://doi.org/10.5281/zenodo.24095560"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "name": "100BB 6-Max GTO Preflop Ranges, 169 Starting Hands & 25 Canonical Matchup Benchmarks",
+      "value": "10.5281/zenodo.24095564",
+      "url": "https://doi.org/10.5281/zenodo.24095564"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "name": "Smarter.Poker Model Context Protocol (MCP) Server & OpenAPI 3.1 Specification v1.0.2",
+      "value": "10.5281/zenodo.24095597",
+      "url": "https://doi.org/10.5281/zenodo.24095597"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "name": "Official Poker Rules (TDA & RROP), 15 Game Variants & 80-Term Quantitative Glossary Corpus",
+      "value": "10.5281/zenodo.24095602",
+      "url": "https://doi.org/10.5281/zenodo.24095602"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "SWHID",
+      "name": "Software Heritage Open Datasets Snapshot",
+      "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+      "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "SWHID",
+      "name": "Software Heritage MCP Server Snapshot",
+      "value": "swh:1:snp:02b8992833424620305edcfb730b3cf8add15747",
+      "url": "https://archive.softwareheritage.org/swh:1:snp:02b8992833424620305edcfb730b3cf8add15747"
+    }
+  ],
   "publisher": {
     "@type": "Organization",
     "@id": "https://smarter.poker/#organization",
@@ -34,7 +104,18 @@
         "Smarter.Poker Dataset",
         "US Live Poker Room Rake And Jackpot Benchmark"
       ],
-      "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SWHID",
+          "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+          "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+        }
+      ],
       "creator": {
         "@type": "Organization",
         "@id": "https://smarter.poker/#organization",
@@ -111,7 +192,18 @@
         "Smarter.Poker Dataset",
         "Daily Poker Tournament Buy-In And Guarantee Index"
       ],
-      "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SWHID",
+          "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+          "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+        }
+      ],
       "creator": {
         "@type": "Organization",
         "@id": "https://smarter.poker/#organization",
@@ -188,7 +280,18 @@
         "Smarter.Poker Dataset",
         "GTO Solver Vs. Population Leak Study"
       ],
-      "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SWHID",
+          "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+          "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+        }
+      ],
       "creator": {
         "@type": "Organization",
         "@id": "https://smarter.poker/#organization",
@@ -265,7 +368,18 @@
         "Smarter.Poker Dataset",
         "Private Poker Club Platform Economics Report"
       ],
-      "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SWHID",
+          "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+          "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+        }
+      ],
       "creator": {
         "@type": "Organization",
         "@id": "https://smarter.poker/#organization",
@@ -342,7 +456,18 @@
         "Smarter.Poker Dataset",
         "US Poker Dealer Toke Rate And Earnings Benchmark"
       ],
-      "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SWHID",
+          "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+          "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+        }
+      ],
       "creator": {
         "@type": "Organization",
         "@id": "https://smarter.poker/#organization",
@@ -419,7 +544,18 @@
         "Smarter.Poker Dataset",
         "Tournament ICM Bubble Factor And Risk Premium Study"
       ],
-      "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SWHID",
+          "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+          "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+        }
+      ],
       "creator": {
         "@type": "Organization",
         "@id": "https://smarter.poker/#organization",
@@ -496,7 +632,18 @@
         "Smarter.Poker Dataset",
         "PLO4, PLO5, And PLO6 Equity And Variance Study"
       ],
-      "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SWHID",
+          "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+          "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+        }
+      ],
       "creator": {
         "@type": "Organization",
         "@id": "https://smarter.poker/#organization",
@@ -573,7 +720,18 @@
         "Smarter.Poker Dataset",
         "US Poker Tax W-2G And Session Accounting Benchmark"
       ],
-      "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SWHID",
+          "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+          "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+        }
+      ],
       "creator": {
         "@type": "Organization",
         "@id": "https://smarter.poker/#organization",
@@ -650,7 +808,18 @@
         "Smarter.Poker Dataset",
         "Cardroom Waitlist Turnover And Table Utilization Study"
       ],
-      "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SWHID",
+          "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+          "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+        }
+      ],
       "creator": {
         "@type": "Organization",
         "@id": "https://smarter.poker/#organization",
@@ -727,7 +896,18 @@
         "Smarter.Poker Dataset",
         "Private Poker Club Markup And Union Settlement Study"
       ],
-      "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SWHID",
+          "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+          "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+        }
+      ],
       "creator": {
         "@type": "Organization",
         "@id": "https://smarter.poker/#organization",
@@ -804,7 +984,18 @@
         "Smarter.Poker Dataset",
         "Mystery Bounty Vs. PKO EV And Power Factor"
       ],
-      "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SWHID",
+          "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+          "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+        }
+      ],
       "creator": {
         "@type": "Organization",
         "@id": "https://smarter.poker/#organization",
@@ -881,7 +1072,18 @@
         "Smarter.Poker Dataset",
         "Short Deck 6+ Hold'em Equity And Ante Math"
       ],
-      "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SWHID",
+          "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+          "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+        }
+      ],
       "creator": {
         "@type": "Organization",
         "@id": "https://smarter.poker/#organization",
@@ -958,7 +1160,18 @@
         "Smarter.Poker Dataset",
         "Double-Board PLO Bomb Pot Equity And Variance"
       ],
-      "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SWHID",
+          "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+          "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+        }
+      ],
       "creator": {
         "@type": "Organization",
         "@id": "https://smarter.poker/#organization",
@@ -1035,7 +1248,18 @@
         "Smarter.Poker Dataset",
         "Live $1/$2 And $2/$5 NLH Population Tendencies"
       ],
-      "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SWHID",
+          "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+          "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+        }
+      ],
       "creator": {
         "@type": "Organization",
         "@id": "https://smarter.poker/#organization",
@@ -1112,7 +1336,18 @@
         "Smarter.Poker Dataset",
         "Poker Satellite Bubble And Milestone Equity"
       ],
-      "sameAs": "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SWHID",
+          "value": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+          "url": "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+        }
+      ],
       "creator": {
         "@type": "Organization",
         "@id": "https://smarter.poker/#organization",

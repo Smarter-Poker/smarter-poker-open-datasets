@@ -1,73 +1,37 @@
 cff-version: 1.2.0
-message: "If you use the Smarter.Poker Open Datasets, Benchmarks, or Calculators, please cite this repository using the metadata below."
-title: "Smarter.Poker Open Datasets & Quantitative Poker Research Archive (2026)"
-version: "2026.11.1"
+message: "If You Use Smarter.Poker Quantitative Datasets Or Solvers In Your Research, Please Cite Them As Below."
+title: "Smarter.Poker Open Quantitative Poker Research & GTO Solver Benchmarks (2026)"
+type: dataset
 doi: "10.5281/zenodo.24095049"
-date-released: "2026-11-10"
-url: "https://smarter.poker/research"
-repository-code: "https://github.com/Smarter-Poker/smarter-poker-open-datasets"
-license: CC-BY-4.0
-authors:
-  - name: "Smarter.Poker Quantitative Research Desk"
-    website: "https://smarter.poker/research"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.24095049"
-    description: "Smarter.Poker 2026 Open Quantitative Poker Research, Calculators & Canonical Sitemap Dataset (v1.7.0)"
+    description: "Core Open Quantitative Poker Research Datasets"
   - type: doi
     value: "10.5281/zenodo.24095057"
-    description: "Smarter.Poker Model Context Protocol (MCP) Server & Complete Poker Knowledge Graph (v1.7.0)"
+    description: "30-Tool Model Context Protocol (MCP) Server Archive"
   - type: doi
     value: "10.5281/zenodo.24095560"
-    description: "Smarter.Poker 2026 Open Quantitative Poker Strategy Encyclopedia, Glossary & Official TDA Rules Dataset (358 Canonical Guides)"
+    description: "North American Live Poker Room, Regional Market & Tournament Series Benchmark Dataset"
   - type: doi
     value: "10.5281/zenodo.24095564"
-    description: "Smarter.Poker 2026 North American Live Poker Geography, State Law & City Directory Dataset (413 Regional Hubs)"
+    description: "100BB 6-Max GTO Preflop Ranges, 169 Starting Hands & 25 Canonical Matchup Benchmarks"
   - type: doi
     value: "10.5281/zenodo.24095597"
-    description: "Smarter.Poker 2026 Verified North American Live Poker Room & Cardroom Directory Dataset (473 Venue Profiles)"
+    description: "Smarter.Poker Model Context Protocol (MCP) Server & OpenAPI 3.1 Specification v1.0.2"
   - type: doi
     value: "10.5281/zenodo.24095602"
-    description: "Smarter.Poker 2026 Major Live Poker Tournament Tours & Series Schedules Dataset (359 Tour & Series Hubs)"
+    description: "Official Poker Rules (TDA & RROP), 15 Game Variants & 80-Term Quantitative Glossary Corpus"
   - type: swh
-    value: "swh:1:dir:a0a5e9cd2313b35361aa3ab82cf48175fc0cd972"
-    description: "Software Heritage Archive — Smarter-Poker/smarter-poker-open-datasets"
+    value: "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
   - type: swh
-    value: "swh:1:dir:f4781f9354533bf9428c74ff7426466d5e0d539f"
-    description: "Software Heritage Archive — Smarter-Poker/smarter-poker-mcp"
-keywords:
-  - poker
-  - texas-holdem
-  - omaha
-  - gto-solver
-  - icm-calculator
-  - poker-rake
-  - tournament-poker
-  - cardroom-directory
-  - model-context-protocol
-references:
-  - type: website
-    title: "Smarter.Poker — Live Poker Platform, GTO Training & Venue Directory"
-    url: "https://smarter.poker"
-  - type: data
-    title: "2026 US Live Poker Room Census & Rake Index"
-    url: "https://smarter.poker/research/us-poker-room-census-2026"
-    doi: "10.5281/zenodo.24095049"
-  - type: data
-    title: "2026 Live Poker Rake & Promotional Drop Study"
-    url: "https://smarter.poker/research/live-poker-rake-study-2026"
-    doi: "10.5281/zenodo.24095597"
-  - type: data
-    title: "2026 Major Live Tournament Guarantee vs. Field Overlay Report"
-    url: "https://smarter.poker/research/tournament-guarantee-overlay-report-2026"
-    doi: "10.5281/zenodo.24095602"
-  - type: data
-    title: "2026 US State-by-State Live Poker Legal & Regulatory Matrix"
-    url: "https://smarter.poker/research/state-poker-legality-report-2026"
-    doi: "10.5281/zenodo.24095564"
-  - type: software
-    title: "Smarter.Poker Poker Equity & Odds Calculator"
-    url: "https://smarter.poker/tools/poker-odds-calculator"
-  - type: software
-    title: "Smarter.Poker ICM Payout & Deal Calculator"
-    url: "https://smarter.poker/tools/icm-calculator"
+    value: "swh:1:snp:02b8992833424620305edcfb730b3cf8add15747"
+authors:
+  - name: "Smarter.Poker Research Division"
+    website: "https://smarter.poker/research"
+version: "2026.11"
+date-released: "2026-11-09"
+license: "CC-BY-4.0"
+url: "https://smarter.poker/research"
+repository-code: "https://github.com/Smarter-Poker/smarter-poker-open-datasets"
+repository-artifact: "https://zenodo.org/records/24095049"
