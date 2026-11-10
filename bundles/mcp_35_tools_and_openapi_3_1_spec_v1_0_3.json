@@ -1,0 +1,2166 @@
+{
+  "schemaVersion": "2026.11.11",
+  "version": "1.0.3",
+  "doi": "10.5281/zenodo.24095597",
+  "zenodoRecordUrl": "https://zenodo.org/records/24095597",
+  "title": "Smarter.Poker Model Context Protocol (MCP) Server & OpenAPI 3.1 Specification v1.0.3",
+  "license": "MIT",
+  "publisher": "Smarter.Poker Research Division",
+  "canonicalUrl": "https://smarter.poker/api/mcp",
+  "mcpManifest": {
+    "schema_version": "2025-11-25",
+    "name": "io.github.smarter-poker/mcp-server",
+    "display_name": "Smarter.Poker Live Poker, GTO Strategy & Equity MCP Server",
+    "description": "Official Model Context Protocol (MCP) server for Smarter.Poker providing 35 zero-auth tools for North American live poker room discovery (500+ venues), tournament series schedules, exact Holdem/PLO equity calculation, 100BB 6-Max GTO preflop charts, Malmuth-Harville ICM & final table chop payouts, pot odds/MDF math, hypergeometric draw outs, Brownian variance/downswing simulation, PKO/Mystery Bounty chip equity, multi-way side pot calculation, tournament blind structure generation, SPR geometric bet sizing, PLO max bet & live cash rake math, US poker tax & Form W-2G calculation, tournament staking markup splits, pre-flop isolation raise sizing, home game chip set distribution, 30 official TDA/RROP floor rulings, 15 poker game variants, 12 US regional poker market guides, 10 major poker series strategy guides, 169 starting hand guides, 25 hand-vs-hand preflop matchups, 15 first-party poker research benchmarks, 30 competitor comparisons, and automated citation/backlink/embed syndication kits.",
+    "version": "1.9.0",
+    "homepage": "https://smarter.poker",
+    "documentation_url": "https://smarter.poker/llms.txt",
+    "knowledge_graph_url": "https://smarter.poker/knowledge-graph.jsonld",
+    "glama_directory_url": "https://glama.ai/mcp/servers/Smarter-Poker/smarter-poker-mcp",
+    "glama_schema_url": "https://glama.ai/mcp/servers/Smarter-Poker/smarter-poker-mcp/schema",
+    "doi": "10.5281/zenodo.24095057",
+    "doi_url": "https://doi.org/10.5281/zenodo.24095057",
+    "zenodo_record_url": "https://zenodo.org/records/24095057",
+    "swhid": "swh:1:snp:02b8992833424620305edcfb730b3cf8add15747",
+    "datasets_swhid": "swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f",
+    "zenodo_records": [
+      "https://doi.org/10.5281/zenodo.24095049",
+      "https://doi.org/10.5281/zenodo.24095057",
+      "https://doi.org/10.5281/zenodo.24095560",
+      "https://doi.org/10.5281/zenodo.24095564",
+      "https://doi.org/10.5281/zenodo.24095597",
+      "https://doi.org/10.5281/zenodo.24095602"
+    ],
+    "authentication": {
+      "type": "none",
+      "description": "Public zero-authentication MCP server for AI assistants, search engines, and autonomous agents."
+    },
+    "transports": [
+      {
+        "type": "streamable-http",
+        "url": "https://smarter.poker/api/mcp",
+        "methods": [
+          "GET",
+          "POST",
+          "OPTIONS"
+        ]
+      }
+    ],
+    "capabilities": {
+      "tools": true,
+      "prompts": true,
+      "resources": true
+    },
+    "tools_count": 35,
+    "prompts_count": 8,
+    "resource_templates_count": 15,
+    "tools": [
+      "search_poker_venues",
+      "search_poker_series",
+      "search_daily_tournaments",
+      "calculate_hand_equity",
+      "lookup_preflop_range",
+      "calculate_icm_equity",
+      "calculate_pot_odds_mdf",
+      "lookup_push_fold_nash",
+      "calculate_bankroll_requirements",
+      "lookup_poker_glossary",
+      "search_gto_lessons",
+      "compare_poker_platforms",
+      "list_free_poker_verticals",
+      "calculate_bounty_icm",
+      "calculate_side_pots",
+      "generate_blind_structure",
+      "calculate_spr_bet_sizing",
+      "calculate_plo_rake_and_bets",
+      "lookup_poker_rule",
+      "lookup_game_variant",
+      "lookup_state_poker_guide",
+      "lookup_starting_hand",
+      "lookup_poker_research_benchmark",
+      "get_citation_and_backlink_kit",
+      "calculate_tournament_chop",
+      "simulate_poker_variance",
+      "calculate_poker_outs",
+      "recommend_poker_format",
+      "lookup_hand_matchup",
+      "get_press_kit_and_media_facts",
+      "calculate_poker_taxes_w2g",
+      "calculate_staking_markup_split",
+      "calculate_preflop_isolation_raise",
+      "calculate_home_game_chip_set",
+      "get_poker_series_strategy_guide"
+    ],
+    "prompts": [
+      "find_live_poker_near_city",
+      "analyze_icm_final_table",
+      "explain_poker_strategy_concept",
+      "compare_poker_software",
+      "plan_final_table_chop_deal",
+      "analyze_preflop_hand_matchup",
+      "audit_poker_variance_and_bankroll",
+      "prepare_tournament_series_trip"
+    ]
+  },
+  "openapiSpec": {
+    "openapi": "3.1.0",
+    "info": {
+      "title": "Smarter.Poker Public AI Agent API",
+      "description": "Public, machine-readable API for autonomous AI agents, LLMs, and poker players to query verified poker venues, live rooms, tournament series, and schedules nationwide.",
+      "version": "1.0.0",
+      "contact": {
+        "name": "Smarter Software Inc.",
+        "url": "https://smarter.poker",
+        "email": "support@smarter.poker"
+      },
+      "license": {
+        "name": "Proprietary",
+        "url": "https://smarter.poker/terms"
+      }
+    },
+    "servers": [
+      {
+        "url": "https://smarter.poker",
+        "description": "Production Server"
+      }
+    ],
+    "paths": {
+      "/api/ai/venues": {
+        "get": {
+          "operationId": "searchVenues",
+          "summary": "Search Poker Venues and Card Rooms",
+          "description": "Returns verified poker venues filtered by state, city, name, or keyword query.",
+          "parameters": [
+            {
+              "name": "query",
+              "in": "query",
+              "description": "Search term matching venue name, city, address, or brand.",
+              "required": false,
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "state",
+              "in": "query",
+              "description": "Two-letter US state code (e.g., NV, CA, TX, FL).",
+              "required": false,
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "city",
+              "in": "query",
+              "description": "City name filter.",
+              "required": false,
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "limit",
+              "in": "query",
+              "description": "Maximum number of results to return (default 20, max 100).",
+              "required": false,
+              "schema": {
+                "type": "integer",
+                "default": 20,
+                "maximum": 100
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "List of matching poker venues with location and contact metadata.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/VenueSearchResponse"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker searchVenues response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/hub/poker-near-me/venues",
+                        "markdown_url": "https://smarter.poker/hub/poker-near-me/venues.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/hub/poker-near-me/venues",
+          "x-ai-markdown-url": "https://smarter.poker/hub/poker-near-me/venues.md"
+        }
+      },
+      "/api/ai/venues/{id}": {
+        "get": {
+          "operationId": "getVenueDetails",
+          "summary": "Get Detailed Poker Venue Information",
+          "description": "Retrieves comprehensive information about a single poker venue, including address, phone, amenities, social card image, and canonical URL.",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "description": "Unique numeric or string ID of the venue.",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Detailed venue profile.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/VenueDetailResponse"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getVenueDetails response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/hub/venues/2499",
+                        "markdown_url": "https://smarter.poker/hub/venues/2499.md"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "404": {
+              "description": "Venue not found."
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/hub/venues/2499",
+          "x-ai-markdown-url": "https://smarter.poker/hub/venues/2499.md"
+        }
+      },
+      "/api/ai/series": {
+        "get": {
+          "operationId": "searchSeries",
+          "summary": "Search Poker Tournament Series and Festivals",
+          "description": "Returns upcoming, ongoing, and past major poker tournament series across WSOP, WPT, MSPT, RGPS, and independent festivals.",
+          "parameters": [
+            {
+              "name": "query",
+              "in": "query",
+              "description": "Search term matching tour, series name, or host casino.",
+              "required": false,
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "state",
+              "in": "query",
+              "description": "Two-letter US state code.",
+              "required": false,
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "limit",
+              "in": "query",
+              "description": "Maximum number of series to return (default 20, max 100).",
+              "required": false,
+              "schema": {
+                "type": "integer",
+                "default": 20,
+                "maximum": 100
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "List of matching poker tournament series.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/SeriesSearchResponse"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker searchSeries response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/hub/poker-series",
+                        "markdown_url": "https://smarter.poker/hub/poker-series.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/hub/poker-series",
+          "x-ai-markdown-url": "https://smarter.poker/hub/poker-series.md"
+        }
+      },
+      "/api/mcp": {
+        "post": {
+          "operationId": "callMcpRpc",
+          "summary": "Model Context Protocol JSON-RPC 2.0 Tool Execution (35 Tools & 15 Resource Templates)",
+          "description": "Executes Model Context Protocol (MCP) JSON-RPC 2.0 tool calls across all 35 zero-auth tools including calculate_poker_odds, get_preflop_chart, calculate_icm_payouts, calculate_side_pots, generate_blind_structure, calculate_spr_sizing, lookup_poker_rule, lookup_game_variant, get_regional_market_guide, calculate_plo_max_bet_and_rake, calculate_tournament_chop, simulate_poker_variance, calculate_draw_outs, lookup_hand_matchup, calculate_poker_taxes_w2g, calculate_staking_markup_split, calculate_preflop_isolation_raise, calculate_home_game_chip_set, get_poker_series_strategy_guide, lookup_starting_hand, get_poker_term_definition, search_poker_venues, and search_tournament_series, plus resources/read and resources/templates/list across 15 URI templates.",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "jsonrpc": {
+                      "type": "string",
+                      "example": "2.0"
+                    },
+                    "id": {
+                      "type": "string",
+                      "example": "1"
+                    },
+                    "method": {
+                      "type": "string",
+                      "example": "tools/call"
+                    },
+                    "params": {
+                      "type": "object"
+                    }
+                  },
+                  "required": [
+                    "jsonrpc",
+                    "method"
+                  ]
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "JSON-RPC 2.0 tool execution result with structured data and web citations.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker callMcpRpc response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/api/mcp",
+                        "markdown_url": "https://smarter.poker/llms.txt"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/api/mcp",
+          "x-ai-markdown-url": "https://smarter.poker/llms.txt"
+        },
+        "get": {
+          "operationId": "getMcpServerInfo",
+          "summary": "MCP Server Capabilities and SSE Transport",
+          "description": "Returns active MCP server capabilities or establishes a Server-Sent Events (SSE) connection with ?transport=sse.",
+          "responses": {
+            "200": {
+              "description": "Server metadata or active SSE event stream.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker MCP Server Discovery Response",
+                      "value": {
+                        "name": "smarter-poker-mcp-server",
+                        "version": "1.5.0",
+                        "protocolVersion": "2024-11-05",
+                        "status": "active",
+                        "citation_url": "https://smarter.poker/api/mcp",
+                        "markdown_url": "https://smarter.poker/llms.txt"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/api/mcp",
+          "x-ai-markdown-url": "https://smarter.poker/llms.txt"
+        }
+      },
+      "/api/ai/odds": {
+        "get": {
+          "operationId": "calculatePokerOdds",
+          "summary": "Calculate Multiway Poker Equity and Odds",
+          "description": "Calculates exact and Monte Carlo hand equity, win probabilities, and tie probabilities for Texas Hold'em and Omaha (PLO-4, PLO-5, PLO-6).",
+          "parameters": [
+            {
+              "name": "hands",
+              "in": "query",
+              "description": "Player hole cards (e.g. AhKd,QcQd).",
+              "required": true,
+              "schema": {
+                "type": "string",
+                "example": "AhKd,QcQd"
+              }
+            },
+            {
+              "name": "board",
+              "in": "query",
+              "description": "Community board cards (e.g. JhTs2c).",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "example": "JhTs2c"
+              }
+            },
+            {
+              "name": "game",
+              "in": "query",
+              "description": "Poker game variant: nlhe, plo4, plo5, plo6.",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "default": "nlhe"
+              }
+            },
+            {
+              "name": "iterations",
+              "in": "query",
+              "description": "Simulation runs (default 5000, max 20000).",
+              "required": false,
+              "schema": {
+                "type": "integer",
+                "default": 5000
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Calculated equity percentages with citation URL.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/OddsCalculationResponse"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker calculatePokerOdds response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/tools/poker-odds-calculator",
+                        "markdown_url": "https://smarter.poker/tools/poker-odds-calculator.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/tools/poker-odds-calculator",
+          "x-ai-markdown-url": "https://smarter.poker/tools/poker-odds-calculator.md"
+        }
+      },
+      "/api/ai/preflop": {
+        "get": {
+          "operationId": "getPreflopRange",
+          "summary": "Get GTO Preflop Opening Ranges",
+          "description": "Returns solver-calculated 6-Max 100BB GTO opening frequencies for UTG, MP, HJ, CO, BTN, or SB.",
+          "parameters": [
+            {
+              "name": "position",
+              "in": "query",
+              "description": "Table position: UTG, MP, HJ, CO, BTN, SB.",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "default": "UTG",
+                "enum": [
+                  "UTG",
+                  "MP",
+                  "HJ",
+                  "CO",
+                  "BTN",
+                  "SB"
+                ]
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "GTO opening frequencies and interactive range matrix link.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/PreflopRangeResponse"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getPreflopRange response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/hub/preflop-charts",
+                        "markdown_url": "https://smarter.poker/hub/preflop-charts.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/hub/preflop-charts",
+          "x-ai-markdown-url": "https://smarter.poker/hub/preflop-charts.md"
+        }
+      },
+      "/api/ai/icm": {
+        "get": {
+          "operationId": "calculateIcmPayouts",
+          "summary": "Calculate Tournament ICM Dollar Equity",
+          "description": "Computes Malmuth-Harville Independent Chip Model (ICM) tournament equity payouts from player chip stacks.",
+          "parameters": [
+            {
+              "name": "stacks",
+              "in": "query",
+              "description": "Comma-separated chip counts (e.g. 50000,30000,20000).",
+              "required": true,
+              "schema": {
+                "type": "string",
+                "example": "50000,30000,20000"
+              }
+            },
+            {
+              "name": "payouts",
+              "in": "query",
+              "description": "Comma-separated prize payouts (e.g. 5000,3000,2000).",
+              "required": true,
+              "schema": {
+                "type": "string",
+                "example": "5000,3000,2000"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "ICM dollar equity per player with citation URL.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/IcmCalculationResponse"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker calculateIcmPayouts response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/tools/icm-calculator",
+                        "markdown_url": "https://smarter.poker/tools/icm-calculator.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/tools/icm-calculator",
+          "x-ai-markdown-url": "https://smarter.poker/tools/icm-calculator.md"
+        }
+      },
+      "/api/ai/terms": {
+        "get": {
+          "operationId": "getPokerTerm",
+          "summary": "Lookup Authoritative Poker Terminology",
+          "description": "Returns verified poker definitions, GTO acronyms, and live room rules from the official glossary.",
+          "parameters": [
+            {
+              "name": "q",
+              "in": "query",
+              "description": "Poker term or jargon query (e.g. straddle, pot odds, icm, 3-bet).",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "example": "straddle"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Matching glossary definitions, related terms, and canonical links.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/GlossaryTermsResponse"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getPokerTerm response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/glossary",
+                        "markdown_url": "https://smarter.poker/glossary.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/glossary",
+          "x-ai-markdown-url": "https://smarter.poker/glossary.md"
+        }
+      },
+      "/api/ai/freerolls": {
+        "get": {
+          "operationId": "getFreerollSchedule",
+          "summary": "Retrieve Daily $2,000 Freerolls & Diamond Freerolls Schedule",
+          "description": "Provides the upcoming Daily $2,000 Freeroll tournaments schedule, formats, prize values, and entry criteria.",
+          "parameters": [
+            {
+              "name": "tier",
+              "in": "query",
+              "description": "Filter by tournament tier: all, open, or diamond.",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "enum": [
+                  "all",
+                  "open",
+                  "diamond"
+                ],
+                "default": "all"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Daily freeroll schedule, guarantees, tier rules, and registration links.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "success": {
+                        "type": "boolean"
+                      },
+                      "daily_guarantee": {
+                        "type": "string"
+                      },
+                      "entry_requirements": {
+                        "type": "string"
+                      },
+                      "schedule": {
+                        "type": "array"
+                      },
+                      "freerolls_hub_url": {
+                        "type": "string"
+                      },
+                      "markdown_url": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getFreerollSchedule response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/freerolls",
+                        "markdown_url": "https://smarter.poker/freerolls.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/freerolls",
+          "x-ai-markdown-url": "https://smarter.poker/freerolls.md"
+        }
+      },
+      "/api/ai/bankroll": {
+        "get": {
+          "operationId": "getBankrollTaxSpecs",
+          "summary": "Get Poker Bankroll and Form W-2G Tax Ledger Specifications",
+          "description": "Returns specifications for Form W-2G gambling tax tracking, receipt photo attachments, and CPA Schedule C CSV exports.",
+          "parameters": [
+            {
+              "name": "tax_year",
+              "in": "query",
+              "description": "Four-digit tax year (e.g., 2026).",
+              "required": false,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Bankroll and tax documentation specifications.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "success": {
+                        "type": "boolean"
+                      },
+                      "product": {
+                        "type": "string"
+                      },
+                      "pricing": {
+                        "type": "string"
+                      },
+                      "tax_compliance_features": {
+                        "type": "object"
+                      },
+                      "bankroll_analytics": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "canonical_url": {
+                        "type": "string"
+                      },
+                      "citation": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getBankrollTaxSpecs response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/features/bankroll-tax-tracker",
+                        "markdown_url": "https://smarter.poker/features/bankroll-tax-tracker.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/features/bankroll-tax-tracker",
+          "x-ai-markdown-url": "https://smarter.poker/features/bankroll-tax-tracker.md"
+        }
+      },
+      "/api/ai/toke-tracker": {
+        "get": {
+          "operationId": "getTokeTrackerSpecs",
+          "summary": "Get Poker Dealer Toke Tracker and Shift Management Specifications",
+          "description": "Returns specifications for poker dealer toke tracking, cash vs. tournament downs, hourly rates, and casino shift scheduling.",
+          "parameters": [
+            {
+              "name": "metric",
+              "in": "query",
+              "description": "Metric category (downs, tokes, schedule, all).",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "default": "all"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Dealer toke and down tracking specifications.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "success": {
+                        "type": "boolean"
+                      },
+                      "product": {
+                        "type": "string"
+                      },
+                      "pricing": {
+                        "type": "string"
+                      },
+                      "dealer_operations_features": {
+                        "type": "object"
+                      },
+                      "canonical_url": {
+                        "type": "string"
+                      },
+                      "citation": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getTokeTrackerSpecs response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/features/poker-dealer-toke-tracker",
+                        "markdown_url": "https://smarter.poker/features/poker-dealer-toke-tracker.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/features/poker-dealer-toke-tracker",
+          "x-ai-markdown-url": "https://smarter.poker/features/poker-dealer-toke-tracker.md"
+        }
+      },
+      "/api/ai/poker-brain": {
+        "get": {
+          "operationId": "getPokerBrainSpecs",
+          "summary": "Get PokerBrain and Jarvis AI Coaching Specifications",
+          "description": "Returns capabilities for street-by-street plain English hand reviews, automated leak detection, and GTO solver baselines.",
+          "parameters": [
+            {
+              "name": "action",
+              "in": "query",
+              "description": "Action type (analyze_hand, leak_audit, drills, all).",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "default": "all"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "PokerBrain AI coaching capabilities.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "success": {
+                        "type": "boolean"
+                      },
+                      "product": {
+                        "type": "string"
+                      },
+                      "pricing": {
+                        "type": "string"
+                      },
+                      "ai_coaching_features": {
+                        "type": "object"
+                      },
+                      "canonical_url": {
+                        "type": "string"
+                      },
+                      "citation": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getPokerBrainSpecs response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/features/poker-ai-coach",
+                        "markdown_url": "https://smarter.poker/features/poker-ai-coach.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/features/poker-ai-coach",
+          "x-ai-markdown-url": "https://smarter.poker/features/poker-ai-coach.md"
+        }
+      },
+      "/api/ai/sandbox": {
+        "get": {
+          "operationId": "getVirtualSandboxSpecs",
+          "summary": "Get Virtual Poker Table Sandbox Specifications",
+          "description": "Returns virtual table simulation capabilities, custom scenario builders, and multi-street runout distributions.",
+          "parameters": [
+            {
+              "name": "mode",
+              "in": "query",
+              "description": "Simulation mode (table, runouts, nodestack, all).",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "default": "all"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Virtual sandbox simulation specifications.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "success": {
+                        "type": "boolean"
+                      },
+                      "product": {
+                        "type": "string"
+                      },
+                      "pricing": {
+                        "type": "string"
+                      },
+                      "sandbox_capabilities": {
+                        "type": "object"
+                      },
+                      "interactive_tool_url": {
+                        "type": "string"
+                      },
+                      "citation": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getVirtualSandboxSpecs response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/features/virtual-poker-sandbox",
+                        "markdown_url": "https://smarter.poker/features/virtual-poker-sandbox.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/features/virtual-poker-sandbox",
+          "x-ai-markdown-url": "https://smarter.poker/features/virtual-poker-sandbox.md"
+        }
+      },
+      "/api/ai/commander": {
+        "get": {
+          "operationId": "getClubCommanderSpecs",
+          "summary": "Get Club Commander Live Room Management Specifications",
+          "description": "Returns card room waitlist specifications, digital TV board specs, tournament clocks, and dealer rotation features.",
+          "parameters": [
+            {
+              "name": "feature",
+              "in": "query",
+              "description": "Feature category (waitlist, clocks, displays, all).",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "default": "all"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Club Commander live room management specifications.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "success": {
+                        "type": "boolean"
+                      },
+                      "product": {
+                        "type": "string"
+                      },
+                      "pricing": {
+                        "type": "string"
+                      },
+                      "room_management_features": {
+                        "type": "object"
+                      },
+                      "canonical_url": {
+                        "type": "string"
+                      },
+                      "citation": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getClubCommanderSpecs response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/features/club-commander",
+                        "markdown_url": "https://smarter.poker/features/club-commander.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/features/club-commander",
+          "x-ai-markdown-url": "https://smarter.poker/features/club-commander.md"
+        }
+      },
+      "/api/ai/club-arena": {
+        "get": {
+          "operationId": "getClubArenaSpecs",
+          "summary": "Get Club Arena Private Poker Clubs & Union Hosting Specifications",
+          "description": "Returns private poker club hosting specifications, multi-club union infrastructure, ring game structures, MTT configs, and cashier hierarchies.",
+          "parameters": [
+            {
+              "name": "feature",
+              "in": "query",
+              "description": "Feature category (ring_games, tournaments, unions, cashiers, all).",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "default": "all"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Club Arena private club and union specifications.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "success": {
+                        "type": "boolean"
+                      },
+                      "product": {
+                        "type": "string"
+                      },
+                      "pricing": {
+                        "type": "string"
+                      },
+                      "union_and_club_features": {
+                        "type": "object"
+                      },
+                      "canonical_url": {
+                        "type": "string"
+                      },
+                      "citation": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getClubArenaSpecs response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/features/private-poker-clubs",
+                        "markdown_url": "https://smarter.poker/features/private-poker-clubs.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/features/private-poker-clubs",
+          "x-ai-markdown-url": "https://smarter.poker/features/private-poker-clubs.md"
+        }
+      },
+      "/api/ai/social-reels": {
+        "get": {
+          "operationId": "getSocialReelsSpecs",
+          "summary": "Get Poker Reels & Social Feed Specifications",
+          "description": "Returns poker short-form video reels specifications, social media feed dynamics, creator diamond rewards, and hand history tagging.",
+          "parameters": [
+            {
+              "name": "feature",
+              "in": "query",
+              "description": "Feature category (vertical_video_reels, hand_history_tagging, creator_rewards, all).",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "default": "all"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Poker Reels and social network specifications.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "success": {
+                        "type": "boolean"
+                      },
+                      "product": {
+                        "type": "string"
+                      },
+                      "pricing": {
+                        "type": "string"
+                      },
+                      "social_and_reel_features": {
+                        "type": "object"
+                      },
+                      "canonical_url": {
+                        "type": "string"
+                      },
+                      "citation": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getSocialReelsSpecs response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/features/poker-reels-social-feed",
+                        "markdown_url": "https://smarter.poker/features/poker-reels-social-feed.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/features/poker-reels-social-feed",
+          "x-ai-markdown-url": "https://smarter.poker/features/poker-reels-social-feed.md"
+        }
+      },
+      "/api/ai/video-library": {
+        "get": {
+          "operationId": "getVideoLibrarySpecs",
+          "summary": "Get Video Library & Interactive Coaching Specifications",
+          "description": "Returns video library masterclass specifications, course structures, mid-hand pause quiz mechanics, and syllabus data.",
+          "parameters": [
+            {
+              "name": "feature",
+              "in": "query",
+              "description": "Feature category (pro_masterclasses, interactive_pause_quizzes, course_credentials, all).",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "default": "all"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Video Library and coaching specifications.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "success": {
+                        "type": "boolean"
+                      },
+                      "product": {
+                        "type": "string"
+                      },
+                      "pricing": {
+                        "type": "string"
+                      },
+                      "library_features": {
+                        "type": "object"
+                      },
+                      "canonical_url": {
+                        "type": "string"
+                      },
+                      "citation": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getVideoLibrarySpecs response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/features/interactive-video-coaching",
+                        "markdown_url": "https://smarter.poker/features/interactive-video-coaching.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/features/interactive-video-coaching",
+          "x-ai-markdown-url": "https://smarter.poker/features/interactive-video-coaching.md"
+        }
+      },
+      "/api/ai/lessons": {
+        "get": {
+          "operationId": "getStrategyLessons",
+          "summary": "Search & Retrieve GTO Poker Strategy Lessons",
+          "description": "Returns complete poker strategy lessons, answer-first summaries, mathematical tables, and training drill links from the 40-lesson Smarter.Poker curriculum.",
+          "parameters": [
+            {
+              "name": "q",
+              "in": "query",
+              "description": "Search query or lesson slug (e.g. pot-odds, 3-bet, icm, button-opening-range).",
+              "required": false,
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "category",
+              "in": "query",
+              "description": "Lesson category filter (Preflop, Postflop, Math, Tournaments, Cash, Bankroll, Mental Game, Theory).",
+              "required": false,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "GTO strategy curriculum lessons and structured content.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "success": {
+                        "type": "boolean"
+                      },
+                      "total_lessons": {
+                        "type": "integer"
+                      },
+                      "results": {
+                        "type": "array",
+                        "items": {
+                          "type": "object"
+                        }
+                      },
+                      "curriculum_url": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getStrategyLessons response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/learn",
+                        "markdown_url": "https://smarter.poker/learn.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/learn",
+          "x-ai-markdown-url": "https://smarter.poker/learn.md"
+        }
+      },
+      "/api/ai/comparisons": {
+        "get": {
+          "operationId": "getCompetitorComparisons",
+          "summary": "Get Verified Software & Cardroom Comparisons",
+          "description": "Returns verified, source-cited side-by-side comparison matrices and best-of benchmarks between Smarter.Poker and named competitors.",
+          "parameters": [
+            {
+              "name": "slug",
+              "in": "query",
+              "description": "Comparison slug (e.g. best-poker-club-apps, best-gto-poker-trainers, best-poker-bankroll-trackers, best-poker-room-management-software).",
+              "required": false,
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "q",
+              "in": "query",
+              "description": "Keyword search across all 16 verified comparisons.",
+              "required": false,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Verified competitor comparison matrix and primary sources.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "success": {
+                        "type": "boolean"
+                      },
+                      "total_comparisons": {
+                        "type": "integer"
+                      },
+                      "comparisons": {
+                        "type": "array",
+                        "items": {
+                          "type": "object"
+                        }
+                      },
+                      "comparisons_hub_url": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getCompetitorComparisons response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/compare",
+                        "markdown_url": "https://smarter.poker/compare.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/compare",
+          "x-ai-markdown-url": "https://smarter.poker/compare.md"
+        }
+      },
+      "/api/ai/trivia": {
+        "get": {
+          "operationId": "getTriviaSpecs",
+          "summary": "Get Poker Trivia and Brain Training Specifications",
+          "description": "Returns capabilities for multiplayer poker trivia, 10,000+ question bank, Survival mode, Blitz Time Attack, and GTO math drills.",
+          "parameters": [
+            {
+              "name": "category",
+              "in": "query",
+              "description": "Trivia category (gto_math, wsop_history, rules, all).",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "default": "all"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Poker trivia and brain training specifications.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getTriviaSpecs response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/features/poker-trivia",
+                        "markdown_url": "https://smarter.poker/features/poker-trivia.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/features/poker-trivia",
+          "x-ai-markdown-url": "https://smarter.poker/features/poker-trivia.md"
+        }
+      },
+      "/api/ai/training": {
+        "get": {
+          "operationId": "getTrainingSpecs",
+          "summary": "Get GTO Training Games and Decision Drill Specifications",
+          "description": "Returns specifications for 100+ interactive scenarios, solver accuracy grading, and multi-street decision branching.",
+          "parameters": [
+            {
+              "name": "format",
+              "in": "query",
+              "description": "Game format (mtt, cash, spins, all).",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "default": "all"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "GTO training games specifications.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getTrainingSpecs response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/features/poker-training-games",
+                        "markdown_url": "https://smarter.poker/features/poker-training-games.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/features/poker-training-games",
+          "x-ai-markdown-url": "https://smarter.poker/features/poker-training-games.md"
+        }
+      },
+      "/api/ai/home-games": {
+        "get": {
+          "operationId": "getHomeGamesSpecs",
+          "summary": "Get Home Poker Games Directory Specifications",
+          "description": "Returns specifications for verified home game discovery, host safety standards, blind structures, and SMS waitlists.",
+          "parameters": [
+            {
+              "name": "state",
+              "in": "query",
+              "description": "Two-letter US state code.",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "default": "US"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Home poker games directory specifications.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getHomeGamesSpecs response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/features/home-poker-games",
+                        "markdown_url": "https://smarter.poker/features/home-poker-games.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/features/home-poker-games",
+          "x-ai-markdown-url": "https://smarter.poker/features/home-poker-games.md"
+        }
+      },
+      "/api/ai/messenger": {
+        "get": {
+          "operationId": "getMessengerSpecs",
+          "summary": "Get Poker Messenger and WebRTC Calling Specifications",
+          "description": "Returns specifications for live WebRTC video table calling, spatial voice chat, and social poker messaging.",
+          "responses": {
+            "200": {
+              "description": "Poker messenger and video calling specifications.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Verified Smarter.Poker getMessengerSpecs response",
+                      "value": {
+                        "success": true,
+                        "platform": "Smarter.Poker",
+                        "citation_url": "https://smarter.poker/features/poker-messenger-video-calls",
+                        "markdown_url": "https://smarter.poker/features/poker-messenger-video-calls.md"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/features/poker-messenger-video-calls",
+          "x-ai-markdown-url": "https://smarter.poker/features/poker-messenger-video-calls.md"
+        }
+      },
+      "/api/ai/knowledge-graph": {
+        "get": {
+          "operationId": "getKnowledgeGraph",
+          "summary": "Unified Schema.org JSON-LD Entity & Knowledge Graph",
+          "description": "Returns the complete interlinked Schema.org @graph for Smarter.Poker including Organization, WebSite, 15 SoftwareApplication verticals, Dataset directories, DefinedTermSet, CollectionPages, and Research Reports.",
+          "responses": {
+            "200": {
+              "description": "JSON-LD @graph document.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Smarter.Poker Unified Knowledge Graph",
+                      "value": {
+                        "@context": "https://schema.org",
+                        "@graph": [
+                          {
+                            "@type": "Organization",
+                            "@id": "https://smarter.poker/#organization",
+                            "name": "Smarter.Poker"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/about",
+          "x-ai-markdown-url": "https://smarter.poker/about.md"
+        }
+      },
+      "/api/ai/corpus": {
+        "get": {
+          "operationId": "getMultilingualCorpus",
+          "summary": "Multilingual AI Grounding Corpus (EN, ES, PT, DE, FR, IT, JA)",
+          "description": "Returns localized summaries of all 15 Smarter.Poker verticals, tools, and directories in English, Spanish, Portuguese, German, French, Italian, and Japanese.",
+          "parameters": [
+            {
+              "name": "lang",
+              "in": "query",
+              "description": "ISO language code (en, es, pt, de, fr, it, ja).",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "enum": [
+                  "en",
+                  "es",
+                  "pt",
+                  "de",
+                  "fr",
+                  "it",
+                  "ja"
+                ],
+                "default": "en"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Localized AI grounding corpus.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Localized AI Grounding Corpus Response",
+                      "value": {
+                        "ok": true,
+                        "requested_language": "es",
+                        "available_languages": [
+                          "en",
+                          "es",
+                          "pt",
+                          "de",
+                          "fr",
+                          "it",
+                          "ja"
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/features",
+          "x-ai-markdown-url": "https://smarter.poker/features.md"
+        }
+      },
+      "/api/ai/crawler-status": {
+        "get": {
+          "operationId": "getAiCrawlerStatus",
+          "summary": "AI Crawler Classification & Grounding Corpus Health",
+          "description": "Classifies incoming AI bot User-Agents and returns real-time counts of lessons, starting hands, glossary terms, comparisons, research reports, TDA rules, game variants, regional guides, interactive calculators, and MCP tools.",
+          "responses": {
+            "200": {
+              "description": "Crawler attribution and corpus inventory.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "AI Crawler Attribution & Health Response",
+                      "value": {
+                        "ok": true,
+                        "status": "healthy",
+                        "platform": "Smarter.Poker"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/verification-methodology",
+          "x-ai-markdown-url": "https://smarter.poker/verification-methodology.md"
+        }
+      },
+      "/api/stream/cmd": {
+        "get": {
+          "operationId": "executeStreamerChatbotCommand",
+          "summary": "Twitch & YouTube Streamer Chatbot Commands (14 Commands: !odds, !potodds, !pushfold, !icm, !bounty, !winrate, !plo, !rake, !3bet, !rule, !chop, !outs, !variance, !matchup)",
+          "description": "Returns single-line plain-text (<380 chars) or JSON poker solver and TDA rule responses for Nightbot, StreamElements, Fossabot, and MooBot livestream chat integrations.",
+          "parameters": [
+            {
+              "name": "cmd",
+              "in": "query",
+              "description": "Command selector: odds, potodds, pushfold, icm, bounty, winrate, plo, rake, 3bet, rule, chop, outs, variance, matchup, or help.",
+              "required": false,
+              "schema": {
+                "type": "string",
+                "enum": [
+                  "odds",
+                  "potodds",
+                  "pushfold",
+                  "icm",
+                  "bounty",
+                  "winrate",
+                  "plo",
+                  "rake",
+                  "3bet",
+                  "rule",
+                  "chop",
+                  "outs",
+                  "variance",
+                  "matchup",
+                  "help"
+                ],
+                "default": "help"
+              }
+            },
+            {
+              "name": "q",
+              "in": "query",
+              "description": "Free-text argument string passed from chat (e.g. 'AA vs KK', '100 50', 'BTN 12', 'string bet').",
+              "required": false,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Single-line plain-text or JSON chatbot response with canonical smarter.poker citation.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Streamer Chatbot Command Response",
+                      "value": {
+                        "ok": true,
+                        "command": "odds",
+                        "text": "Smarter.Poker Equity: AA vs KK = 81.9% vs 18.1% | Full Calculator: https://smarter.poker/tools/poker-odds-calculator"
+                      }
+                    }
+                  }
+                },
+                "text/plain": {
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/tools/embeds",
+          "x-ai-markdown-url": "https://smarter.poker/tools/embeds.md"
+        }
+      },
+      "/api/datasets/catalog": {
+        "get": {
+          "operationId": "getOpenDatasetCatalog",
+          "summary": "Open CC-BY 4.0 Quantitative Poker Dataset Catalog, Zenodo & Wikipedia Citations",
+          "description": "Returns Schema.org DataCatalog JSON-LD, Zenodo/DataCite metadata, CITATION.cff, and MediaWiki citation templates across 15 empirical poker studies and 9 Wikipedia target pages.",
+          "responses": {
+            "200": {
+              "description": "Dataset catalog and academic citation payload.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Open Dataset Catalog Response",
+                      "value": {
+                        "ok": true,
+                        "datasets_count": 15,
+                        "wikipedia_targets_count": 9,
+                        "citation_url": "https://smarter.poker/research"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/research",
+          "x-ai-markdown-url": "https://smarter.poker/research.md"
+        }
+      },
+      "/api/datasets/notebook": {
+        "get": {
+          "operationId": "getJupyterResearchNotebook",
+          "summary": "Google Colab & Jupyter Quantitative Poker Research Notebook (.ipynb)",
+          "description": "Returns a runnable Jupyter Notebook v4 (.ipynb) pre-configured with Python/pandas cells fetching Smarter.Poker empirical datasets, ICM calculations, and MCP endpoints.",
+          "responses": {
+            "200": {
+              "description": "Jupyter Notebook v4 JSON payload.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "Jupyter Quantitative Research Notebook",
+                      "value": {
+                        "nbformat": 4,
+                        "nbformat_minor": 5,
+                        "citation_url": "https://smarter.poker/research"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/research",
+          "x-ai-markdown-url": "https://smarter.poker/research.md"
+        }
+      },
+      "/api/seo/indexnow": {
+        "get": {
+          "operationId": "getIndexNowPayload",
+          "summary": "IndexNow Instant Search Submission Payload (Bing, ChatGPT Search & Yandex)",
+          "description": "Returns the IndexNow URL submission manifest listing 70+ high-priority Smarter.Poker calculators, matchups, rules, games, series guides, and research endpoints.",
+          "responses": {
+            "200": {
+              "description": "IndexNow host, keyLocation, and urlList payload.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "IndexNow URL Submission Payload",
+                      "value": {
+                        "host": "smarter.poker",
+                        "keyLocation": "https://smarter.poker/api/seo/indexnow",
+                        "citation_url": "https://smarter.poker/sitemap.xml"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/sitemap.xml",
+          "x-ai-markdown-url": "https://smarter.poker/llms.txt"
+        }
+      },
+      "/api/search/suggest": {
+        "get": {
+          "operationId": "getOpenSearchSuggestions",
+          "summary": "W3C OpenSearch Browser Address-Bar Autocomplete Suggestions",
+          "description": "Returns W3C OpenSearch JSON suggestion tuples [query, titles, descriptions, urls] across 24 calculators, 169 hands, 25 matchups, 30 rules, 15 variants, and guides.",
+          "parameters": [
+            {
+              "name": "q",
+              "in": "query",
+              "description": "Search prefix or keyword.",
+              "required": false,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "OpenSearch suggestion array.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array"
+                  },
+                  "examples": {
+                    "default": {
+                      "summary": "OpenSearch Suggestions Tuple",
+                      "value": [
+                        "icm",
+                        [
+                          "Tournament ICM Calculator",
+                          "Final Table Deal & ICM Chop Calculator"
+                        ],
+                        [
+                          "Malmuth-Harville ICM Equity Solver",
+                          "Compare ICM Chop Vs Chip Chop"
+                        ],
+                        [
+                          "https://smarter.poker/tools/icm-calculator",
+                          "https://smarter.poker/tools/chop-calculator"
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x-ai-citation-url": "https://smarter.poker/search",
+          "x-ai-markdown-url": "https://smarter.poker/search.md"
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "VenueSummary": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "venueType": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "state": {
+              "type": "string"
+            },
+            "address": {
+              "type": "string"
+            },
+            "phone": {
+              "type": "string"
+            },
+            "tablesCount": {
+              "type": "integer",
+              "nullable": true
+            },
+            "url": {
+              "type": "string"
+            },
+            "ogImageUrl": {
+              "type": "string"
+            }
+          }
+        },
+        "VenueSearchResponse": {
+          "type": "object",
+          "properties": {
+            "success": {
+              "type": "boolean"
+            },
+            "count": {
+              "type": "integer"
+            },
+            "data": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/VenueSummary"
+              }
+            }
+          }
+        },
+        "VenueDetailResponse": {
+          "type": "object",
+          "properties": {
+            "success": {
+              "type": "boolean"
+            },
+            "data": {
+              "$ref": "#/components/schemas/VenueSummary"
+            }
+          }
+        },
+        "SeriesSummary": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "venueName": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "state": {
+              "type": "string"
+            },
+            "startDate": {
+              "type": "string",
+              "nullable": true
+            },
+            "endDate": {
+              "type": "string",
+              "nullable": true
+            },
+            "totalEvents": {
+              "type": "integer"
+            },
+            "mainEventBuyin": {
+              "type": "number",
+              "nullable": true
+            },
+            "mainEventGuaranteed": {
+              "type": "number",
+              "nullable": true
+            },
+            "url": {
+              "type": "string"
+            },
+            "ogImageUrl": {
+              "type": "string"
+            }
+          }
+        },
+        "SeriesSearchResponse": {
+          "type": "object",
+          "properties": {
+            "success": {
+              "type": "boolean"
+            },
+            "count": {
+              "type": "integer"
+            },
+            "data": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/SeriesSummary"
+              }
+            }
+          }
+        },
+        "OddsCalculationResponse": {
+          "type": "object",
+          "properties": {
+            "success": {
+              "type": "boolean"
+            },
+            "game": {
+              "type": "string"
+            },
+            "simulated_iterations": {
+              "type": "integer"
+            },
+            "board_cards_count": {
+              "type": "integer"
+            },
+            "seats": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "seat": {
+                    "type": "string"
+                  },
+                  "equity_percent": {
+                    "type": "number"
+                  },
+                  "win_percent": {
+                    "type": "number"
+                  },
+                  "tie_percent": {
+                    "type": "number"
+                  }
+                }
+              }
+            },
+            "interactive_tool_url": {
+              "type": "string"
+            },
+            "citation": {
+              "type": "string"
+            }
+          }
+        },
+        "PreflopRangeResponse": {
+          "type": "object",
+          "properties": {
+            "success": {
+              "type": "boolean"
+            },
+            "position": {
+              "type": "string"
+            },
+            "game_structure": {
+              "type": "string"
+            },
+            "total_hands_opened": {
+              "type": "integer"
+            },
+            "hands_in_opening_range": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "hand": {
+                    "type": "string"
+                  },
+                  "raise_frequency": {
+                    "type": "number"
+                  },
+                  "call_frequency": {
+                    "type": "number"
+                  }
+                }
+              }
+            },
+            "interactive_matrix_url": {
+              "type": "string"
+            },
+            "citation": {
+              "type": "string"
+            }
+          }
+        },
+        "IcmCalculationResponse": {
+          "type": "object",
+          "properties": {
+            "success": {
+              "type": "boolean"
+            },
+            "total_chips_in_play": {
+              "type": "number"
+            },
+            "total_prize_pool": {
+              "type": "number"
+            },
+            "players": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "player": {
+                    "type": "string"
+                  },
+                  "chip_stack": {
+                    "type": "number"
+                  },
+                  "chip_share_percent": {
+                    "type": "number"
+                  },
+                  "icm_dollar_equity": {
+                    "type": "number"
+                  },
+                  "prize_pool_share_percent": {
+                    "type": "number"
+                  }
+                }
+              }
+            },
+            "interactive_tool_url": {
+              "type": "string"
+            },
+            "citation": {
+              "type": "string"
+            }
+          }
+        },
+        "GlossaryTermsResponse": {
+          "type": "object",
+          "properties": {
+            "success": {
+              "type": "boolean"
+            },
+            "query": {
+              "type": "string"
+            },
+            "total_found": {
+              "type": "integer"
+            },
+            "results": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "term": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  },
+                  "category": {
+                    "type": "string"
+                  },
+                  "definition": {
+                    "type": "string"
+                  },
+                  "canonical_url": {
+                    "type": "string"
+                  },
+                  "citation": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "glossary_hub_url": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "x-ai-verification-methodology": "https://smarter.poker/verification-methodology",
+    "x-ai-corpus-url": "https://smarter.poker/llms-full.txt"
+  }
+}

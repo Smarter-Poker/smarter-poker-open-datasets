@@ -9,7 +9,7 @@ identifiers:
     description: "Core Open Quantitative Poker Research Datasets"
   - type: doi
     value: "10.5281/zenodo.24095057"
-    description: "30-Tool Model Context Protocol (MCP) Server Archive"
+    description: "35-Tool Model Context Protocol (MCP) Server Archive"
   - type: doi
     value: "10.5281/zenodo.24095560"
     description: "North American Live Poker Room, Regional Market & Tournament Series Benchmark Dataset"
@@ -18,7 +18,7 @@ identifiers:
     description: "100BB 6-Max GTO Preflop Ranges, 169 Starting Hands & 25 Canonical Matchup Benchmarks"
   - type: doi
     value: "10.5281/zenodo.24095597"
-    description: "Smarter.Poker Model Context Protocol (MCP) Server & OpenAPI 3.1 Specification v1.0.2"
+    description: "Smarter.Poker Model Context Protocol (MCP) Server & OpenAPI 3.1 Specification v1.0.3"
   - type: doi
     value: "10.5281/zenodo.24095602"
     description: "Official Poker Rules (TDA & RROP), 15 Game Variants & 80-Term Quantitative Glossary Corpus"
@@ -29,7 +29,7 @@ identifiers:
 authors:
   - name: "Smarter.Poker Research Division"
     website: "https://smarter.poker/research"
-version: "2026.11"
+version: "2026.11.11"
 date-released: "2026-11-09"
 license: "CC-BY-4.0"
 url: "https://smarter.poker/research"

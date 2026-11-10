@@ -1,0 +1,1100 @@
+{
+  "schemaVersion": "2026.11.11",
+  "doi": "10.5281/zenodo.24095560",
+  "zenodoRecordUrl": "https://zenodo.org/records/24095560",
+  "title": "North American Live Poker Room, Regional Market & Tournament Series Benchmark Dataset (2026)",
+  "license": "CC-BY-4.0",
+  "publisher": "Smarter.Poker Research Division",
+  "canonicalUrl": "https://smarter.poker/poker-rooms/guides",
+  "regionalMarketsCount": 12,
+  "seriesGuidesCount": 10,
+  "regionalMarketGuides": [
+    {
+      "slug": "las-vegas-nevada",
+      "regionName": "Las Vegas Strip & Clark County",
+      "stateCode": "NV",
+      "title": "Las Vegas Live Poker Market Guide: Strip Casinos, Rake & Action",
+      "h1": "Las Vegas, Nevada Live Poker Room & Cash Game Strategy Guide",
+      "summary": "Las Vegas Hosts Over 20 Active Casino Card Rooms Led By Wynn, Bellagio, Aria, Venetian, And Resorts World, Featuring 10% Up To $5 - $6 Cap Rake And Year-Round International Convention And WSOP Traffic.",
+      "activeRoomsEstimate": "21 Active Casino Poker Rooms (280+ Active Tables)",
+      "typicalRakeModel": "10% Pot Drop Up To $5 - $6 Cap (Zero Promo Drop At Premier Strip Rooms)",
+      "signatureStakes": "$1/$3 NLH ($300 - $500 Cap), $2/$5 NLH ($1,000 - $1,500 Cap), $5/$10+ Uncapped & PLO",
+      "peakSeasonAndSeries": "May - July (WSOP & Wynn Summer Classic) And December (WPT World Championship)",
+      "topVenueHighlights": [
+        {
+          "name": "Wynn / Encore Poker Room",
+          "city": "Las Vegas, NV",
+          "tables": "28 Tables",
+          "knownFor": "$1,500 Cap $2/$5 NLH, Deep $5/$10 Games, And Wynn Millions Tournament Series"
+        },
+        {
+          "name": "Bellagio Poker Room",
+          "city": "Las Vegas, NV",
+          "tables": "37 Tables",
+          "knownFor": "Iconic $2/$5 And $5/$10 Cash Games, Bobby's Room High-Stakes Heritage, Zero Jackpot Drop"
+        },
+        {
+          "name": "Aria Resort & Casino Poker Room",
+          "city": "Las Vegas, NV",
+          "tables": "24 Tables",
+          "knownFor": "Premier Pot-Limit Omaha Action, Daily High-Roller Series, And $1/$3 To $10/$25 Cash"
+        }
+      ],
+      "playerStrategyTips": [
+        "Target Strip Properties Without Promotional Jackpot Drops (Wynn, Aria, Bellagio) When Grinding $2/$5+ To Save $3,500+ Per 1,000 Hours.",
+        "Adjust Preflop 3-Bet Sizing Upward During Convention Weeks And WSOP Summer Months When Recreational Multiway Calling Frequencies Spike.",
+        "Check Live Waitlists And Register Early Via Mobile Apps Before Peak 6:00 PM Dinner-Break Table Waves."
+      ],
+      "faqs": [
+        {
+          "q": "Which Las Vegas Poker Rooms Have No Promotional Or Bad Beat Drop?",
+          "a": "Premier Strip Rooms Including Wynn, Bellagio, And Aria Operate Pure 10% Up To $5 Or $6 Cap Rake With Zero Additional Promotional Dollar Removed From The Pot, Making Them The Lowest-Rake Percentage-Drop Rooms In North America."
+        },
+        {
+          "q": "What Are The Best Buy-In Caps For $1/$3 And $2/$5 In Las Vegas?",
+          "a": "Wynn Offers The Deepest Standard Strip Structure With A $500 Max Buy-In At $1/$3 (167 BB) And A $1,500 Max Buy-In At $2/$5 (300 BB), While Bellagio Caps $1/$3 At $300 And $2/$5 At $500."
+        }
+      ]
+    },
+    {
+      "slug": "los-angeles-california",
+      "regionName": "Los Angeles & Southern California",
+      "regionShort": "Los Angeles",
+      "stateCode": "CA",
+      "title": "Los Angeles Card Rooms Guide: Commerce, Bicycle, Hustler & Drop Math",
+      "h1": "Los Angeles, California Card Room & Flat-Drop Strategy Guide",
+      "summary": "Los Angeles Is The Largest Brick-And-Mortar Card Room Market In The World By Table Count, Anchored By Commerce Casino, The Bicycle Hotel, Gardens Casino, And Hustler Casino Under California's Flat Per-Hand Drop Model.",
+      "activeRoomsEstimate": "12 Major Commercial & Tribal Card Rooms (550+ Active Tables)",
+      "typicalRakeModel": "Flat $6 - $7 Per-Flop Drop + $1 Jackpot Drop (Zero Percentage Calculation)",
+      "signatureStakes": "$2/$3 NLH ($100 - $200 Buy-In), $5/$5 NLH ($300 - $600), $5/$10 ($1,000 - $1,500)",
+      "peakSeasonAndSeries": "January - March (LAPC), May - June (Legends Of Poker), And Year-Round Cash Action",
+      "topVenueHighlights": [
+        {
+          "name": "Commerce Casino",
+          "city": "Commerce, CA",
+          "tables": "150+ Tables",
+          "knownFor": "World's Largest Card Room Floor, Non-Stop $5/$5 And $5/$10 NLH, LA Poker Classic"
+        },
+        {
+          "name": "Parkwest Bicycle Casino (The Bike)",
+          "city": "Bell Gardens, CA",
+          "tables": "120+ Tables",
+          "knownFor": "Deepstack Tournament Festivals, Legends Of Poker, And Multi-Tiered Cash Games"
+        },
+        {
+          "name": "Hustler Casino & The Gardens Casino",
+          "city": "Gardena & Hawaiian Gardens, CA",
+          "tables": "140+ Combined Tables",
+          "knownFor": "High-Stakes Live Stream Cash Games, Modern Luxury Floors, And Action $5/$5 Pools"
+        }
+      ],
+      "playerStrategyTips": [
+        "Avoid Small-Stakes Limped Pots: Because California Rooms Take A Flat $6 To $7 Drop Immediately On The Flop Regardless Of Pot Size, Small Pots Are Raked At Over 25%.",
+        "Move Up From Short-Capped $1/$2 Or $2/$3 Games To $5/$5 Or $5/$10 As Quickly As Your Bankroll Permits So The Flat Flop Drop Shrinks Below 2 Big Blinds.",
+        "Adopt A Tight-Aggressive Raise-Or-Fold Preflop Strategy From Early And Middle Positions To Win Uncontested Blinds Pre-Flop (No Flop, No Drop)."
+      ],
+      "faqs": [
+        {
+          "q": "Why Do Los Angeles Poker Rooms Have Short Buy-In Caps At $1/$2 And $2/$3?",
+          "a": "Historically, Southern California Card Rooms Structured Lower-Tier Games With 40 BB To 60 BB Buy-In Caps To Encourage Fast All-In Action And Multi-Rebuy Turnover, While True 100 BB+ Deepstack Play Begins At The $5/$5 And $5/$10 Levels."
+        },
+        {
+          "q": "How Does California Flat Flop Drop Affect Preflop Strategy?",
+          "a": "Because A Full $6 To $7 Drop Is Removed As Soon As A Flop Is Dealt Even In A $12 Pot, Limping Speculative Hands Is Mathematically Disastrous. Winning Blinds Pre-Flop Avoids The Flop Drop Entirely."
+        }
+      ]
+    },
+    {
+      "slug": "south-florida-miami-hollywood",
+      "regionName": "South Florida (Hollywood, Miami & Pompano)",
+      "stateCode": "FL",
+      "title": "South Florida Live Poker Guide: Seminole Hard Rock, High-Hand Promos & PLO",
+      "h1": "South Florida (Miami, Hollywood & Fort Lauderdale) Live Poker Market Guide",
+      "summary": "South Florida Combines Massive Championship Tournament Fields At Seminole Hard Rock Hollywood With High-Velocity Cash Game And PLO Action Across Broward And Miami-Dade County Card Rooms.",
+      "activeRoomsEstimate": "9 Major Pari-Mutuel & Tribal Card Rooms (240+ Active Tables)",
+      "typicalRakeModel": "10% Pot Drop Up To $5 - $7 Cap + $2 Promotional High-Hand / Bad Beat Drop",
+      "signatureStakes": "$1/$2 & $1/$3 NLH, $2/$5 NLH ($1,000 Cap), And $2/$2 To $5/$10 Pot-Limit Omaha",
+      "peakSeasonAndSeries": "January (Lucky Hearts), April (Showdown), August (SHRPO), And November (RRPO)",
+      "topVenueHighlights": [
+        {
+          "name": "Seminole Hard Rock Hotel & Casino Hollywood",
+          "city": "Hollywood, FL",
+          "tables": "45 Tables",
+          "knownFor": "Flagship WPT Televised Championships, Multi-Million Guaranteed Series, 24/7 $2/$5 & PLO"
+        },
+        {
+          "name": "Harrah's Pompano Beach Poker",
+          "city": "Pompano Beach, FL",
+          "tables": "42 Tables",
+          "knownFor": "WSOP Circuit Stops, Aggressive High-Hand Promotions, And Action Cash Games"
+        },
+        {
+          "name": "Magic City Casino & Hialeah Park Poker",
+          "city": "Miami & Hialeah, FL",
+          "tables": "50+ Combined Tables",
+          "knownFor": "Deep Action Pot-Limit Omaha, High-Hand Promo Schedules, And Local Miami Action"
+        }
+      ],
+      "playerStrategyTips": [
+        "Factor High-Hand Promotion Hours Into Table Selection: South Florida Rooms Fund $500 To $1,000 Every 30-Minute High-Hand Window Via The $2 Promo Drop, Driving Loose Multiway Flop Seeing.",
+        "Value Bet Thin And Size Up With Nutted Holdings Against Loose-Passive Promotional Chasers Who Refuse To Fold Flush And Straight Draws.",
+        "Bring Dedicated PLO Bankroll Reserves: South Florida Spreads Some Of The Deepest 4-Card And 5-Card PLO Games East Of Texas."
+      ],
+      "faqs": [
+        {
+          "q": "When Are The Largest Tournament Series Held In South Florida?",
+          "a": "Seminole Hard Rock Hollywood Hosts Four Major Annual Flagship Festivals: Lucky Hearts Poker Open (January), Seminole Hard Rock Poker Showdown (April), Seminole Hard Rock Poker Open In August, And Rock 'N' Roll Poker Open (November)."
+        },
+        {
+          "q": "How Do South Florida High-Hand Promotions Impact Cash Game Strategy?",
+          "a": "During Active High-Hand Windows, Recreational Players Call Wider Pre-Flop Hoping To Make Broadway Straights Or Full Houses. Avoid Fancy River Bluffs And Extract Maximum Value With Top-Tier Made Hands."
+        }
+      ]
+    },
+    {
+      "slug": "houston-texas",
+      "regionName": "Greater Houston Private Card Clubs",
+      "stateCode": "TX",
+      "title": "Houston Texas Poker Rooms Guide: Time-Charge Card Clubs, PLO & Bomb Pots",
+      "h1": "Houston, Texas Membership Card Club & Time-Rake Strategy Guide",
+      "summary": "Houston Is The Epicenter Of The Texas Private Membership Card Club Model, Featuring Zero Percentage Pot Rake, $10 - $13 Hourly Seat Rentals, Deep Match-The-Stack Buy-Ins, And Mandatory Double-Board PLO Bomb Pots.",
+      "activeRoomsEstimate": "15+ Private Membership Poker Clubs (180+ Active Tables)",
+      "typicalRakeModel": "$0 Pot Rake · Daily/Monthly Club Membership + $10 - $13/Hr Seat Time Charge",
+      "signatureStakes": "$1/$2 & $1/$3 NLH (Plays Like $2/$5), $2/$5 Match-The-Stack, And $5/$5+ PLO5",
+      "peakSeasonAndSeries": "Year-Round High-Guarantee Club Festivals And Millions-Guaranteed Series",
+      "topVenueHighlights": [
+        {
+          "name": "Champions Club Texas",
+          "city": "Houston, TX",
+          "tables": "30+ Tables",
+          "knownFor": "Full-Service Hotel & Card Club Venue, Major Televised Tournament Series, And Deep Cash"
+        },
+        {
+          "name": "Texas Card House (TCH) Houston / Spring",
+          "city": "Houston / Spring, TX",
+          "tables": "32 Tables",
+          "knownFor": "High-Volume $1/$3 And $2/$5 Cash Tables, PLO Action, And Live-Streamed Feature Tables"
+        },
+        {
+          "name": "Spade Poker Club & Katy Highway Card Rooms",
+          "city": "Houston Metro, TX",
+          "tables": "45+ Combined Tables",
+          "knownFor": "Deepstack $1/$3 Match-The-Stack, Frequent Double-Board Bomb Pots, And Low Seat Time"
+        }
+      ],
+      "playerStrategyTips": [
+        "Treat Houston $1/$3 As A Standard Casino $2/$5 Or $5/$10 Game: Standard Pre-Flop Opens Range From $15 To $25, And Straddles Are Routine.",
+        "Widen Your Pre-Flop Defending And Calling Ranges In Position Because Zero Dollars Are Removed From The Pot On The Flop.",
+        "Master Double-Board PLO Bomb Pot Split-Equity Math: Dealer-Change Bomb Pots Can Swing 100+ Big Blinds In A Single Orbit."
+      ],
+      "faqs": [
+        {
+          "q": "How Do Houston Poker Clubs Operate Legally With Zero Pot Rake?",
+          "a": "Texas Social Gambling Statues Prohibit The House From Taking A Percentage Rake From The Pot. Instead, Houston Card Rooms Operate As Private Membership Clubs Charging Membership Dues And Hourly Seat Rental Time."
+        },
+        {
+          "q": "Why Do Houston $1/$2 And $1/$3 Cash Games Play So Deep?",
+          "a": "Many Houston Clubs Allow Buy-Ins Up To $500 Or 100% Match-The-Biggest-Stack At The Table, Creating 250 BB To 500 BB Effective Stacks Even At The Lowest Posted Blind Levels."
+        }
+      ]
+    },
+    {
+      "slug": "dallas-fort-worth-texas",
+      "regionName": "Dallas - Fort Worth & Southern Oklahoma Border",
+      "stateCode": "TX",
+      "title": "Dallas-Fort Worth Poker Guide: TCH Dallas, Choctaw Durant & WinStar",
+      "h1": "Dallas-Fort Worth (DFW) & North Texas Poker Market Strategy Guide",
+      "summary": "The Dallas-Fort Worth Metroplex Blends High-Action Texas Time-Charge Card Clubs With Massive Resort Casino Poker Rooms Just 60 Minutes North Across The Oklahoma Border At Choctaw Durant And WinStar.",
+      "activeRoomsEstimate": "10+ DFW Card Clubs & Border Resort Rooms (210+ Active Tables)",
+      "typicalRakeModel": "$12 - $14/Hr Seat Time In Texas Clubs · 10% Up To $5 - $6 Cap At OK Border Casinos",
+      "signatureStakes": "$1/$2 & $1/$3 Deepstack NLH, $2/$5 NLH, And $5/$5+ Big-O / PLO",
+      "peakSeasonAndSeries": "January & July (WSOP Circuit Choctaw Durant) Plus Major Quarterly DFW Club Series",
+      "topVenueHighlights": [
+        {
+          "name": "Texas Card House (TCH) Dallas / Las Colinas",
+          "city": "Dallas / Irving, TX",
+          "tables": "35+ Tables",
+          "knownFor": "Flagship DFW Time-Charge Cash Action, Deep $2/$5 & PLO, And High-Guarantee MTTs"
+        },
+        {
+          "name": "Choctaw Casino & Resort Durant",
+          "city": "Durant, OK (North Of DFW)",
+          "tables": "30+ Tables (80+ During WSOPC)",
+          "knownFor": "Premier WSOP Circuit Stop Serving The DFW Metroplex With Resort Amenities"
+        },
+        {
+          "name": "WinStar World Casino & Shuffle 214",
+          "city": "Thackerville, OK & Dallas, TX",
+          "tables": "55+ Combined Tables",
+          "knownFor": "Massive Weekend Recreational Traffic, $1/$3 To $5/$10 NLH, And Omaha Split Games"
+        }
+      ],
+      "playerStrategyTips": [
+        "Choose DFW Time-Charge Clubs For High-VPIP Deepstack Cash Sessions, And Travel North To Choctaw Durant During WSOP Circuit Stops For Massive Multi-Table Tournament Guarantees.",
+        "Prepare For Frequent Mississippi And Button Straddles In North Texas Cash Games, Which Cut Effective SPR In Half And Reward Tight 3-Bet Squeeze Ranges.",
+        "Keep A Dedicated 30+ Buy-In Cushion When Playing DFW $2/$5 Or PLO Due To Match-The-Stack Volatility."
+      ],
+      "faqs": [
+        {
+          "q": "Should DFW Players Play In Dallas Card Clubs Or Oklahoma Border Casinos?",
+          "a": "Active Cash Game Grinders Playing 30+ Hours Per Week Save Significant Rake In DFW Time-Collection Clubs ($12-$13/Hr), While Resort Players Seeking Hotel Comps And WSOP Circuit Rings Favor Choctaw Durant And WinStar."
+        },
+        {
+          "q": "What Games Are Most Popular In The Dallas-Fort Worth Market?",
+          "a": "Deepstack $1/$2 And $2/$5 No-Limit Hold'em Lead In Table Count, Followed Closely By 4-Card And 5-Card Pot-Limit Omaha And Double-Board Bomb Pot Rotations."
+        }
+      ]
+    },
+    {
+      "slug": "austin-san-antonio-texas",
+      "regionName": "Austin & San Antonio Corridor (Central Texas)",
+      "stateCode": "TX",
+      "title": "Austin & San Antonio Poker Guide: The Lodge Card Club, TCH & Time Rake",
+      "h1": "Austin & San Antonio, Texas Live Poker & Card Club Strategy Guide",
+      "summary": "Central Texas Is Home To The Largest Private Poker Club In North America (The Lodge Card Club In Round Rock/Austin) Alongside Thriving San Antonio Membership Rooms Known For Deep Stacks And Zero Pot Rake.",
+      "activeRoomsEstimate": "12+ Central Texas Membership Card Clubs (190+ Active Tables)",
+      "typicalRakeModel": "$0 Pot Rake · Membership + $11 - $13/Hr Seat Time Rental",
+      "signatureStakes": "$1/$2 NLH ($300 - $500 Cap), $1/$3 NLH ($1,000 Cap), $2/$5+, And PLO",
+      "peakSeasonAndSeries": "May & Fall Championship Series At The Lodge Plus Weekly Deepstack Guarantees",
+      "topVenueHighlights": [
+        {
+          "name": "The Lodge Card Club (Austin / Round Rock & San Antonio)",
+          "city": "Round Rock & San Antonio, TX",
+          "tables": "80+ Combined Tables",
+          "knownFor": "Largest Card Club In Texas, High-Stakes Live Streams, Multi-Million Tournament Series"
+        },
+        {
+          "name": "Texas Card House (TCH) Austin",
+          "city": "Austin, TX",
+          "tables": "25+ Tables",
+          "knownFor": "Action-Packed $1/$2 And $2/$5 Cash Games, Tech-Corridor Player Pool, And PLO"
+        },
+        {
+          "name": "Alamo Card House & San Antonio Card Clubs",
+          "city": "San Antonio, TX",
+          "tables": "35+ Combined Tables",
+          "knownFor": "Friendly Recreational Cash Tables, Bomb Pot Rotations, And Daily Deepstack MTTs"
+        }
+      ],
+      "playerStrategyTips": [
+        "Exploit The 300 BB ($1,000 Cap) $1/$3 Structure In Austin By Prioritizing Suited Aces, Pocket Pairs, And Nut-Potential Postflop Hands.",
+        "Adjust To A Mix Of Analytical Tech Professionals And Aggressive Texas Action Players By Avoiding Auto-Pilot C-Bets On Wet Multiway Boards.",
+        "Use Off-Peak Morning And Early-Afternoon Seat Time Discounts Offered By Central Texas Clubs To Reduce Hourly Overhead."
+      ],
+      "faqs": [
+        {
+          "q": "What Makes Austin's $1/$3 Cash Games Different From Standard Casino $1/$3?",
+          "a": "Leading Austin Clubs Cap $1/$3 At $1,000 (333 Big Blinds) With Zero Pot Rake, Meaning The Game Plays With The Stack Depth And Postflop Complexity Of A High-Stakes $5/$10 Casino Game."
+        },
+        {
+          "q": "Can Visitors Play At Austin And San Antonio Poker Clubs For A Single Day?",
+          "a": "Yes. All Major Central Texas Card Clubs Offer Instant Daily Or Weekly Visitor Memberships At The Front Desk With A Valid Government Photo ID."
+        }
+      ]
+    },
+    {
+      "slug": "tampa-central-florida",
+      "regionName": "Tampa Bay, Orlando & Central Florida",
+      "stateCode": "FL",
+      "title": "Tampa & Central Florida Poker Guide: Hard Rock Tampa, TGT & Orange City",
+      "h1": "Tampa Bay & Central Florida Live Poker Room Strategy Guide",
+      "summary": "Central Florida Anchors The Gulf Coast And I-4 Corridor With Seminole Hard Rock Tampa, Tampa Bay Downs (TGT), Derby Lane, And Orange City Racing & Card Club, Serving Both Year-Round Locals And Orlando Tourists.",
+      "activeRoomsEstimate": "8 Major Card Rooms Across Tampa Bay, St. Pete & I-4 (210+ Active Tables)",
+      "typicalRakeModel": "10% Pot Drop Up To $5 - $6 Cap + $2 High-Hand / Bad Beat Promotional Drop",
+      "signatureStakes": "$1/$2 & $1/$3 NLH, $2/$5 NLH ($500 - $1,000 Cap), And $2/$2 - $5/$5 PLO",
+      "peakSeasonAndSeries": "February, May & September (Seminole Hard Rock Tampa Series & WPT Events)",
+      "topVenueHighlights": [
+        {
+          "name": "Seminole Hard Rock Hotel & Casino Tampa",
+          "city": "Tampa, FL",
+          "tables": "46 Tables",
+          "knownFor": "24/7 Non-Smoking Luxury Room, WPT Tampa Championships, And Deep $2/$5 & PLO"
+        },
+        {
+          "name": "Silks Poker Room At Tampa Bay Downs & TGT Poker",
+          "city": "Tampa, FL",
+          "tables": "55+ Combined Tables",
+          "knownFor": "High-Value Daily Tournaments, Generous High-Hand Promotions, And Local Action"
+        },
+        {
+          "name": "Derby Lane (St. Petersburg) & Orange City Card Club",
+          "city": "St. Petersburg & Orange City, FL",
+          "tables": "70+ Combined Tables",
+          "knownFor": "Serving Pinellas County And Greater Orlando With Non-Stop Cash And Promo Pools"
+        }
+      ],
+      "playerStrategyTips": [
+        "Align Your Sessions With Scheduled High-Hand Rollover Hours At Tampa And St. Petersburg Pari-Mutuel Rooms To Capture Positive Promotional Equity.",
+        "Target Friday And Saturday Evening Tables Near The I-4 Corridor When Orlando Convention And Theme-Park Visitors Join The Cash Pools.",
+        "Tighten Pre-Flop Calling Ranges In $1/$2 Games Capped At $200 - $300 Where The $5+$2 Drop Heavily Taxes Small Multiway Pots."
+      ],
+      "faqs": [
+        {
+          "q": "Where Do Orlando Visitors Play Live Poker In Central Florida?",
+          "a": "Because Orlando Does Not Have Casino Poker Rooms Inside Theme-Park Limits, Players Drive 35 To 60 Minutes East Or West Along The I-4 Corridor To Orange City Racing & Card Club, Daytona Beach, Or Seminole Hard Rock Tampa."
+        },
+        {
+          "q": "What Are The Signature Cash Games At Seminole Hard Rock Tampa?",
+          "a": "Hard Rock Tampa Spreads Round-The-Clock $1/$2, $1/$3, And $2/$5 No-Limit Hold'em Alongside One Of The Largest Daily Pot-Limit Omaha Player Pools On The Florida Gulf Coast."
+        }
+      ]
+    },
+    {
+      "slug": "atlantic-city-new-jersey",
+      "regionName": "Atlantic City & New Jersey Shore",
+      "stateCode": "NJ",
+      "title": "Atlantic City Poker Rooms Guide: Borgata, Harrah's & Tropicana Cash Games",
+      "h1": "Atlantic City, New Jersey Live Poker Room & Tournament Strategy Guide",
+      "summary": "Atlantic City Remains The Historic Boardwalk And Marina Poker Hub Of The Northeast, Dominated By The 52-Table Borgata Poker Room Alongside Harrah's And Tropicana.",
+      "activeRoomsEstimate": "3 Active Casino Poker Rooms (85+ Active Tables)",
+      "typicalRakeModel": "10% Pot Drop Up To $5 - $6 Cap + $2 Bad Beat / High-Hand Promotional Drop",
+      "signatureStakes": "$1/$3 NLH ($300 - $400 Cap), $2/$5 NLH ($1,000 Cap), $5/$10+ NLH & Mixed Games",
+      "peakSeasonAndSeries": "January (Winter Open), June - August Summer Shore Season, And Fall Borgata Series",
+      "topVenueHighlights": [
+        {
+          "name": "Borgata Hotel Casino & Spa Poker Room",
+          "city": "Atlantic City, NJ",
+          "tables": "52 Tables",
+          "knownFor": "Undisputed Flagship Room Of New Jersey, $1/$3 To $10/$25 Cash, And Major Open Series"
+        },
+        {
+          "name": "Harrah's Resort Atlantic City Poker Room",
+          "city": "Atlantic City, NJ",
+          "tables": "20+ Tables",
+          "knownFor": "Marina District Action, Caesars Rewards Integration, And Weekend $1/$2 & $1/$3 Games"
+        },
+        {
+          "name": "Tropicana Atlantic City Poker Room",
+          "city": "Atlantic City, NJ",
+          "tables": "16+ Tables",
+          "knownFor": "Boardwalk Tourist Traffic, Low-Limit Hold'em, And Bad Beat Jackpot Promotions"
+        }
+      ],
+      "playerStrategyTips": [
+        "Concentrate Serious $2/$5 And $5/$10 Volume At Borgata, Which Draws The Deepest Northeast Player Pools From New York City, North Jersey, And Philadelphia.",
+        "Combine Live Borgata Sessions With Regulated New Jersey Online Poker Study Or Multi-Tabling While Staying In State.",
+        "Play Friday Afternoon Through Sunday Evening During Summer Shore Weekends When Recreational Boardwalk And Marina Foot Traffic Peaks."
+      ],
+      "faqs": [
+        {
+          "q": "Which Atlantic City Casino Has The Largest Poker Room?",
+          "a": "Borgata Hotel Casino & Spa In The Marina District Commands Over 65% Of Atlantic City's Live Poker Market Share With 52 Tables Running 24/7 Cash Games And Daily Tournaments."
+        },
+        {
+          "q": "Can Visitors Play Regulated Online Poker While Visiting Atlantic City?",
+          "a": "Yes. Any Visitor Physically Located Within New Jersey State Borders (Verified Via Geolocation) Can Legally Register And Play On Regulated New Jersey Online Poker Platforms."
+        }
+      ]
+    },
+    {
+      "slug": "philadelphia-pennsylvania",
+      "regionName": "Greater Philadelphia & Eastern Pennsylvania",
+      "stateCode": "PA",
+      "title": "Philadelphia Poker Rooms Guide: Parx, Live! Casino, Rivers & Valley Forge",
+      "h1": "Philadelphia & Eastern Pennsylvania Live Poker Market Strategy Guide",
+      "summary": "Greater Philadelphia Boasts One Of The Highest-Density Casino Poker Markets On The East Coast, Led By Parx Casino In Bensalem, Live! Casino South Philadelphia, And Rivers Casino Philadelphia.",
+      "activeRoomsEstimate": "5 Major Casino Poker Rooms In Metro Corridor (145+ Active Tables)",
+      "typicalRakeModel": "10% Pot Drop Up To $5 - $6 Cap + $2 Bad Beat / High-Hand Promotional Drop",
+      "signatureStakes": "$1/$2 & $1/$3 NLH, $2/$5 NLH ($1,000 Cap), $10/$10+ NLH, And Deep PLO",
+      "peakSeasonAndSeries": "February, May, August & November (Parx Big Stax Series) Plus Stadium Event Weekends",
+      "topVenueHighlights": [
+        {
+          "name": "Parx Casino Poker Room",
+          "city": "Bensalem, PA (North Philly)",
+          "tables": "48 Tables",
+          "knownFor": "Famous Big Stax Deepstack Series, Tuesday $10/$10+ High-Stakes Action, Deep $2/$5"
+        },
+        {
+          "name": "Live! Casino & Hotel Philadelphia",
+          "city": "South Philadelphia, PA",
+          "tables": "29 Tables",
+          "knownFor": "Located In The Stadium District, Massive Post-Game Sports Fan Action, Modern Floor"
+        },
+        {
+          "name": "Rivers Casino Philadelphia & Wind Creek Bethlehem",
+          "city": "Philadelphia & Bethlehem, PA",
+          "tables": "54+ Combined Tables",
+          "knownFor": "Strong High-Hand Promotions, Bad Beat Jackpots, And Accessible $1/$3 Cash Games"
+        }
+      ],
+      "playerStrategyTips": [
+        "Schedule Sessions At Live! Casino South Philadelphia Immediately Following Phillies, Eagles, Sixers, Or Flyers Home Games To Capture Recreational Stadium Traffic.",
+        "Target Parx Casino On Tuesdays And Weekends For The Deepest $2/$5, $5/$10, And Pot-Limit Omaha Games In The Mid-Atlantic.",
+        "Pay Close Attention To Pennsylvania Bad Beat Jackpot Qualification Rules (Often Quad Deuces Or Quad Aces Beaten) When Selecting $1/$2 And $1/$3 Tables."
+      ],
+      "faqs": [
+        {
+          "q": "What Is The Parx Big Stax Poker Series In Pennsylvania?",
+          "a": "Parx Big Stax Is One Of The East Coast's Premier Deepstack Tournament Franchises Hosted At Parx Casino In Bensalem, Known For 60- To 90-Minute Blind Levels And Massive Prize Pools At $300 To $1,500 Buy-Ins."
+        },
+        {
+          "q": "Which Philadelphia Poker Room Is Closest To The Sports Complex?",
+          "a": "Live! Casino & Hotel Philadelphia Sits Directly In The South Philadelphia Stadium District Within Walking Distance Of Citizens Bank Park, Lincoln Financial Field, And Wells Fargo Center."
+        }
+      ]
+    },
+    {
+      "slug": "phoenix-scottsdale-arizona",
+      "regionName": "Phoenix, Scottsdale & Valley Of The Sun",
+      "stateCode": "AZ",
+      "title": "Phoenix & Scottsdale Poker Guide: Talking Stick Arena, Lone Butte & Action",
+      "h1": "Phoenix & Scottsdale, Arizona Live Poker Market Strategy Guide",
+      "summary": "The Phoenix-Scottsdale Metro Area Is Anchored By The 47-Table Arena Poker Room At Talking Stick Resort And Desert Diamond West Valley, Featuring Famous Spread-Limit And No-Limit Cash Games And Winter Snowbird Booms.",
+      "activeRoomsEstimate": "4 Major Tribal Resort Poker Rooms (105+ Active Tables)",
+      "typicalRakeModel": "10% Pot Drop Up To $5 - $6 Cap + $2 Bad Beat / High-Hand Promotional Drop",
+      "signatureStakes": "$1/$2 & $2/$3 NLH, $3/$5 NLH, And Arizona Classic Spread-Limit / Omaha Games",
+      "peakSeasonAndSeries": "January - April (Spring Training, Waste Management Open & Arizona State Championship)",
+      "topVenueHighlights": [
+        {
+          "name": "The Arena Poker Room At Talking Stick Resort",
+          "city": "Scottsdale, AZ",
+          "tables": "47 Tables",
+          "knownFor": "Arizona State Poker Championship, Non-Stop Cash Action, And Luxury Scottsdale Resort"
+        },
+        {
+          "name": "Desert Diamond Casino West Valley",
+          "city": "Glendale, AZ",
+          "tables": "36 Tables",
+          "knownFor": "West Valley Flagship Room Near State Farm Stadium, Deep Tournaments, And Promo Pools"
+        },
+        {
+          "name": "Gila River Resorts & Casinos (Lone Butte)",
+          "city": "Chandler, AZ",
+          "tables": "25+ Tables",
+          "knownFor": "East Valley & South Phoenix Hub With 24/7 Cash Tables And Bad Beat Jackpot Action"
+        }
+      ],
+      "playerStrategyTips": [
+        "Maximize Volume Between January And April When MLB Spring Training, Golf Tournaments, And Winter Visitors Double Scottsdale And Glendale Cash Game Waitlists.",
+        "Understand Both Modern No-Limit Hold'em Caps And Any Legacy Spread-Limit Rules ($2-$100 Or $3-$300) Still Offered On Specific Tables.",
+        "Register Early For The Annual August Arizona State Poker Championship At Talking Stick, Which Consistently Draws Over 1,500+ Entrants."
+      ],
+      "faqs": [
+        {
+          "q": "Does Arizona Offer True No-Limit Hold'em Or Only Spread-Limit Poker?",
+          "a": "Following Arizona's Updated Tribal Gaming Compact In 2021, Arizona Casino Card Rooms Legally Spread True No-Limit Hold'em And Pot-Limit Omaha Alongside Traditional Spread-Limit Games."
+        },
+        {
+          "q": "When Is The Best Time Of Year To Play Cash Games In Scottsdale?",
+          "a": "Late January Through March Is The Undisputed Peak Season In Scottsdale, Driven By The WM Phoenix Open Golf Tournament, MLB Cactus League Spring Training, And Affluent Winter Tourists."
+        }
+      ]
+    },
+    {
+      "slug": "chicagoland-midwest",
+      "regionName": "Chicagoland, Illinois Subs & Northwest Indiana",
+      "stateCode": "IL",
+      "title": "Chicagoland Poker Guide: Rivers Des Plaines, Horseshoe Hammond & Grand Victoria",
+      "h1": "Chicagoland & Northwest Indiana Live Poker Market Strategy Guide",
+      "summary": "The Greater Chicago Poker Ecosystem Spans High-Demand Illinois Casino Rooms (Rivers Des Plaines, Grand Victoria Elgin, Wind Creek) And Northwest Indiana Resort Hubs Led By Horseshoe Hammond.",
+      "activeRoomsEstimate": "7 Casino & Charitable Card Venues Across IL/IN (130+ Active Tables)",
+      "typicalRakeModel": "10% Pot Drop Up To $6 - $7 Cap + $2 Promotional / Bad Beat Drop",
+      "signatureStakes": "$1/$3 NLH ($300 - $500 Cap), $2/$5 NLH ($1,000 Cap), And $2/$2 - $5/$5 PLO",
+      "peakSeasonAndSeries": "Spring & Fall WSOP Circuit Stops At Horseshoe Hammond & Grand Victoria Elgin",
+      "topVenueHighlights": [
+        {
+          "name": "Rivers Casino Des Plaines Poker Room",
+          "city": "Des Plaines, IL (Near O'Hare)",
+          "tables": "22 Tables",
+          "knownFor": "Highest-Demand Cash Room In Illinois Minutes From O'Hare Airport, Deep $2/$5 & PLO"
+        },
+        {
+          "name": "Horseshoe Hammond Poker Room",
+          "city": "Hammond, IN (20 Mins From Downtown Chicago)",
+          "tables": "28+ Tables",
+          "knownFor": "Legendary Midwest WSOP Circuit Venue, High-Limit PLO, And Easy Skyway Access"
+        },
+        {
+          "name": "Grand Victoria Casino Elgin & Wind Creek Chicago Southland",
+          "city": "Elgin & East Hazel Crest, IL",
+          "tables": "40+ Combined Tables",
+          "knownFor": "WSOP Circuit Elgin Stops, Suburban Cash Action, And Modern Southland Amenities"
+        }
+      ],
+      "playerStrategyTips": [
+        "Always Join The Digital Waitlist 60 To 90 Minutes Before Driving To Rivers Des Plaines, As High Player Demand Versus Table Capacity Creates Long Evening Lists.",
+        "Account For Slightly Higher Midwest Rake Caps ($6 To $7) By Tightening Cold-Call Ranges In Small $1/$3 Pots.",
+        "Look For Pot-Limit Omaha Tables At Horseshoe Hammond And Rivers Des Plaines, Where Midwest Action Players Build Massive Multiway Pots."
+      ],
+      "faqs": [
+        {
+          "q": "Which Poker Room Is Closest To Downtown Chicago And O'Hare Airport?",
+          "a": "Rivers Casino Des Plaines Is Located Immediately Adjacent To O'Hare International Airport, While Horseshoe Hammond Just Across The Indiana State Line Is Only 20 Minutes From The Chicago Loop Via The Chicago Skyway."
+        },
+        {
+          "q": "Where Do WSOP Circuit Events Run In The Chicago Area?",
+          "a": "Both Horseshoe Hammond In Northwest Indiana And Grand Victoria Casino In Elgin, Illinois Host Official World Series Of Poker Circuit (WSOPC) Ring Festivals."
+        }
+      ]
+    },
+    {
+      "slug": "new-england-connecticut-boston",
+      "regionName": "New England (Massachusetts, Connecticut & New Hampshire)",
+      "stateCode": "MA",
+      "title": "New England Poker Guide: Encore Boston Harbor, Mohegan Sun, Foxwoods & NH",
+      "h1": "New England (Boston, Connecticut & New Hampshire) Live Poker Strategy Guide",
+      "summary": "New England's Live Poker Landscape Spans Luxury Resort Rooms At Encore Boston Harbor And MGM Springfield, Historic Connecticut Tribal Mega-Resorts (Mohegan Sun & Foxwoods), And Low-Rake New Hampshire Charitable Card Rooms.",
+      "activeRoomsEstimate": "10+ Resort Casinos & NH Charitable Rooms (195+ Active Tables)",
+      "typicalRakeModel": "10% Pot Drop Up To $5 - $8 Cap + $2 Promo Drop ($10/Hr Time At High Stakes)",
+      "signatureStakes": "$1/$3 NLH ($300 - $500 Cap), $2/$5 NLH ($1,000 Cap), $5/$10+ NLH & 7-Card Stud/O8",
+      "peakSeasonAndSeries": "Spring & Fall Mega Stack Challenges In CT Plus NH Poker Cup Series",
+      "topVenueHighlights": [
+        {
+          "name": "Mohegan Sun & Foxwoods Resort Casino",
+          "city": "Uncasville & Mashantucket, CT",
+          "tables": "65+ Combined Tables",
+          "knownFor": "Historic Northeast Tribal Mega-Resorts, Daily Tournaments, Stud/Omaha Hi-Lo & NLH"
+        },
+        {
+          "name": "Encore Boston Harbor & MGM Springfield",
+          "city": "Everett & Springfield, MA",
+          "tables": "40+ Combined Tables",
+          "knownFor": "Greater Boston Luxury Cash Action, Deep $2/$5 And $5/$10 Pools"
+        },
+        {
+          "name": "Gate City Casino (Nashua) & The Brook (Seabrook)",
+          "city": "Nashua & Seabrook, NH",
+          "tables": "55+ Combined Tables",
+          "knownFor": "Southern New Hampshire Border Hubs Offering Lower Rake Caps And Deep Tournament Series"
+        }
+      ],
+      "playerStrategyTips": [
+        "Compare Rake Caps Carefully In Greater Boston: Southern New Hampshire Rooms (Nashua And Seabrook) Just 40 Minutes North Often Charge Lower Rake Caps Than Urban Resort Floors.",
+        "Move Up To $2/$5 Or $5/$10 At Encore Boston Harbor Where Higher Buy-In Caps Offset The Per-Hand Rake.",
+        "Take Advantage Of Weekend Resort Staycations At Mohegan Sun And Foxwoods When New York And Boston Recreational Players Fill The Cash Waitlists."
+      ],
+      "faqs": [
+        {
+          "q": "Why Do Many Boston Poker Players Drive To Southern New Hampshire?",
+          "a": "Charitable Gaming Rooms In Nashua And Seabrook, New Hampshire Sit Immediately Across The Massachusetts State Line, Offering Easy Free Parking, Frequent Deepstack Tournament Series, And Competitive $5 Rake Caps."
+        },
+        {
+          "q": "Do Connecticut Casinos Still Spread Limit Hold'em And Stud Games?",
+          "a": "Yes. Mohegan Sun And Foxwoods Remain Two Of The Best East Coast Venues For Traditional Limit Hold'em, Omaha Hi-Lo (O8), And 7-Card Stud Alongside Modern No-Limit Hold'em And PLO."
+        }
+      ]
+    }
+  ],
+  "tournamentSeriesGuides": [
+    {
+      "slug": "wsop-las-vegas",
+      "name": "World Series Of Poker (WSOP) Summer Series",
+      "shortName": "WSOP Las Vegas",
+      "hostVenue": "Horseshoe & Paris Las Vegas",
+      "cityState": "Las Vegas, NV",
+      "typicalMonths": "Late May Through Mid-July (7 Weeks)",
+      "buyInRange": "$300 To $250,000",
+      "mainEventBuyIn": "$10,000 No-Limit Hold'em World Championship",
+      "typicalGuarantee": "$250M+ Combined Series Prize Pools (No Formal GTD Needed)",
+      "blindStructureRating": "9.8 / 10 (Gold Standard 40-Min To 120-Min Levels)",
+      "startingStackBB": "100 BB To 300 BB",
+      "levelMinutes": "30 To 40 Minutes (Bracelet Prelims) / 120 Minutes (Main Event)",
+      "registrationStrategy": "Register Online Via Bravo Poker Live And Complete Verification At The Paris Champagne Ballroom Cage After 9:00 PM Night Before To Avoid 90-Minute Morning Bracelet Lines. Late Register Up To Level 6 (Roughly 35 BB To 45 BB) In $1,000 To $1,500 Freezeouts To Capture ICM Priming Value.",
+      "cashGameAction": "Over 120 Active Cash Tables Inside Paris And Horseshoe Plus Overflow Peak Action At Wynn, Bellagio, And Aria From $1/$3 NLH Through $100/$200 Mixed Games And Pot-Limit Omaha.",
+      "travelLogistics": "Stay Connected Via The Indoor Walkway Between Horseshoe And Paris To Avoid 110F Outdoor Heat. Book Refundable Strip Room Blocks In January Or Utilize Mid-Strip Monorail Access.",
+      "bankrollRequirement": "100 To 150 Average Buy-Ins ($75,000+ For A Full $1,000 - $1,500 Bracelet Schedule; $15,000+ For A 10-Day $400 - $800 Daily Deepstack & Mystery Millions Trip).",
+      "keyEvents": [
+        {
+          "eventName": "$10,000 WSOP Main Event World Championship",
+          "buyIn": "$10,000",
+          "format": "Freezeout (60,000 Chips, 120-Minute Levels)",
+          "notes": "The Deepest Annual Tournament Structure In World Poker With 300 BB Starting Stack."
+        },
+        {
+          "eventName": "$1,000 Mystery Millions & Millionaire Maker ($1,500)",
+          "buyIn": "$1,000 - $1,500",
+          "format": "Multi-Flight Re-Entry Bracelet Events",
+          "notes": "Massive 10,000+ Entry Fields With Soft Weekend Recreational Turnout And $1M Top Bounties."
+        },
+        {
+          "eventName": "$400 Gladiators Of Poker & $250 Daily Deepstacks",
+          "buyIn": "$250 - $400",
+          "format": "Multi-Flight & Single-Day NLH",
+          "notes": "High-ROI Bankroll Builders Running Every Afternoon Inside Paris And Horseshoe."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How Do I Skip The Registration Lines At The WSOP In Las Vegas?",
+          "a": "Create And Verify Your Bravo Account And Caesars Rewards Card At The Registration Desk Once During Off-Peak Late-Night Hours (10:00 PM To 2:00 AM), Then Use The Self-Service Kiosks To Print Seat Tickets In Under 60 Seconds For The Remainder Of The Summer."
+        },
+        {
+          "q": "What Is The Starting Stack And Level Length Of The $10,000 WSOP Main Event?",
+          "a": "Players Start With 60,000 Chips At 100/200/200 Blinds (300 Big Blinds) And Play Five 120-Minute Levels Per Day With A 75-Minute Dinner Break."
+        },
+        {
+          "q": "Are WSOP Daily Deepstacks Good Value Compared To Bracelet Events?",
+          "a": "Yes. The 1:00 PM $250 And 4:00 PM $400 Daily Deepstacks Draw 400 To 900 Recreational Players Daily With Manageable Single-Day Schedules And Soft Postflop Fields."
+        }
+      ]
+    },
+    {
+      "slug": "wpt-world-championship",
+      "name": "WPT World Championship Festival At Wynn Las Vegas",
+      "shortName": "WPT World Championship",
+      "hostVenue": "Wynn & Encore Las Vegas",
+      "cityState": "Las Vegas, NV",
+      "typicalMonths": "Early To Late December (3 Weeks)",
+      "buyInRange": "$600 To $100,000",
+      "mainEventBuyIn": "$10,400 WPT World Championship",
+      "typicalGuarantee": "$40,000,000+ Combined Festival Guarantees",
+      "blindStructureRating": "9.9 / 10 (Industry-Leading Wynn Structure & Service)",
+      "startingStackBB": "150 BB To 250 BB",
+      "levelMinutes": "40 To 60 Minutes (Prelims) / 60 To 90 Minutes (Championship)",
+      "registrationStrategy": "Arrive 30 Minutes Before Flight Start Or Register At Level 4 (Roughly 65 BB) In Multi-Flight Prelims Like The WPT Prime Championship ($1,100) Where Alternates Move Quickly.",
+      "cashGameAction": "Wynn Spreads 35+ Round-The-Clock Cash Tables Featuring Unmatched $1/$3 ($500 Cap), $2/$5 ($1,500 Cap), And $5/$10 ($3,000 Cap) No-Limit Hold'em Plus Deep PLO.",
+      "travelLogistics": "December Las Vegas Hotel Rates Are At Seasonal Lows Between Rodeo Week And Christmas, Making North Strip Accommodations High Value.",
+      "bankrollRequirement": "100 Buy-Ins ($110,000+ For $1,100 - $3,000 WPT Prime & High Rollers; $25,000+ For $600 - $1,100 Prelims).",
+      "keyEvents": [
+        {
+          "eventName": "$10,400 WPT World Championship",
+          "buyIn": "$10,400",
+          "format": "Multi-Flight Championship (100,000 Chips, 60-90 Min Levels)",
+          "notes": "Flagship December Championship Attracting Global Qualifiers And Satellite Winners."
+        },
+        {
+          "eventName": "$1,100 WPT Prime Championship",
+          "buyIn": "$1,100",
+          "format": "Multi-Flight NLH ($5M+ Typical Prize Pool)",
+          "notes": "One Of The Highest-Value $1,100 Tournaments In World Poker With 40-Min Day 1 And 60-Min Day 2 Levels."
+        },
+        {
+          "eventName": "$1,600 Mystery Bounty & $600 Deepstacks",
+          "buyIn": "$600 - $1,600",
+          "format": "Multi-Flight & Two-Day NLH / PLO",
+          "notes": "Consistent Six-Figure First Prizes With Lower House Rake Percentages Than Standard Daily Events."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Why Is The WPT World Championship At Wynn Considered A Favorite Among Pros?",
+          "a": "Wynn Combines Generous Starting Stacks, Slow Blind Increases, Best-In-Class Tournament Dealers, And Low-Rake $1,500-Cap $2/$5 Cash Games All Under One Roof."
+        },
+        {
+          "q": "When Is The Best Flight To Enter The $1,100 WPT Prime Championship?",
+          "a": "The Final Friday Or Saturday Flight Typically Draws The Largest Contingent Of Weekend Recreational Travelers And Club Qualifiers."
+        },
+        {
+          "q": "Does Wynn Charge Promotional Jackpot Drops In Cash Games During The WPT?",
+          "a": "No. Wynn Operates A Pure 10% Up To $5 Cap Rake With Zero Promotional Jackpot Drop."
+        }
+      ]
+    },
+    {
+      "slug": "wsop-circuit",
+      "name": "World Series Of Poker Circuit (WSOPC) Regional Tour",
+      "shortName": "WSOP Circuit",
+      "hostVenue": "25+ Regional US Casinos (Choctaw, Cherokee, Thunder Valley, Pompano, Hammond)",
+      "cityState": "Nationwide Regional Tour",
+      "typicalMonths": "Year-Round (August Through May Season)",
+      "buyInRange": "$250 To $3,250",
+      "mainEventBuyIn": "$1,700 WSOP Circuit Main Event",
+      "typicalGuarantee": "$500,000 To $1,500,000 Main Event Guarantee",
+      "blindStructureRating": "8.7 / 10 (Standardized 30-Min Day 1 / 40-Min Day 2 Ring Structure)",
+      "startingStackBB": "100 BB To 200 BB",
+      "levelMinutes": "30 Minutes (Ring Prelims) / 40 To 60 Minutes (Main Event)",
+      "registrationStrategy": "Target Multi-Flight $400 Monster Stack And Gargantuan Opening Weekend Ring Events On Friday And Saturday Flights; Save Two Bullet Allocations For The $1,700 Main Event.",
+      "cashGameAction": "Regional Stops Like Harrah's Cherokee, Choctaw Durant, And Graton/Thunder Valley Generate Explosive $1/$3, $2/$5, And $5/$5 PLO Cash Games Throughout The 12-Day Series.",
+      "travelLogistics": "Book Host Casino Rooms 60 Days Out Because Rural And Tribal Destinations (Cherokee NC, Durant OK) Sell Out Completely On Main Event Weekends.",
+      "bankrollRequirement": "75 To 100 Buy-Ins ($40,000 For Full Ring Schedule Including $1,700 Main; $12,000 For $400 - $600 Ring Events).",
+      "keyEvents": [
+        {
+          "eventName": "$1,700 WSOP Circuit Main Event",
+          "buyIn": "$1,700",
+          "format": "2-3 Starting Flights, 1 Re-Entry Per Flight (40,000 Chips)",
+          "notes": "Awards Gold WSOPC Ring, Six-Figure Top Prize, And Automatic Entry Into The Tournament Of Champions."
+        },
+        {
+          "eventName": "$400 Monster Stack & Multi-Flight Opener",
+          "buyIn": "$400",
+          "format": "4 To 6 Starting Flights (30,000 - 40,000 Chips)",
+          "notes": "Draws 1,000 To 3,500 Entries With Massive Weekend Recreational Participation."
+        },
+        {
+          "eventName": "$600 Mystery Bounty & $1,100 High-Tier Ring",
+          "buyIn": "$600 - $1,100",
+          "format": "Two-Day Ring Events",
+          "notes": "Bridges The Gap Between $400 Prelims And The $1,700 Main Event."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What Do You Win Besides Prize Money When Winning A WSOP Circuit Ring?",
+          "a": "Every Official WSOP Circuit Gold Ring Winner Earns An Automatic Free Seat Into The $1,000,000 Freeroll WSOP Tournament Of Champions."
+        },
+        {
+          "q": "Which WSOP Circuit Stops Have The Largest Prize Pools?",
+          "a": "Harrah's Cherokee (North Carolina), Choctaw Casino Resort (Durant, Oklahoma), Thunder Valley (California), And Harrah's Pompano Beach (Florida) Regularly Exceed $1.5M Main Event Prize Pools."
+        },
+        {
+          "q": "How Many Re-Entries Are Allowed In The $1,700 WSOPC Main Event?",
+          "a": "Standard WSOP Circuit Rules Allow One Re-Entry Per Starting Flight (Up To Two Total Bullets Per Flight)."
+        }
+      ]
+    },
+    {
+      "slug": "mspt-mid-states-poker-tour",
+      "name": "Mid-States Poker Tour (MSPT) Major Regional Series",
+      "shortName": "MSPT Tour",
+      "hostVenue": "Running Aces, Canterbury, FireKeepers, Venetian, Sycuan, Riverside",
+      "cityState": "Midwest & National Tour",
+      "typicalMonths": "Year-Round (20+ Annual Stops)",
+      "buyInRange": "$250 To $1,600",
+      "mainEventBuyIn": "$1,110 MSPT Main Event",
+      "typicalGuarantee": "$300,000 To $1,500,000 Main Event Guarantee",
+      "blindStructureRating": "9.0 / 10 (40-Minute Levels From Level 1 In Main Event)",
+      "startingStackBB": "150 BB (30,000 Starting Chips At 100/200)",
+      "levelMinutes": "40 Minutes Across All Day 1 And Day 2 Main Event Levels",
+      "registrationStrategy": "Utilize $265 And $140 Landmark Milestone Satellites Running Wednesday Through Friday Where Hitting The Milestone Chip Target Instantly Awards Your $1,110 Main Event Seat.",
+      "cashGameAction": "Flagship Stops Like FireKeepers (Battle Creek, MI) And Running Aces (Minnesota) Pack 30+ Tables Of Action-Heavy Midwest Cash Games And $2/$100 Spread-Limit.",
+      "travelLogistics": "Drive-Market Stops Across Michigan, Minnesota, Iowa, And Ohio Offer Affordable Hotel Rates And Free Self-Parking.",
+      "bankrollRequirement": "75 Buy-Ins ($35,000 For Full $1,110 Main Event Tour Grinders; $8,000 For Regional Weekend Satellite And Prelim Players).",
+      "keyEvents": [
+        {
+          "eventName": "$1,110 MSPT Main Event",
+          "buyIn": "$1,110",
+          "format": "3 Starting Flights (30,000 Chips, 40-Minute Levels)",
+          "notes": "Renowned For Giving Players Full 40-Minute Blind Levels From The Very First Hand On Day 1."
+        },
+        {
+          "eventName": "$360 - $400 Regional Opener Trophy Event",
+          "buyIn": "$360 - $400",
+          "format": "Multi-Flight NLH",
+          "notes": "Kicks Off Each Stop With 500 To 1,500 Entries."
+        },
+        {
+          "eventName": "$265 Milestone Satellite To $1,110 Main Event",
+          "buyIn": "$265",
+          "format": "1-In-5 Landmark Satellite",
+          "notes": "Players Instantly Bag A $1,110 Seat The Moment Their Stack Reaches 5x Starting Chips."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How Do MSPT Milestone Satellites Work?",
+          "a": "In A 1-In-5 Milestone Satellite Where Players Start With 10,000 Chips, The Instant Any Player Accumulates 50,000 Chips Their Chips Are Removed From Play And They Immediately Receive Their $1,110 Main Event Seat."
+        },
+        {
+          "q": "Which MSPT Stop Has The Biggest Field Outside Las Vegas?",
+          "a": "FireKeepers Casino In Battle Creek, Michigan Regularly Draws 2,400 To 2,800 Entries In Its $1,110 Main Event For A $2.5M+ Prize Pool."
+        },
+        {
+          "q": "How Long Are Blind Levels In An MSPT Main Event?",
+          "a": "All Day 1 And Day 2 Levels In Standard Standalone MSPT $1,110 Main Events Are 40 Minutes Long."
+        }
+      ]
+    },
+    {
+      "slug": "rgps-rungood-poker-series",
+      "name": "RunGood Poker Series (RGPS) Mid-Major Tour",
+      "shortName": "RunGood Series (RGPS)",
+      "hostVenue": "Thunder Valley, Jamul, Downstream, Horseshoe Council Bluffs, Tulsa, Jacksonville",
+      "cityState": "Midwest, West Coast & South Tour",
+      "typicalMonths": "Year-Round (16+ Annual Stops)",
+      "buyInRange": "$200 To $1,100",
+      "mainEventBuyIn": "$600 To $1,100 RGPS Main Event",
+      "typicalGuarantee": "$200,000 To $1,000,000 Guarantee",
+      "blindStructureRating": "8.5 / 10 (Accessible Mid-Stakes Structure)",
+      "startingStackBB": "150 BB To 200 BB",
+      "levelMinutes": "30 Minutes (Day 1) / 40 Minutes (Day 2)",
+      "registrationStrategy": "Play Early Week $250 - $400 Deepstack Ring Events And Ambassador Bounty Tournaments Where Recreational Turnout And Added Merchandise Prizes Boost ROI.",
+      "cashGameAction": "Accessible $1/$2, $1/$3, And $2/$5 NLH And $2/$2 PLO Cash Games With Friendly Recreational Table Atmospheres.",
+      "travelLogistics": "RGPS Negotiates Discounted Player Room Rates ($99 - $139/Night) At Host Casinos; Always Ask For The RunGood Poker Room Block Code.",
+      "bankrollRequirement": "60 To 80 Buy-Ins ($18,000 To $30,000 Covers Full Series Prelims And $600 - $800 Main Events).",
+      "keyEvents": [
+        {
+          "eventName": "$600 - $1,100 RGPS Main Event",
+          "buyIn": "$600 - $1,100",
+          "format": "3 To 4 Starting Flights (30,000 - 40,000 Chips)",
+          "notes": "Signature Mid-Major Main Event With Custom RGPS Ring And Dream Seat Qualification."
+        },
+        {
+          "eventName": "$400 DeepStack Opener",
+          "buyIn": "$400",
+          "format": "Multi-Flight Re-Entry NLH",
+          "notes": "High-Volume Weekend Opener With Soft Local Fields."
+        },
+        {
+          "eventName": "$250 - $300 Ambassador Bounty & PLO Ring",
+          "buyIn": "$250 - $300",
+          "format": "Single-Day Bounty & Pot-Limit Omaha",
+          "notes": "Features Mystery Envelopes And Sponsored Bounties."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Why Is The RunGood Poker Series Ideal For Moving Up From Daily Tournaments?",
+          "a": "With Prelims Priced Between $200 And $400 And Main Events Between $600 And $1,100, RGPS Offers Major-Series Trophy Structures At Half The Buy-In Cost Of A WSOPC Stop."
+        },
+        {
+          "q": "What Is The RGPS Dream Seat Invitational?",
+          "a": "Ring Winners Across The Season Qualify For Exclusive Championship Freerolls And High-Stakes Invitational Seats."
+        },
+        {
+          "q": "How Many Flights Does An RGPS Main Event Usually Have?",
+          "a": "Most Stops Run Three Or Four Flights Across Friday And Saturday Before Combining For Sunday Day 2."
+        }
+      ]
+    },
+    {
+      "slug": "seminole-hard-rock-poker-open",
+      "name": "Seminole Hard Rock Poker Open (SHRPO), Showdown & Rock N Roll Open",
+      "shortName": "Seminole Hard Rock (SHRPO)",
+      "hostVenue": "Seminole Hard Rock Hotel & Casino Hollywood (The Guitar Hotel)",
+      "cityState": "Hollywood (Fort Lauderdale / Miami), FL",
+      "typicalMonths": "April (Showdown), August (SHRPO), November (RRPO)",
+      "buyInRange": "$400 To $50,000",
+      "mainEventBuyIn": "$3,500 To $5,300 Championship Main Event",
+      "typicalGuarantee": "$3,000,000 To $5,000,000 Championship Guarantee",
+      "blindStructureRating": "9.6 / 10 (Premier East Coast Deepstack Structure)",
+      "startingStackBB": "125 BB To 250 BB",
+      "levelMinutes": "40 Minutes (Multi-Flight Prelims) / 60 To 90 Minutes (Championship)",
+      "registrationStrategy": "Target The Opening Weekend $400 Or $600 Deep Stack ($1M - $2M Guaranteed With 6 To 8 Flights) Where 4,000+ South Florida And Latin American Players Create Massive Prize Pools.",
+      "cashGameAction": "45+ Permanent Tables Plus Ballroom Expansion Spreading The Best $2/$5, $5/$10 NLH, And $2/$2 To $25/$50 Pot-Limit Omaha Action On The East Coast.",
+      "travelLogistics": "Fly Into Fort Lauderdale-Hollywood Airport (FLL) Just 12 Minutes Away; Book Nearby Dania Beach Or Stirling Road Hotels If Guitar Hotel Rates Spike.",
+      "bankrollRequirement": "100 Buy-Ins ($50,000+ For $600 - $1,100 Prelims; $150,000+ Or Staking For $3,500 - $5,300 Championship Events).",
+      "keyEvents": [
+        {
+          "eventName": "$5,300 SHRPO Championship / $3,500 WPT Showdown & RRPO",
+          "buyIn": "$3,500 - $5,300",
+          "format": "2 Starting Flights (50,000 Chips, 60-90 Min Levels)",
+          "notes": "$3M To $5M Guaranteed Flagship Championships."
+        },
+        {
+          "eventName": "$400 - $600 Opening Deep Stack ($1M - $2M GTD)",
+          "buyIn": "$400 - $600",
+          "format": "6 To 8 Starting Flights (30,000 Chips, 30-40 Min Levels)",
+          "notes": "Consistently Draws 3,500 To 6,000 Entries In Opening Week."
+        },
+        {
+          "eventName": "$1,100 & $2,200 Deep Stack & PLO Championships",
+          "buyIn": "$1,100 - $2,200",
+          "format": "Multi-Flight NLH And 4-Card/5-Card PLO",
+          "notes": "Huge International And High-Action Omaha Fields."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How Many Major Series Does Seminole Hard Rock Hollywood Host Each Year?",
+          "a": "Four Flagship Festivals: Lucky Hearts Poker Open (January), Poker Showdown (April), Seminole Hard Rock Poker Open SHRPO (August), And Rock N Roll Poker Open RRPO (November)."
+        },
+        {
+          "q": "Which Airport Is Closest To Seminole Hard Rock Hollywood?",
+          "a": "Fort Lauderdale-Hollywood International Airport (FLL) Is Only 7 Miles (12 Minutes) From The Casino."
+        },
+        {
+          "q": "Why Are PLO Tournaments So Big At Seminole Hard Rock?",
+          "a": "South Florida Has One Of The Largest Year-Round Pot-Limit Omaha Cash Game Ecosystems In America, Feeding Massive Entries Into Every $400 To $10,000 PLO Event."
+        }
+      ]
+    },
+    {
+      "slug": "borgata-poker-open",
+      "name": "Borgata Poker Open, Winter Open & Return Series",
+      "shortName": "Borgata Poker Open",
+      "hostVenue": "Borgata Hotel Casino & Spa",
+      "cityState": "Atlantic City, NJ",
+      "typicalMonths": "January (Winter), May (Spring), September (Borgata Open)",
+      "buyInRange": "$400 To $10,000",
+      "mainEventBuyIn": "$3,500 To $5,300 Championship",
+      "typicalGuarantee": "$2,000,000 To $4,000,000 Championship Guarantee",
+      "blindStructureRating": "9.4 / 10 (Classic Northeast Deepstacks)",
+      "startingStackBB": "150 BB To 250 BB",
+      "levelMinutes": "40 To 50 Minutes (Prelims) / 60 To 75 Minutes (Championship)",
+      "registrationStrategy": "Enter Day 1A Or 1B Of The Kickoff Almighty Stack ($500 - $800 Buy-In With 100,000 Starting Chips) To Build A Massive Stack Against Northeast Recreational Fields.",
+      "cashGameAction": "52-Table Permanent Poker Room Hosting Continuous $1/$3, $2/$5 ($1,000 Cap), $5/$10 NLH, $2/$2 And $5/$5 PLO, And High-Limit Mixed Games.",
+      "travelLogistics": "Easy Drive Via Garden State Parkway From NYC (2 Hours), Philadelphia (1 Hour), And Baltimore/DC (2.5 Hours); MGM Rewards Members Receive Discounted Weekday Water Club And Borgata Tower Rooms.",
+      "bankrollRequirement": "80 To 100 Buy-Ins ($40,000 For $500 - $1,100 Prelims; $120,000+ For Championship Schedule).",
+      "keyEvents": [
+        {
+          "eventName": "$3,500 - $5,300 Borgata Championship Main Event",
+          "buyIn": "$3,500 - $5,300",
+          "format": "2 Starting Flights (50,000 Chips, 60-75 Min Levels)",
+          "notes": "The Undisputed Flagship Tournament Of The Northeast Corridor."
+        },
+        {
+          "eventName": "$600 - $800 Kickoff Deepstack ($1M - $2M GTD)",
+          "buyIn": "$600 - $800",
+          "format": "5 Starting Flights",
+          "notes": "Draws Thousands Of Players From New York, New Jersey, And Pennsylvania."
+        },
+        {
+          "eventName": "$500 Almighty Stack (100,000 Starting Chips)",
+          "buyIn": "$500",
+          "format": "Multi-Flight High-Chip-Count NLH",
+          "notes": "Action-Packed Mid-Series Staple With Deep Early Play."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is Borgata Still The Largest Poker Room In Atlantic City And The Northeast?",
+          "a": "Yes. Borgata Commands Over 65% Of Atlantic City Poker Revenue With 52 Permanent Tables Plus Event Center Tournament Seating."
+        },
+        {
+          "q": "Can I Play Regulated Online Poker In My Hotel Room At Borgata?",
+          "a": "Yes. Because You Are Physically Located Inside New Jersey, You Can Simultaneously Grind Regulated NJ Online Series On Your Laptop Or Phone."
+        },
+        {
+          "q": "What Is The Cash Game Rake At Borgata?",
+          "a": "Borgata Charges 10% Up To A $5 Maximum Rake Cap At $1/$3 And $2/$5 No-Limit Hold'em."
+        }
+      ]
+    },
+    {
+      "slug": "wynn-millions-classic",
+      "name": "Wynn Summer Classic & Wynn Millions Series",
+      "shortName": "Wynn Classic & Millions",
+      "hostVenue": "Wynn & Encore Las Vegas",
+      "cityState": "Las Vegas, NV",
+      "typicalMonths": "March (Wynn Millions), Late May - July (Summer Classic), October (Fall Classic)",
+      "buyInRange": "$600 To $25,000",
+      "mainEventBuyIn": "$3,500 To $10,000 Championship",
+      "typicalGuarantee": "$25,000,000+ Combined Summer Guarantees",
+      "blindStructureRating": "9.9 / 10 (Widely Regarded As Best Overall Structure In Vegas)",
+      "startingStackBB": "150 BB To 200 BB",
+      "levelMinutes": "40 Minutes (Prelims) / 60 To 90 Minutes (Championships)",
+      "registrationStrategy": "During June And July, Treat Wynn Summer Classic $1,100, $1,600, And $2,200 Multi-Flight Events As Co-Anchors Alongside WSOP Bracelet Events; Lower Rake And Better Structures Yield Superior Hourly EV.",
+      "cashGameAction": "Encore Poker Room Runs 28 To 38 Tables 24/7 With $500-Cap $1/$3 And $1,500-Cap $2/$5 Games That Play Deeper Than Any Other Strip Room.",
+      "travelLogistics": "Free Self-Parking At Wynn/Encore Garage And Easy Pedestrian Bridge Access From Venetian/Palazzo Across Sands Avenue.",
+      "bankrollRequirement": "100 Buy-Ins ($100,000+ For $1,100 - $3,500 Wynn Classic Grinders).",
+      "keyEvents": [
+        {
+          "eventName": "$3,500 Wynn Summer Championship ($3M - $5M GTD)",
+          "buyIn": "$3,500",
+          "format": "3 Starting Flights (40,000 Chips, 60-Min Levels)",
+          "notes": "Draws Elite Global Pros And Wealthy Business Recreationals Every June."
+        },
+        {
+          "eventName": "$1,600 Mystery Bounty ($1.5M - $2.5M GTD)",
+          "buyIn": "$1,600",
+          "format": "Multi-Flight Mystery Bounty ($100,000 Top Envelopes)",
+          "notes": "Signature Mystery Bounty Format With Huge Day 2 Drum Draws."
+        },
+        {
+          "eventName": "$1,100 & $600 Multi-Flight Seniors, Ladies & NLH Prelims",
+          "buyIn": "$600 - $1,100",
+          "format": "Multi-Flight & Two-Day Deepstacks",
+          "notes": "Pristine 40-Minute Levels And Zero Gimmick Fee Deductions."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Why Do Many Tournament Pros Prefer The Wynn Summer Classic Over WSOP Prelims?",
+          "a": "Wynn Offers Slower Blind Progressions, More Spacious 8-Handed Or 9-Handed Tables, Faster Registration Lines, And Lower Fee Deductions On $1,100 To $3,500 Buy-Ins."
+        },
+        {
+          "q": "Where Are Wynn Tournament Tables Located?",
+          "a": "Major Series Events Are Hosted In The Lafite And Latour Ballrooms Just Steps From The Encore Poker Room."
+        },
+        {
+          "q": "Does Wynn Run Satellites To Its $3,500 And $10,000 Championships?",
+          "a": "Yes, Daily $400 To $1,100 Turbo And Milestone Satellites Run Throughout Each Series."
+        }
+      ]
+    },
+    {
+      "slug": "venetian-deepstack-championship",
+      "name": "Venetian DeepStack Championship & DeepStack Extravaganza",
+      "shortName": "Venetian DeepStack",
+      "hostVenue": "The Venetian Resort Las Vegas (Grand Canal Shoppes Level 2)",
+      "cityState": "Las Vegas, NV",
+      "typicalMonths": "Year-Round (Extravaganza I, II, III, IV + May - July Summer Championship)",
+      "buyInRange": "$300 To $5,000",
+      "mainEventBuyIn": "$1,600 To $2,500 UltimateStack & MSPT/WPT Venetian Championships",
+      "typicalGuarantee": "$15,000,000+ Summer Series Guarantees",
+      "blindStructureRating": "9.3 / 10 (Generous Starting Stacks & Long Levels)",
+      "startingStackBB": "150 BB To 200 BB",
+      "levelMinutes": "30 To 40 Minutes Across All UltimateStack & MonsterStack Events",
+      "registrationStrategy": "Venetian Runs Multi-Flight $600, $800, And $1,100 UltimateStack Events Almost Every Single Week Of The Year, Making It The Most Reliable Mid-Stakes Destination Outside Summer.",
+      "cashGameAction": "Brand-New 50-Table Venetian Poker Room On Level 2 Of The Grand Canal Shoppes With High-Hand Promotions, Streaming Studio, And Dedicated Restrooms And Lounge.",
+      "travelLogistics": "Located Center-Strip Directly Across From Wynn And Connected Indoor To Palazzo; Abundant Dining Inside Grand Canal Shoppes During 45-Minute Breaks.",
+      "bankrollRequirement": "75 To 100 Buy-Ins ($45,000 For $600 - $1,100 Grinders; $20,000 For $400 - $600 Extravaganza Trips).",
+      "keyEvents": [
+        {
+          "eventName": "$1,600 & $1,100 MSPT / UltimateStack Championships",
+          "buyIn": "$1,100 - $1,600",
+          "format": "3 Starting Flights (40,000 Chips, 40-Min Levels)",
+          "notes": "Massive Guaranteed Prize Pools Throughout Both Summer And Off-Season."
+        },
+        {
+          "eventName": "$600 & $800 UltimateStack ($250K - $1M GTD)",
+          "buyIn": "$600 - $800",
+          "format": "Multi-Flight Re-Entry",
+          "notes": "40,000 Starting Chips Gives Extensive Playability In The Mid-Tier Buy-In Bracket."
+        },
+        {
+          "eventName": "$400 Seniors, Bounty & Omaha Hi-Lo Events",
+          "buyIn": "$400 - $600",
+          "format": "Single-Day & Two-Day Specialty Events",
+          "notes": "Strong Mixed-Game Schedule Including O8, Big O, And Limit Mixed."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Where Did The Venetian Poker Room Relocate In 2024 - 2026?",
+          "a": "The Venetian Poker Room Moved From The Casino Floor Up To A Custom-Built 14,000-Square-Foot, 50-Table Venue On Level 2 Of The Grand Canal Shoppes Next To The Palazzo Theatre."
+        },
+        {
+          "q": "Does Venetian Run Tournaments Outside The Summer WSOP Months?",
+          "a": "Yes. Venetian Hosts DeepStack Extravaganza Series Nearly Every Month Of The Year, Making It The #1 Year-Round Tournament Room In Las Vegas."
+        },
+        {
+          "q": "Are Mixed Games Spread During The Venetian Summer Series?",
+          "a": "Yes, Venetian Spreads Dedicated Omaha Hi-Lo, Big O (5-Card PLO8), H.O.R.S.E., And Triple Draw Events."
+        }
+      ]
+    },
+    {
+      "slug": "texas-card-house-lodge-championship",
+      "name": "Texas Major Card Club Series (The Lodge Championship & TCH Millions)",
+      "shortName": "Texas Major Series (Lodge & TCH)",
+      "hostVenue": "The Lodge Card Club (Austin / San Antonio) & Texas Card House (Dallas / Houston / Austin)",
+      "cityState": "Austin, Dallas & Houston, TX",
+      "typicalMonths": "January, May, August & October Major Series",
+      "buyInRange": "$200 To $5,000",
+      "mainEventBuyIn": "$1,500 To $3,000 Championship Main Event",
+      "typicalGuarantee": "$1,000,000 To $2,000,000 Main Event Guarantee ($5M+ Series Total)",
+      "blindStructureRating": "9.2 / 10 (Zero Pot Rake + Deep Texas Starting Stacks)",
+      "startingStackBB": "200 BB To 300 BB",
+      "levelMinutes": "30 To 45 Minutes (Day 1) / 45 To 60 Minutes (Day 2 & Final Table)",
+      "registrationStrategy": "Enter Early Flights Because Texas Players Re-Enter Aggressively And Drive Average Stacks To 60+ BB Going Into Late Registration; Purchase Daily/Monthly Club Membership In Advance On The Club App.",
+      "cashGameAction": "Texas Card Clubs Spread The Deepest, Loosest Cash Games In North America With Zero Pot Rake ($10 - $14/Hr Seat Time), Match-The-Stack Buy-Ins, Mandatory Straddles, And Double-Board Bomb Pots.",
+      "travelLogistics": "Rental Car Recommended In Austin (Round Rock), Dallas (Las Colinas / North Dallas), And Houston (Westheimer / Spring); Ample Free Surface Parking At All Club Locations.",
+      "bankrollRequirement": "80 To 100 Buy-Ins For Tournaments Plus At Least 20 Deep Buy-Ins ($20,000+) If Jumping Into Match-The-Stack $1/$2 And $2/$5 Texas Cash Games.",
+      "keyEvents": [
+        {
+          "eventName": "$1,500 - $3,000 Lodge Championship / TCH Millions Main Event",
+          "buyIn": "$1,500 - $3,000",
+          "format": "4 To 6 Starting Flights ($1M - $2M Guaranteed)",
+          "notes": "Loose, Aggressive Postflop Play With Huge Multiway Pots And Livestreamed Final Tables."
+        },
+        {
+          "eventName": "$400 - $600 Texas Deepstack Opener ($500K - $1M GTD)",
+          "buyIn": "$400 - $600",
+          "format": "6 To 8 Starting Flights",
+          "notes": "Massive Local Field Turnouts Exceeding 2,000 Total Entries."
+        },
+        {
+          "eventName": "$600 - $1,100 Pot-Limit Omaha & Bomb Pot Championships",
+          "buyIn": "$600 - $1,100",
+          "format": "4-Card/5-Card PLO & Double-Board Bomb Pot Formats",
+          "notes": "Signature Texas Action Formats Unavailable At Traditional Casinos."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How Do Texas Card Rooms Operate Legally Without Charging Pot Rake?",
+          "a": "Texas Social Poker Clubs Operate Under A Private Membership Model Where The House Takes $0 From Any Cash Pot Or Prize Pool And Instead Charges A Membership Fee Plus Hourly Seat Time Or Administrative Access Fees."
+        },
+        {
+          "q": "Why Do $1/$2 Cash Games In Texas Play Like $2/$5 Or $5/$10 Elsewhere?",
+          "a": "Because Most Texas Clubs Allow $500 To $1,000 Initial Buy-Ins Or Match-The-Biggest-Stack At $1/$2 And $1/$3 Along With Frequent $5 Or $10 Button Straddles."
+        },
+        {
+          "q": "Do I Need To Be A Texas Resident To Play In A Lodge Or TCH Tournament Series?",
+          "a": "No. Any Visitor Age 21+ With A Valid Government ID Can Purchase A Daily Or Weekly Club Membership At The Front Desk In Less Than Five Minutes."
+        }
+      ]
+    }
+  ]
+}
