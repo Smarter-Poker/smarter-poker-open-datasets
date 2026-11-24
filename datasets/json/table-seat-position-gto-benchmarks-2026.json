@@ -5,7 +5,7 @@
   "name": "9-Max & 6-Max Table Seat Position GTO RFI, 3-Bet, Fold-to-3-Bet & Winrate Benchmarks (2026)",
   "description": "Quantitative 100BB cash game positional solver benchmark covering all 9 canonical poker table seats (UTG, UTG+1, MP, LJ, HJ, CO, BTN, SB, BB) with Raise-First-In (RFI) %, 3-Bet %, Fold-to-3-Bet %, Cold-Call %, and expected BB/100 winrates.",
   "url": "https://smarter.poker/learn/positions",
-  "version": "2026.11.13",
+  "version": "2026.11.14",
   "datePublished": "2026-11-10",
   "dateModified": "2026-11-24",
   "license": "https://creativecommons.org/licenses/by/4.0/",

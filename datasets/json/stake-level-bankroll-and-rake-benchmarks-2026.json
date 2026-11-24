@@ -5,7 +5,7 @@
   "name": "Live & Online Poker Stake-Level Bankroll, 5% Risk-of-Ruin, Rake Cap & Winrate Benchmarks (2026)",
   "description": "Quantitative bankroll management, 5% Risk-of-Ruin buy-in buffers, typical rake cap profiles, and hourly/BB-per-100 winrate benchmarks across 7 live and online cash game, PLO, and MTT stake tiers.",
   "url": "https://smarter.poker/learn/stakes",
-  "version": "2026.11.13",
+  "version": "2026.11.14",
   "datePublished": "2026-11-10",
   "dateModified": "2026-11-24",
   "license": "https://creativecommons.org/licenses/by/4.0/",

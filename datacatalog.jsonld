@@ -3,7 +3,7 @@
   "@type": "DataCatalog",
   "@id": "https://smarter.poker/api/datasets/catalog#datacatalog",
   "name": "Smarter.Poker Open Quantitative Poker & Live Cardroom Data Catalog",
-  "description": "Public CC-BY 4.0 catalog of 19 quantitative poker research datasets, 169 starting hand preflop frequency matrices, 15 US state legality & tax benchmarks, 9 positional GTO benchmarks, 12 historic televised hand solver breakdowns, 7 stake-level bankroll & rake benchmarks, and 324+ US live cardroom benchmarks.",
+  "description": "Public CC-BY 4.0 catalog of 22 quantitative poker research & authority datasets (15 empirical studies + 7 structured authority hub datasets), 169 starting hand preflop frequency matrices, 15 US state legality & tax benchmarks, 10 international poker destination rake & tax benchmarks, 9 positional GTO benchmarks, 12 canonical flop board texture GTO C-bet benchmarks, 8 poker player archetype HUD & exploit benchmarks, 12 historic televised hand solver breakdowns, 7 stake-level bankroll & rake benchmarks, and 324+ US live cardroom benchmarks.",
   "url": "https://smarter.poker/research",
   "inLanguage": "en-US",
   "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -25,44 +25,44 @@
     {
       "@type": "PropertyValue",
       "propertyID": "DOI",
-      "name": "Core Open Quantitative Poker Research Datasets (19 CSV & JSON Datasets)",
+      "name": "Core Open Quantitative Poker Research Datasets (22 CSV & JSON Datasets)",
       "value": "10.5281/zenodo.24095049",
       "url": "https://doi.org/10.5281/zenodo.24095049"
     },
     {
       "@type": "PropertyValue",
       "propertyID": "DOI",
-      "name": "30-Tool Model Context Protocol (MCP) Server Archive",
-      "value": "10.5281/zenodo.24095057",
-      "url": "https://doi.org/10.5281/zenodo.24095057"
+      "name": "55-Tool Model Context Protocol (MCP) Server Archive (v1.0.7, 12 Prompts, 18 Resource Templates, 41 Interactive Calculators / 42 /tools Pages, 34 Streamer Commands)",
+      "value": "10.5281/zenodo.24115636",
+      "url": "https://doi.org/10.5281/zenodo.24115636"
     },
     {
       "@type": "PropertyValue",
       "propertyID": "DOI",
       "name": "North American Live Poker Room, Regional Market & Tournament Series Benchmark Dataset",
-      "value": "10.5281/zenodo.24095560",
-      "url": "https://doi.org/10.5281/zenodo.24095560"
+      "value": "10.5281/zenodo.24115447",
+      "url": "https://doi.org/10.5281/zenodo.24115447"
     },
     {
       "@type": "PropertyValue",
       "propertyID": "DOI",
       "name": "100BB 6-Max GTO Preflop Ranges, 169 Starting Hands & 25 Canonical Matchup Benchmarks",
-      "value": "10.5281/zenodo.24095564",
-      "url": "https://doi.org/10.5281/zenodo.24095564"
+      "value": "10.5281/zenodo.24115452",
+      "url": "https://doi.org/10.5281/zenodo.24115452"
     },
     {
       "@type": "PropertyValue",
       "propertyID": "DOI",
-      "name": "Smarter.Poker Model Context Protocol (MCP) Server & OpenAPI 3.1 Specification v1.0.2",
-      "value": "10.5281/zenodo.24095597",
-      "url": "https://doi.org/10.5281/zenodo.24095597"
+      "name": "Smarter.Poker 55-Tool Model Context Protocol (MCP) Server & OpenAPI 3.1 Specification v1.0.7",
+      "value": "10.5281/zenodo.24115453",
+      "url": "https://doi.org/10.5281/zenodo.24115453"
     },
     {
       "@type": "PropertyValue",
       "propertyID": "DOI",
       "name": "Official Poker Rules (TDA & RROP), 15 Game Variants & 80-Term Quantitative Glossary Corpus",
-      "value": "10.5281/zenodo.24095602",
-      "url": "https://doi.org/10.5281/zenodo.24095602"
+      "value": "10.5281/zenodo.24115454",
+      "url": "https://doi.org/10.5281/zenodo.24115454"
     },
     {
       "@type": "PropertyValue",
@@ -1617,8 +1617,167 @@
           "contentUrl": "https://raw.githubusercontent.com/Smarter-Poker/smarter-poker-open-datasets/main/datasets/json/stake-level-bankroll-and-rake-benchmarks-2026.json"
         }
       ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://smarter.poker/learn/board-textures#dataset",
+      "name": "Canonical Flop Board Texture GTO Continuation-Bet, Check-Raise & Turn Barrel Benchmarks (2026)",
+      "description": "Quantitative 100BB postflop solver benchmark covering 12 canonical No-Limit Hold'em flop board textures (A-7-2r, K-7-2r, Q-J-T, J-T-8ss, 8-7-6ss, Ks-9s-4s monotone, K-K-4r, 7-4-4r, K-Q-5ss, A-5-4ss, 9-5-2r, 8-8-8 trips) with IP vs OOP range advantage, nut advantage, GTO C-bet frequency %, optimal C-bet sizing, check-raise frequency %, and best turn barrel runouts.",
+      "url": "https://smarter.poker/learn/board-textures",
+      "inLanguage": "en-US",
+      "datePublished": "2026-11-10",
+      "dateModified": "2026-11-24",
+      "temporalCoverage": "2026",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "keywords": [
+        "Flop Board Textures",
+        "GTO Continuation Bet",
+        "Check-Raise Frequencies",
+        "Smarter.Poker Dataset"
+      ],
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://smarter.poker/#organization",
+        "name": "Smarter.Poker Research Division",
+        "url": "https://smarter.poker"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://smarter.poker/#organization",
+        "name": "Smarter.Poker",
+        "url": "https://smarter.poker"
+      },
+      "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "@id": "https://smarter.poker/api/datasets/catalog#datacatalog",
+        "name": "Smarter.Poker Open Quantitative Poker & Live Cardroom Data Catalog",
+        "url": "https://smarter.poker/research"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/Smarter-Poker/smarter-poker-open-datasets/main/datasets/csv/flop-board-textures-gto-cbet-2026.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/Smarter-Poker/smarter-poker-open-datasets/main/datasets/json/flop-board-textures-gto-cbet-2026.json"
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://smarter.poker/learn/player-types#dataset",
+      "name": "Live & Online Poker Player Archetypes HUD VPIP/PFR/3-Bet & Exploitative Counter-Strategy Benchmark (2026)",
+      "description": "Quantitative HUD statistical profile and exploitative counter-strategy benchmark across 8 canonical poker player archetypes (Old Man Coffee Nit, Loose-Passive Calling Station, Hyper-Aggressive Maniac, Tight-Aggressive TAG Reg, Loose-Aggressive LAG Pro, Short-Stack Capper, Tricky Slow-Play Trapper, and GTO Solver Grinder) with VPIP, PFR, 3-Bet %, WTSD %, core leaks, and bet-sizing exploits.",
+      "url": "https://smarter.poker/learn/player-types",
+      "inLanguage": "en-US",
+      "datePublished": "2026-11-10",
+      "dateModified": "2026-11-24",
+      "temporalCoverage": "2026",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "keywords": [
+        "Poker Player Archetypes",
+        "HUD VPIP PFR Benchmarks",
+        "Exploitative Poker Strategy",
+        "Smarter.Poker Dataset"
+      ],
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://smarter.poker/#organization",
+        "name": "Smarter.Poker Research Division",
+        "url": "https://smarter.poker"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://smarter.poker/#organization",
+        "name": "Smarter.Poker",
+        "url": "https://smarter.poker"
+      },
+      "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "@id": "https://smarter.poker/api/datasets/catalog#datacatalog",
+        "name": "Smarter.Poker Open Quantitative Poker & Live Cardroom Data Catalog",
+        "url": "https://smarter.poker/research"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/Smarter-Poker/smarter-poker-open-datasets/main/datasets/csv/poker-player-archetypes-exploits-2026.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/Smarter-Poker/smarter-poker-open-datasets/main/datasets/json/poker-player-archetypes-exploits-2026.json"
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://smarter.poker/poker-rooms/international#dataset",
+      "name": "International & Global Live Poker Destinations Currency, Cash Stakes, Rake Cap & Visitor Gaming Tax Benchmark (2026)",
+      "description": "Comparative global live poker destination benchmark across 10 premier international poker cities (London UK, Barcelona Spain, Rozvadov Czech Republic, Monte Carlo Monaco, Prague Czech Republic, Manila Philippines, Macau China, Melbourne Australia, Montreal Canada, and Nassau Bahamas) covering table currency, typical cash game stakes, rake percentages and caps, flagship tournament series (EPT, WSOPE, WSOP Paradise, Triton, APT, WPT), and visitor casino cage tax withholding laws.",
+      "url": "https://smarter.poker/poker-rooms/international",
+      "inLanguage": "en-US",
+      "datePublished": "2026-11-10",
+      "dateModified": "2026-11-24",
+      "temporalCoverage": "2026",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "keywords": [
+        "International Poker Destinations",
+        "Global Cardroom Rake Caps",
+        "Visitor Gaming Tax Law",
+        "Smarter.Poker Dataset"
+      ],
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://smarter.poker/#organization",
+        "name": "Smarter.Poker Research Division",
+        "url": "https://smarter.poker"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://smarter.poker/#organization",
+        "name": "Smarter.Poker",
+        "url": "https://smarter.poker"
+      },
+      "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "@id": "https://smarter.poker/api/datasets/catalog#datacatalog",
+        "name": "Smarter.Poker Open Quantitative Poker & Live Cardroom Data Catalog",
+        "url": "https://smarter.poker/research"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/Smarter-Poker/smarter-poker-open-datasets/main/datasets/csv/international-poker-destinations-rake-tax-2026.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/Smarter-Poker/smarter-poker-open-datasets/main/datasets/json/international-poker-destinations-rake-tax-2026.json"
+        }
+      ]
     }
   ],
-  "version": "2026.11.13",
+  "version": "2026.11.14",
   "dateModified": "2026-11-24"
 }

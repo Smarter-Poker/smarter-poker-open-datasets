@@ -1,8 +1,9 @@
 {
-  "title": "Smarter.Poker 2026 Open Quantitative Poker Research & Live Cardroom Benchmark Datasets (19 Datasets)",
-  "version": "2026.11.13",
+  "title": "Smarter.Poker 2026 Open Quantitative Poker Research & Live Cardroom Benchmark Datasets (22 Datasets)",
+  "version": "2026.11.14",
   "upload_type": "dataset",
   "publication_date": "2026-11-24",
+  "description": "Open-access (CC-BY-4.0) collection of 22 quantitative poker research and authority hub datasets (15 empirical research reports + 7 structured authority datasets covering 15 US states, 10 international poker destinations, 9 table seat positions, 12 canonical flop board textures, 8 poker player archetypes, 12 historic televised hands, and 7 stake-level bankroll tiers), paired with the companion Smarter.Poker Model Context Protocol (MCP) server v1.0.7 (55 zero-auth tools, 12 prompts, 18 resource templates, 41 interactive calculators / 42 total /tools pages, and 34 streamer commands).",
   "license": "cc-by-4.0",
   "access_right": "open",
   "creators": [
@@ -21,7 +22,11 @@
     "tournament-poker",
     "cardroom-directory",
     "us-state-poker-laws",
-    "table-position-gto"
+    "table-position-gto",
+    "flop-board-textures",
+    "poker-player-archetypes",
+    "international-poker-destinations",
+    "model-context-protocol"
   ],
   "related_identifiers": [
     {

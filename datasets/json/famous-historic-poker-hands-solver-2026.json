@@ -5,7 +5,7 @@
   "name": "Famous Historic Televised Poker Hands Combinatoric & GTO Solver EV Benchmark (2026)",
   "description": "Street-by-street action logs, exact combinatoric equity, Minimum Defense Frequency (MDF), blocker removal, and modern GTO solver EV verdicts for 12 iconic televised and World Series of Poker hands (1976-2022).",
   "url": "https://smarter.poker/learn/famous-hands",
-  "version": "2026.11.13",
+  "version": "2026.11.14",
   "datePublished": "2026-11-10",
   "dateModified": "2026-11-24",
   "license": "https://creativecommons.org/licenses/by/4.0/",
