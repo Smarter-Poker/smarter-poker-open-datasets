@@ -1,0 +1,10 @@
+slug,position_code,position_name,seat_type,rfi_pct,three_bet_pct,fold_to_3_bet_pct,cold_call_pct,expected_winrate_bb100,top_playable_hands,canonical_url
+"utg","UTG","Under The Gun","Early Position","10.5%","3.2%","52.0%","0.0%","+9.5 BB/100","AA KK QQ AKs AQs A5s","https://smarter.poker/learn/positions/utg"
+"utg-1","UTG+1","UTG+1 (Early Position Two)","Early Position","12.2%","4.1%","53.5%","0.0%","+11.2 BB/100","AA JJ AKs KQs JTs A4s","https://smarter.poker/learn/positions/utg-1"
+"mp","MP","Middle Position","Middle Position","14.5%","5.0%","55.0%","1.5%","+13.8 BB/100","QQ TT AQs AJs QJs T9s","https://smarter.poker/learn/positions/mp"
+"lj","LJ","Lojack (6-Max UTG)","Middle Position","17.5%","5.8%","56.5%","2.0%","+16.4 BB/100","KK 99 ATs KJs JTs 87s","https://smarter.poker/learn/positions/lj"
+"hj","HJ","Hijack","Middle Position","21.5%","7.2%","58.0%","3.0%","+20.5 BB/100","JJ 88 AQo KQs QJs T9s","https://smarter.poker/learn/positions/hj"
+"co","CO","Cutoff","Late Position","28.0%","9.4%","59.5%","4.2%","+27.8 BB/100","QQ 77 AKo A9s KJs 87s","https://smarter.poker/learn/positions/co"
+"btn","BTN","Button (Dealer)","Late Position","44.5%","11.8%","61.0%","7.5%","+38.5 BB/100","AA AKs A5s QJs JTs 22","https://smarter.poker/learn/positions/btn"
+"sb","SB","Small Blind","Blinds","41.0%","13.5%","57.0%","0.8%","-14.5 BB/100","KK TT AKs AQs A5s KQs","https://smarter.poker/learn/positions/sb"
+"bb","BB","Big Blind","Blinds","N/A (Closes Action)","11.2%","54.0%","32.5%","-28.0 BB/100","AA AKo JTs T9s 87s A3s","https://smarter.poker/learn/positions/bb"

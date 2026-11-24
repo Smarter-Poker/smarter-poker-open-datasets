@@ -1,8 +1,8 @@
 {
-  "title": "Smarter.Poker 2026 Open Quantitative Poker Research & Live Cardroom Benchmark Datasets",
-  "version": "2026.11.12",
+  "title": "Smarter.Poker 2026 Open Quantitative Poker Research & Live Cardroom Benchmark Datasets (19 Datasets)",
+  "version": "2026.11.13",
   "upload_type": "dataset",
-  "publication_date": "2026-11-10",
+  "publication_date": "2026-11-24",
   "license": "cc-by-4.0",
   "access_right": "open",
   "creators": [
@@ -19,7 +19,9 @@
     "icm-calculator",
     "poker-rake",
     "tournament-poker",
-    "cardroom-directory"
+    "cardroom-directory",
+    "us-state-poker-laws",
+    "table-position-gto"
   ],
   "related_identifiers": [
     {

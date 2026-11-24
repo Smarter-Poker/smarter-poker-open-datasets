@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://smarter.poker/learn/stakes#dataset",
+  "name": "Live & Online Poker Stake-Level Bankroll, 5% Risk-of-Ruin, Rake Cap & Winrate Benchmarks (2026)",
+  "description": "Quantitative bankroll management, 5% Risk-of-Ruin buy-in buffers, typical rake cap profiles, and hourly/BB-per-100 winrate benchmarks across 7 live and online cash game, PLO, and MTT stake tiers.",
+  "url": "https://smarter.poker/learn/stakes",
+  "version": "2026.11.13",
+  "datePublished": "2026-11-10",
+  "dateModified": "2026-11-24",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "slug": "stake-level-bankroll-and-rake-benchmarks-2026",
+  "category": "Bankroll Management, Risk of Ruin & Stake Progression",
+  "rowsCount": 7,
+  "rows": [
+    {
+      "slug": "1-2-and-1-3-live-nlh",
+      "stake_code": "$1/$2 & $1/$3 Live",
+      "stake_name": "$1/$2 & $1/$3 Live No-Limit Hold'em",
+      "environment": "Live Cash Game",
+      "typical_buy_in": "$200 - $500 (100BB - 167BB)",
+      "five_pct_ror_recommended_bankroll": "$4,500 - $9,000 (20 - 30 Buy-Ins)",
+      "typical_rake_cap_profile": "10% Up To $5 - $7 Cap + $1 - $2 Promo Drop (High Relative Rake)",
+      "hourly_winrate_benchmark": "$25 - $45 / Hr (+9 To +15 BB/Hr)",
+      "move_up_criteria": "Log At Least 400 To 500 Verified Live Hours Beating $1/$3 For +8 BB/Hr ($24+/Hr), Accumulate A $10,000 To $15,000 Bankroll, And Take Controlled Friday/Saturday Evening Shots At $2/$5 With A 3-Buy-In ($3,000) Shot Stop-Loss.",
+      "canonical_url": "https://smarter.poker/learn/stakes/1-2-and-1-3-live-nlh"
+    },
+    {
+      "slug": "2-5-live-nlh",
+      "stake_code": "$2/$5 Live",
+      "stake_name": "$2/$5 Live No-Limit Hold'em",
+      "environment": "Live Cash Game",
+      "typical_buy_in": "$500 - $1,500 (100BB - 300BB)",
+      "five_pct_ror_recommended_bankroll": "$20,000 - $35,000 (25 - 35 Buy-Ins)",
+      "typical_rake_cap_profile": "10% Up To $5 - $7 Cap Or Timed Seat Charge ($12 - $14/Hr)",
+      "hourly_winrate_benchmark": "$50 - $90 / Hr (+10 To +18 BB/Hr)",
+      "move_up_criteria": "Maintain A Verified $55+/Hr Winrate Over 600+ Hours At $2/$5, Build A $45,000 To $60,000 Total Bankroll, And Master 200BB+ Deep-Stack Turn And River Overbet Polarity Before Taking $5/$10 Shots.",
+      "canonical_url": "https://smarter.poker/learn/stakes/2-5-live-nlh"
+    },
+    {
+      "slug": "5-10-high-stakes-live-nlh",
+      "stake_code": "$5/$10+ High Stakes",
+      "stake_name": "$5/$10+ High-Stakes Live Cash",
+      "environment": "Live High-Stakes Cash",
+      "typical_buy_in": "$1,500 - $5,000+ (150BB - 500BB)",
+      "five_pct_ror_recommended_bankroll": "$75,000 - $150,000 (30 - 50 Buy-Ins)",
+      "typical_rake_cap_profile": "Timed Collection ($14 - $18 Per Hour) With $0 Pot Drop",
+      "hourly_winrate_benchmark": "$95 - $180+ / Hr (+9 To +18 BB/Hr)",
+      "move_up_criteria": "At $5/$10+, Progression Shifts From Moving Up Blind Levels To Building Private/Host Network Access, Staking Partnerships, And Maintaining A 40+ Buy-In Liquid Reserve For Straddled $10/$25/$50 Games.",
+      "canonical_url": "https://smarter.poker/learn/stakes/5-10-high-stakes-live-nlh"
+    },
+    {
+      "slug": "micro-stakes-online-nlh",
+      "stake_code": "NL2 - NL25 Online",
+      "stake_name": "Micro Stakes Online NL2 To NL25",
+      "environment": "Online 6-Max Cash",
+      "typical_buy_in": "$2.00 - $25.00 (100BB)",
+      "five_pct_ror_recommended_bankroll": "25 - 35 Buy-Ins ($50 At NL2 Up To $875 At NL25)",
+      "typical_rake_cap_profile": "5% Pot Rake With High BB Caps (8BB - 12BB Cap At Micros)",
+      "hourly_winrate_benchmark": "+6.0 To +12.0 BB/100 Hands",
+      "move_up_criteria": "Beat Your Current Micro Level For +6 BB/100 Over 30,000 To 50,000 Tracked Hands And Reach 30 Buy-Ins For The Next Stake Up (With An Automatic Drop-Down At 24 Buy-Ins).",
+      "canonical_url": "https://smarter.poker/learn/stakes/micro-stakes-online-nlh"
+    },
+    {
+      "slug": "low-mid-stakes-online-nlh",
+      "stake_code": "NL50 - NL200 Online",
+      "stake_name": "Low-To-Mid Stakes Online NL50 To NL200",
+      "environment": "Online 6-Max Cash",
+      "typical_buy_in": "$50 - $200 (100BB)",
+      "five_pct_ror_recommended_bankroll": "$2,000 - $8,000 (40 Buy-Ins)",
+      "typical_rake_cap_profile": "5% Pot Rake Capped At $2.50 - $4.00 (1.5BB - 6BB Cap)",
+      "hourly_winrate_benchmark": "+3.5 To +7.5 BB/100 Hands (Plus Rakeback)",
+      "move_up_criteria": "Sustain +4.0 BB/100 Pre-Rakeback Over 75,000+ Hands, Hold 40+ Buy-Ins For The Next Stake, And Maintain Sub-30BB/100 Losses In The Big Blind.",
+      "canonical_url": "https://smarter.poker/learn/stakes/low-mid-stakes-online-nlh"
+    },
+    {
+      "slug": "live-pot-limit-omaha",
+      "stake_code": "$1/$2/$5 & $5/$5 PLO",
+      "stake_name": "$1/$2/$5 & $5/$5 Live PLO Cash Games",
+      "environment": "Live PLO Cash (4-Card & 5-Card)",
+      "typical_buy_in": "$500 - $2,000 (100BB - 300BB)",
+      "five_pct_ror_recommended_bankroll": "$25,000 - $50,000 (40 - 50 Buy-Ins)",
+      "typical_rake_cap_profile": "10% Up To $6 - $7 Cap Or Timed Seat Fee ($12 - $16/Hr)",
+      "hourly_winrate_benchmark": "$60 - $130 / Hr (+12 To +25 BB/Hr)",
+      "move_up_criteria": "Hold A Minimum Of 40 To 50 Full Buy-Ins Due To 60%-Vs-40% All-In Variance, Log 500+ Live PLO Hours, And Master Blocker-Driven River Pot-Sized Bluffs Before Stepping Into $10/$25 PLO.",
+      "canonical_url": "https://smarter.poker/learn/stakes/live-pot-limit-omaha"
+    },
+    {
+      "slug": "daily-and-circuit-mtts",
+      "stake_code": "$100 - $1,500 Live MTTs",
+      "stake_name": "$100 To $1,500 Live Tournament Grinder Tier",
+      "environment": "Live Multi-Table Tournaments",
+      "typical_buy_in": "$150 - $1,700 Buy-In",
+      "five_pct_ror_recommended_bankroll": "100 - 150 Average Buy-Ins ($25,000 - $75,000)",
+      "typical_rake_cap_profile": "11% - 18% Tournament Entry Fee + Staff Withholding",
+      "hourly_winrate_benchmark": "35% - 85% ROI In Soft Live Fields",
+      "move_up_criteria": "Maintain A 100-To-150 Average Buy-In Bankroll, Utilize Smart Selling/Swapping On $1,500+ Main Event Shots, And Master Final Table ICM Deal-Making Calculations.",
+      "canonical_url": "https://smarter.poker/learn/stakes/daily-and-circuit-mtts"
+    }
+  ],
+  "provenance_and_redistribution_rights": {
+    "owner": "Smarter Software Inc. (https://smarter.poker)",
+    "author": "Smarter.Poker Research Division",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

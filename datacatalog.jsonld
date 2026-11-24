@@ -3,7 +3,7 @@
   "@type": "DataCatalog",
   "@id": "https://smarter.poker/api/datasets/catalog#datacatalog",
   "name": "Smarter.Poker Open Quantitative Poker & Live Cardroom Data Catalog",
-  "description": "Public CC-BY 4.0 catalog of 15 quantitative poker research datasets, 169 starting hand preflop frequency matrices, and 324+ US live cardroom benchmarks.",
+  "description": "Public CC-BY 4.0 catalog of 19 quantitative poker research datasets, 169 starting hand preflop frequency matrices, 15 US state legality & tax benchmarks, 9 positional GTO benchmarks, 12 historic televised hand solver breakdowns, 7 stake-level bankroll & rake benchmarks, and 324+ US live cardroom benchmarks.",
   "url": "https://smarter.poker/research",
   "inLanguage": "en-US",
   "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -25,7 +25,7 @@
     {
       "@type": "PropertyValue",
       "propertyID": "DOI",
-      "name": "Core Open Quantitative Poker Research Datasets (15 CSV & JSON Datasets)",
+      "name": "Core Open Quantitative Poker Research Datasets (19 CSV & JSON Datasets)",
       "value": "10.5281/zenodo.24095049",
       "url": "https://doi.org/10.5281/zenodo.24095049"
     },
@@ -1405,6 +1405,220 @@
           "description": "First-In Vigorous Shoving Leverage: Because Medium Stacks Need 78% To 92% Equity To Call All-In On The Satellite Bubble, Mid-Stacks Initiating Shoves Into Other Mid-Stacks Capture Uncontested Blinds And Antes At 84%+ Frequency."
         }
       ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://smarter.poker/poker-rooms/states#dataset",
+      "name": "US State Poker Legality, State Income Tax Withholding, Rake Model & Cardroom Census Benchmark (2026)",
+      "description": "Comprehensive state-by-state legal, regulatory, minimum age, state income tax withholding, rake model, and live cardroom count benchmark across the top 15 US live poker states (NV, TX, FL, CA, PA, NJ, MI, MD, AZ, CO, IL, LA, MS, NY, OH).",
+      "url": "https://smarter.poker/poker-rooms/states",
+      "inLanguage": "en-US",
+      "datePublished": "2026-11-10",
+      "dateModified": "2026-11-24",
+      "temporalCoverage": "2026",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "keywords": [
+        "US State Poker Laws",
+        "Poker Tax Withholding",
+        "Cardroom Census",
+        "Smarter.Poker Dataset"
+      ],
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://smarter.poker/#organization",
+        "name": "Smarter.Poker Research Division",
+        "url": "https://smarter.poker"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://smarter.poker/#organization",
+        "name": "Smarter.Poker",
+        "url": "https://smarter.poker"
+      },
+      "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "@id": "https://smarter.poker/api/datasets/catalog#datacatalog",
+        "name": "Smarter.Poker Open Quantitative Poker & Live Cardroom Data Catalog",
+        "url": "https://smarter.poker/research"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/Smarter-Poker/smarter-poker-open-datasets/main/datasets/csv/us-state-poker-legality-and-tax-2026.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/Smarter-Poker/smarter-poker-open-datasets/main/datasets/json/us-state-poker-legality-and-tax-2026.json"
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://smarter.poker/learn/positions#dataset",
+      "name": "9-Max & 6-Max Table Seat Position GTO RFI, 3-Bet, Fold-to-3-Bet & Winrate Benchmarks (2026)",
+      "description": "Quantitative 100BB cash game positional solver benchmark covering all 9 canonical poker table seats (UTG, UTG+1, MP, LJ, HJ, CO, BTN, SB, BB) with Raise-First-In (RFI) %, 3-Bet %, Fold-to-3-Bet %, Cold-Call %, and expected BB/100 winrates.",
+      "url": "https://smarter.poker/learn/positions",
+      "inLanguage": "en-US",
+      "datePublished": "2026-11-10",
+      "dateModified": "2026-11-24",
+      "temporalCoverage": "2026",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "keywords": [
+        "GTO Table Positions",
+        "RFI Frequencies",
+        "3-Bet Benchmarks",
+        "Smarter.Poker Dataset"
+      ],
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://smarter.poker/#organization",
+        "name": "Smarter.Poker Research Division",
+        "url": "https://smarter.poker"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://smarter.poker/#organization",
+        "name": "Smarter.Poker",
+        "url": "https://smarter.poker"
+      },
+      "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "@id": "https://smarter.poker/api/datasets/catalog#datacatalog",
+        "name": "Smarter.Poker Open Quantitative Poker & Live Cardroom Data Catalog",
+        "url": "https://smarter.poker/research"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/Smarter-Poker/smarter-poker-open-datasets/main/datasets/csv/table-seat-position-gto-benchmarks-2026.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/Smarter-Poker/smarter-poker-open-datasets/main/datasets/json/table-seat-position-gto-benchmarks-2026.json"
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://smarter.poker/learn/famous-hands#dataset",
+      "name": "Famous Historic Televised Poker Hands Combinatoric & GTO Solver EV Benchmark (2026)",
+      "description": "Street-by-street action logs, exact combinatoric equity, Minimum Defense Frequency (MDF), blocker removal, and modern GTO solver EV verdicts for 12 iconic televised and World Series of Poker hands (1976-2022).",
+      "url": "https://smarter.poker/learn/famous-hands",
+      "inLanguage": "en-US",
+      "datePublished": "2026-11-10",
+      "dateModified": "2026-11-24",
+      "temporalCoverage": "2026",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "keywords": [
+        "Famous Poker Hands",
+        "Televised Poker Solver",
+        "GTO Blocker Math",
+        "Smarter.Poker Dataset"
+      ],
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://smarter.poker/#organization",
+        "name": "Smarter.Poker Research Division",
+        "url": "https://smarter.poker"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://smarter.poker/#organization",
+        "name": "Smarter.Poker",
+        "url": "https://smarter.poker"
+      },
+      "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "@id": "https://smarter.poker/api/datasets/catalog#datacatalog",
+        "name": "Smarter.Poker Open Quantitative Poker & Live Cardroom Data Catalog",
+        "url": "https://smarter.poker/research"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/Smarter-Poker/smarter-poker-open-datasets/main/datasets/csv/famous-historic-poker-hands-solver-2026.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/Smarter-Poker/smarter-poker-open-datasets/main/datasets/json/famous-historic-poker-hands-solver-2026.json"
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://smarter.poker/learn/stakes#dataset",
+      "name": "Live & Online Poker Stake-Level Bankroll, 5% Risk-of-Ruin, Rake Cap & Winrate Benchmarks (2026)",
+      "description": "Quantitative bankroll management, 5% Risk-of-Ruin buy-in buffers, typical rake cap profiles, and hourly/BB-per-100 winrate benchmarks across 7 live and online cash game, PLO, and MTT stake tiers.",
+      "url": "https://smarter.poker/learn/stakes",
+      "inLanguage": "en-US",
+      "datePublished": "2026-11-10",
+      "dateModified": "2026-11-24",
+      "temporalCoverage": "2026",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "keywords": [
+        "Poker Bankroll Management",
+        "Risk of Ruin",
+        "Stake Progression",
+        "Smarter.Poker Dataset"
+      ],
+      "sameAs": [
+        "https://github.com/Smarter-Poker/smarter-poker-open-datasets",
+        "https://archive.softwareheritage.org/swh:1:snp:ff23640ad24a3a825d320bae8621fd50ba58c16f"
+      ],
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://smarter.poker/#organization",
+        "name": "Smarter.Poker Research Division",
+        "url": "https://smarter.poker"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://smarter.poker/#organization",
+        "name": "Smarter.Poker",
+        "url": "https://smarter.poker"
+      },
+      "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "@id": "https://smarter.poker/api/datasets/catalog#datacatalog",
+        "name": "Smarter.Poker Open Quantitative Poker & Live Cardroom Data Catalog",
+        "url": "https://smarter.poker/research"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/Smarter-Poker/smarter-poker-open-datasets/main/datasets/csv/stake-level-bankroll-and-rake-benchmarks-2026.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/Smarter-Poker/smarter-poker-open-datasets/main/datasets/json/stake-level-bankroll-and-rake-benchmarks-2026.json"
+        }
+      ]
     }
-  ]
+  ],
+  "version": "2026.11.13",
+  "dateModified": "2026-11-24"
 }
